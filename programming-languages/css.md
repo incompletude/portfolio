@@ -12,6 +12,7 @@
 - [An abstraction called text styles](https://www.reaktor.com/blog/an-abstraction-called-text-styles/)
 - [Structuring your SASS projects](https://itnext.io/structuring-your-sass-projects-c8d41fa55ed4)
 - [The holy grail layout with CSS grid](https://bitsofco.de/holy-grail-layout-css-grid/)
+- [CSS border-radius can do that?](https://medium.com/9elements/css-border-radius-can-do-that-d46df1d013ae)
 
 ## Tools
 
