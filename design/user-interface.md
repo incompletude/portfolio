@@ -11,10 +11,6 @@
 - [Grid Calculator](http://gridcalculator.dk/)
 - [UI Patterns](http://ui-patterns.com/)
 
-## Videos
-
-- [How dark patterns trick you online](https://www.youtube.com/watch?v=kxkrdLI6e6M)
-
 ## Websites
 
 - [Motherfucking website](http://motherfuckingwebsite.com/)

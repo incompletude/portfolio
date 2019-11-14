@@ -14,3 +14,7 @@
 
 - [Laws of UX](https://lawsofux.com/)
 - [Nielsen Norman Group](https://www.nngroup.com/)
+
+## Videos
+
+- [How dark patterns trick you online](https://www.youtube.com/watch?v=kxkrdLI6e6M)
