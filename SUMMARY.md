@@ -1,6 +1,7 @@
 # Summary
 
 - [Astronomy](astronomy/astronomy.md)
+- [Comics](comics/comics.md)
 - [Cryptocurrencies](cryptocurrencies/cryptocurrencies.md)
   - [Bitcoin](cryptocurrencies/bitcoin.md)
 - [Design](design/design.md)
@@ -18,8 +19,6 @@
 - [Physics](physics/physics.md)
 - [Programming languages](programming-languages/programming-languages.md)
   - [CSS](programming-languages/css.md)
-  - [.NET Core](programming-languages/net-core.md)
-  - [Node.js](programming-languages/nodejs.md)
 - [Web design](web-design/web-design.md)
   - [Goodies](web-design/goodies.md)
   - [Accessibility](web-design/accessibility.md)
@@ -30,10 +29,3 @@
   - [Finding work](work/finding-work.md)
   - [Management](work/management.md)
   - [Product management](work/product-management.md)
-
-
-
-
-
-
-
