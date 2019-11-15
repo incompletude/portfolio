@@ -3,6 +3,7 @@
 ## Articles
 
 - [Dieter Rams](https://en.wikipedia.org/wiki/Dieter_Rams)
+- [Software architecture is overrated, clear and simple design is underrated](https://blog.pragmaticengineer.com/software-architecture-is-overrated/)
 
 ## Videos
 

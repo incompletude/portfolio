@@ -1,6 +1,6 @@
 # Images
 
-## Services
+## Tools
 
 - [Unsplash](https://unsplash.com/)
 - [Everypixel](https://www.everypixel.com/)

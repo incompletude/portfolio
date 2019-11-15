@@ -4,7 +4,7 @@
 
 - [33 amazing sites with beautiful free icon sets](https://blog.usepastel.com/post/33-beautiful-free-icon-sets)
 
-## Services
+## Tools
 
 - [Feather](https://feathericons.com/)
 - [iconmonstr](https://iconmonstr.com/)
