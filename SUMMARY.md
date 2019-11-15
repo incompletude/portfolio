@@ -2,6 +2,9 @@
 
 - [Astronomy](astronomy/astronomy.md)
 - [Design](design/design.md)
+  - [Goodies](design/goodies/goodies.md)
+    - [Icons](design/goodies/icons.md)
+    - [Images](design/goodies/images.md)
   - [Color](design/color.md)
   - [Design system](design/design-system.md)
   - [Graphic design](design/graphic-design.md)
