@@ -36,4 +36,6 @@
 - [Work](work/work.md)
   - [Finding work](work/finding-work.md)
   - [Management](work/management.md)
-  - [Product management](work/product-management.md)
+  - [Product management](work/product-management/product-management.md)
+    - [Growth](work/product-management/growth.md)
+    - [Quality and cost](work/product-management/quality-and-cost.md)
