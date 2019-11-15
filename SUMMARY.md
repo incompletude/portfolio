@@ -1,6 +1,7 @@
 # Summary
 
 - [Astronomy](astronomy/astronomy.md)
+- [Cryptocurrencies](cryptocurrencies/cryptocurrencies.md)
 - [Design](design/design.md)
   - [Color](design/color.md)
   - [Graphic design](design/graphic-design.md)
