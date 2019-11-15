@@ -29,6 +29,7 @@
   - [Node.js](web-development/nodejs/nodejs.md)
     - [GraphQL](web-development/nodejs/graphql.md)
     - [Serverless](web-development/nodejs/serverless.md)
+    - [Vue.js](web-development/nodejs/vuejs.md)
 - [Work](work/work.md)
   - [Finding work](work/finding-work.md)
   - [Management](work/management.md)
