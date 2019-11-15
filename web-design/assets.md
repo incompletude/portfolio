@@ -1,4 +1,4 @@
-# Goodies
+# Assets
 
 ## Articles
 
