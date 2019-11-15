@@ -1,4 +1,4 @@
-# Graphic design
+# Inspiration
 
 ## Publications
 
