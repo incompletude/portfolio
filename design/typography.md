@@ -9,6 +9,9 @@
 - [Making sense of type classification (part 2)](https://www.smashingmagazine.com/2013/06/making-sense-of-type-classification-part-2/)
 - [The famous optical illusion hidden in every typeface—including this one](https://io9.gizmodo.com/the-famous-optical-illusion-hidden-in-every-typeface-in-1714788793)
 - [To all the typography rules I should have known before](https://blog.prototypr.io/to-all-the-typography-rules-i-should-have-known-before-e4ee5e3651d9)
+- [To choose the right typeface, look at its x-height.](https://blog.prototypr.io/to-choose-the-right-typeface-look-at-its-x-height-instead-d5ef0967d09c)
+- [A framework to create an accessible & harmonious typography system for faster design-dev handoff
+](https://blog.prototypr.io/10-practical-steps-to-create-a-predictable-accessible-and-harmonious-typography-system-a-case-6c85d901bedd)
 
 ## Events
 
@@ -35,8 +38,9 @@
 
 ## Typefaces
 
-- [National Park Typeface](https://nationalparktypeface.com/)
-- [Hack Typeface](https://sourcefoundry.org/hack/)
+- [National Park](https://nationalparktypeface.com/)
+- [Hack](https://sourcefoundry.org/hack/)
+- [Sans Forgetica](http://sansforgetica.rmit/)
 
 ## Videos
 
