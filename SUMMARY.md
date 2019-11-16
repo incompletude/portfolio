@@ -7,6 +7,7 @@
 - [Ethics](ethics/ethics.md)
 - [Linguistics](linguistics/linguistics.md)
 - [Mathematics](mathematics/mathematics.md)
+  - [Fourier transform](mathematics/fourier-transform.md)
   - [Gödel’s incompleteness theorems](mathematics/godels-incompleteness-theorems.md)
 - [News](news/news.md)
 - [Philosophy](philosophy/philosophy.md)

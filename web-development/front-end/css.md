@@ -18,10 +18,13 @@
 - [More meaningful typography](https://alistapart.com/article/more-meaningful-typography/)
 - [Aesthetic SASS 3: Typography and vertical rhythm](https://scotch.io/tutorials/aesthetic-sass-3-typography-and-vertical-rhythm)
 - [Drop caps & design systems](https://product.voxmedia.com/2019/6/17/18524029/the-ballad-of-drop-caps-and-design-systems)
+- [The holy grail layout with CSS grid](https://bitsofco.de/holy-grail-layout-css-grid/)
+- [If you think CSS is pretty easy, this has changed your thoughts 😜](https://blog.prototypr.io/if-you-think-css-is-pretty-easy-this-has-changed-your-thoughts-6543327cb8e5)
 
 ## Publication
 
 - [Every Layout](https://every-layout.dev/)
+- [GRID](http://grid.malven.co/)
 
 ## Tools
 
@@ -29,6 +32,7 @@
 - [Modularscale](https://www.modularscale.com/)
 - [Transfonter](https://transfonter.org/)
 - [Animista](https://animista.net/)
+- [Archetype](https://archetypeapp.com/)
 
 ## Frameworks
 
