@@ -1,4 +1,4 @@
-# Domain
+# Registrar
 
 ## Services
 

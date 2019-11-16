@@ -19,6 +19,10 @@
 - [Aesthetic SASS 3: Typography and vertical rhythm](https://scotch.io/tutorials/aesthetic-sass-3-typography-and-vertical-rhythm)
 - [Drop caps & design systems](https://product.voxmedia.com/2019/6/17/18524029/the-ballad-of-drop-caps-and-design-systems)
 
+## Publication
+
+- [Every Layout](https://every-layout.dev/)
+
 ## Tools
 
 - [Gridlover](https://www.gridlover.net/)
