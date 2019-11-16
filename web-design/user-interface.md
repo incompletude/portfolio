@@ -10,8 +10,3 @@
 
 - [Grid Calculator](http://gridcalculator.dk/)
 - [UI Patterns](http://ui-patterns.com/)
-
-## Websites
-
-- [Motherfucking website](http://motherfuckingwebsite.com/)
-- [Borjomi](http://thedeepestsite.com/)
