@@ -6,6 +6,10 @@
 - [R/m Design Almanac](https://almanac.readymag.com/)
 - [Design Principles](https://principles.design/)
 
+## Templates
+
+- [Espire](http://themenate.com/espire/)
+
 ## Tools
 
 - [Behance](https://www.behance.net/)
