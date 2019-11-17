@@ -23,6 +23,7 @@
 - [News](news/news.md)
 - [Philosophy](philosophy/philosophy.md)
   - [Arthur Schopenhauer](philosophy/arthur-schopenhauer.md)
+  - [Immanuel Kant](philosophy/immanuel-kant.md)
   - [René Descartes](philosophy/rene-descartes.md)
 - [Physics](physics/physics.md)
 - [Web design](web-design/web-design.md)
