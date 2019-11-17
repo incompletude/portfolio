@@ -2,18 +2,15 @@
 
 ## Articles
 
-- [This fish spits light](https://io9.gizmodo.com/this-fish-spits-light-1631636301)
-
-## Videos
-
-- [Cell division time lapse](https://www.youtube.com/watch?v=Wz4igVjNGq4)
-- [The best photos taken through a microscope](https://www.youtube.com/watch?v=BnxkuaQxe9A)
-- [Bulldog watches a horror movie, does something incredible during scary scene](https://www.youtube.com/watch?v=uffjKmTBjTI)
-- [Sea lion drags girl into Steveston waters](https://www.youtube.com/watch?v=pMDtibc13fc)
-- [Spring](https://vimeo.com/209497584)
-- [Cat mesmerized by optical illusion](https://www.youtube.com/watch?v=S4IHB3qK1KU)
-- [Raven rescue](https://www.youtube.com/watch?v=hlwxLtFQcrY)
-- [Archerfish says..."I spit in your face!"](https://www.youtube.com/watch?v=gN81dtxilhE)
-- [An elegy for America's oldest bald eagle](https://www.audubon.org/news/an-elegy-americas-oldest-bald-eagle)
-- [Serenading the cattle with my trombone](https://www.youtube.com/watch?v=qs_-emj1qR4)
-- [The evolution of bacteria on a “mega-plate” Petri dish](https://www.youtube.com/watch?v=plVk4NVIUh8)
+- [The loophole in the hedonic treadmill](http://nautil.us/blog/-the-loophole-in-the-hedonic-treadmill)
+- [Believing without evidence is always morally wrong](https://aeon.co/ideas/believing-without-evidence-is-always-morally-wrong)
+- [The three requirements of true generosity](https://qz.com/quartzy/1272502/the-three-requirements-of-true-generosity/)
+- [Cruel to be kind: should you sometimes be bad for another’s good?](https://aeon.co/ideas/cruel-to-be-kind-should-you-sometimes-be-bad-for-anothers-good)
+- [Scientists show how opinions trick your understanding of facts](https://qz.com/1268034/scientists-show-how-opinions-trick-your-understanding-of-facts/)
+- [A neuroscientist who studies rage says we’re all capable of doing something terrible](https://qz.com/1348203/a-neuroscientist-who-studies-rage-says-were-all-capable-of-doing-something-terrible/)
+- [Science says there's one way to know if someone is truly trustworthy](https://www.sciencealert.com/can-you-tell-what-makes-someone-trustworthy-trust-guilt-prediction)
+- [Economics can explain why compliments make us feel weird](https://qz.com/810606/economics-can-explain-why-were-so-bad-at-accepting-compliments/)
+- [Humans have way less agency than we think. Be grateful for the illusion](https://qz.com/1084893/do-people-have-free-will-a-neuropsychologist-explains-why-we-need-the-illusion-of-agency/)
+- [The psychology of insiders and outsiders can explain why we have such a hard time agreeing on reality](https://qz.com/815460/final-presidential-debate-psychology-explain-swhy-we-have-such-a-hard-time-agreeing-on-reality/)
+- [Cynicism isn’t as smart as we think it is](https://qz.com/1329802/cynicism-isnt-as-smart-as-we-think-it-is/)
+- [Scientists say your “mind” isn’t confined to your brain, or even your body](https://qz.com/866352/scientists-say-your-mind-isnt-confined-to-your-brain-or-even-your-body/)
