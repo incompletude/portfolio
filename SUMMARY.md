@@ -8,6 +8,8 @@
 - [Cryptocurrencies](cryptocurrencies/cryptocurrencies.md)
   - [Bitcoin](cryptocurrencies/bitcoin.md)
 - [Ethics](ethics/ethics.md)
+- [Life](life/life.md)
+  - [Parenting](life/parenting.md)
 - [Linguistics](linguistics/linguistics.md)
 - [Literature](literature/literature.md)
   - [David Foster Wallace](literature/david-foster-wallace.md)
