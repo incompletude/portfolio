@@ -21,7 +21,4 @@
 - [Earthset glare viewed by JAXA Kaguya spacecraft](https://www.youtube.com/watch?v=KRlfwZLGHxs)
 - [A day in the life of earth](https://www.youtube.com/watch?v=p6dtYdWPabI)
 - [Mojave Blues](https://vimeo.com/153992994)
-
-## Tweets
-
 - [Dust and cosmic rays raining down on Rosetta comet](https://twitter.com/landru79/status/988490703075463168)

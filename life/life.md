@@ -3,6 +3,7 @@
 ## Articles
 
 - [This fish spits light](https://io9.gizmodo.com/this-fish-spits-light-1631636301)
+- [Gorillas found to live in &#039;complex&#039; societies, suggesting deep roots](https://www.cam.ac.uk/gorillasociety)
 
 ## Videos
 

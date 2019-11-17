@@ -1,7 +1,6 @@
 # Summary
 
 - [Astronomy](astronomy/astronomy.md)
-- [Cinema](cinema/cinema.md)
 - [Comedy](comedy/comedy.md)
   - [George Carlin](comedy/george-carlin.md)
   - [Louis C.K.](comedy/louis-ck.md)
@@ -21,6 +20,7 @@
 - [Mathematics](mathematics/mathematics.md)
   - [Fourier transform](mathematics/fourier-transform.md)
   - [Gödel’s incompleteness theorems](mathematics/godels-incompleteness-theorems.md)
+- [Movies](movies/movies.md)
 - [Music](music/music.md)
 - [News](news/news.md)
 - [Philosophy](philosophy/philosophy.md)
