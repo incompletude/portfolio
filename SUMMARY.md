@@ -1,6 +1,7 @@
 # Summary
 
 - [Astronomy](astronomy/astronomy.md)
+- [Cinema](cinema/cinema.md)
 - [Comedy](comedy/comedy.md)
   - [George Carlin](comedy/george-carlin.md)
   - [Louis C.K.](comedy/louis-ck.md)
@@ -19,13 +20,14 @@
 - [Mathematics](mathematics/mathematics.md)
   - [Fourier transform](mathematics/fourier-transform.md)
   - [Gödel’s incompleteness theorems](mathematics/godels-incompleteness-theorems.md)
-- [Neuroscience](neuroscience/neuroscience.md)
+- [Music](music/music.md)
 - [News](news/news.md)
 - [Philosophy](philosophy/philosophy.md)
   - [Arthur Schopenhauer](philosophy/arthur-schopenhauer.md)
   - [Immanuel Kant](philosophy/immanuel-kant.md)
   - [René Descartes](philosophy/rene-descartes.md)
 - [Physics](physics/physics.md)
+- [Psychology](psychology/psychology.md)
 - [Web design](web-design/web-design.md)
   - [Accessibility](web-design/accessibility.md)
   - [Color](web-design/color.md)

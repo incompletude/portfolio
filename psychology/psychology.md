@@ -1,4 +1,4 @@
-# Neuroscience
+# Psychology
 
 - [Is neuroscience the future or the end of psychology?](https://www.psychologytoday.com/us/blog/talking-apes/201702/is-neuroscience-the-future-or-the-end-psychology)
 - [Scientists show how opinions trick your understanding of facts](https://qz.com/1268034/scientists-show-how-opinions-trick-your-understanding-of-facts/)
@@ -8,3 +8,7 @@
 - [Psychopaths are unable to love their own children -- here's why](https://www.businessinsider.com.au/narcissists-cannot-love-their-children-2017-7)
 - [Scientists say your “mind” isn’t confined to your brain, or even your body](https://qz.com/866352/scientists-say-your-mind-isnt-confined-to-your-brain-or-even-your-body/)
 - [The psychology of insiders and outsiders can explain why we have such a hard time agreeing on reality](https://qz.com/815460/final-presidential-debate-psychology-explain-swhy-we-have-such-a-hard-time-agreeing-on-reality/)
+- [Cruel to be kind: should you sometimes be bad for another’s good?](https://aeon.co/ideas/cruel-to-be-kind-should-you-sometimes-be-bad-for-anothers-good)
+- [Science says there's one way to know if someone is truly trustworthy](https://www.sciencealert.com/can-you-tell-what-makes-someone-trustworthy-trust-guilt-prediction)
+- [Cynicism isn’t as smart as we think it is](https://qz.com/1329802/cynicism-isnt-as-smart-as-we-think-it-is/)
+- [Economics can explain why compliments make us feel weird](https://qz.com/810606/economics-can-explain-why-were-so-bad-at-accepting-compliments/)
