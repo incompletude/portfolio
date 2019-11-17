@@ -6,6 +6,8 @@
   - [Bitcoin](cryptocurrencies/bitcoin.md)
 - [Ethics](ethics/ethics.md)
 - [Linguistics](linguistics/linguistics.md)
+- [Literature](literature/literature.md)
+  - [David Foster Wallace](literature/david-foster-wallace.md)
 - [Mathematics](mathematics/mathematics.md)
   - [Fourier transform](mathematics/fourier-transform.md)
   - [Gödel’s incompleteness theorems](mathematics/godels-incompleteness-theorems.md)

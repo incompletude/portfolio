@@ -7,6 +7,7 @@
 - [Escher-like spiral tilings](http://isohedral.ca/escher-like-spiral-tilings/)
 - [Fibonacci number
 ](https://en.wikipedia.org/wiki/Fibonacci_number)
+- [Geometry, algebra, and intuition](https://www.shapeoperator.com/2017/02/28/geometry-algebra-intuition/)
 
 ## Tools
 
