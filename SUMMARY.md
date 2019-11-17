@@ -14,6 +14,7 @@
 - [Literature](literature/literature.md)
   - [David Foster Wallace](literature/david-foster-wallace.md)
   - [Raduan Nassar](literature/raduan-nassar.md)
+  - [William Shakespeare](literature/william-shakespeare.md)
 - [Mathematics](mathematics/mathematics.md)
   - [Fourier transform](mathematics/fourier-transform.md)
   - [Gödel’s incompleteness theorems](mathematics/godels-incompleteness-theorems.md)
