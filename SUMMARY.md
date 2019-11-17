@@ -18,6 +18,7 @@
 - [Mathematics](mathematics/mathematics.md)
   - [Fourier transform](mathematics/fourier-transform.md)
   - [Gödel’s incompleteness theorems](mathematics/godels-incompleteness-theorems.md)
+- [Neuroscience](neuroscience/neuroscience.md)
 - [News](news/news.md)
 - [Philosophy](philosophy/philosophy.md)
   - [Arthur Schopenhauer](philosophy/arthur-schopenhauer.md)
