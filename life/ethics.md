@@ -13,3 +13,4 @@
 - [The psychology of insiders and outsiders can explain why we have such a hard time agreeing on reality](https://qz.com/815460/final-presidential-debate-psychology-explain-swhy-we-have-such-a-hard-time-agreeing-on-reality/)
 - [Cynicism isn’t as smart as we think it is](https://qz.com/1329802/cynicism-isnt-as-smart-as-we-think-it-is/)
 - [Why does it matter if homo sapiens had sex with neanderthals?](https://io9.gizmodo.com/why-does-it-matter-if-homo-sapiens-had-sex-with-neander-1557138642)
+- [Why believing in astrology is not as harmless as you think](https://io9.gizmodo.com/why-believing-in-astrology-is-not-as-harmless-as-you-th-1595802206)

@@ -28,7 +28,6 @@
   - [Immanuel Kant](philosophy/immanuel-kant.md)
   - [René Descartes](philosophy/rene-descartes.md)
 - [Physics](physics/physics.md)
-- [Psychology](psychology/psychology.md)
 - [Web design](web-design/web-design.md)
   - [Accessibility](web-design/accessibility.md)
   - [Color](web-design/color.md)
