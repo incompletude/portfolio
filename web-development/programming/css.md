@@ -21,10 +21,11 @@
 - [The holy grail layout with CSS grid](https://bitsofco.de/holy-grail-layout-css-grid/)
 - [If you think CSS is pretty easy, this has changed your thoughts 😜](https://blog.prototypr.io/if-you-think-css-is-pretty-easy-this-has-changed-your-thoughts-6543327cb8e5)
 
-## Publication
+## Publications
 
 - [Every Layout](https://every-layout.dev/)
 - [GRID](http://grid.malven.co/)
+- [CSS Animation 101](https://cssanimation.rocks/css-animation-101/)
 
 ## Tools
 
