@@ -13,3 +13,4 @@
 - [Science says there's one way to know if someone is truly trustworthy](https://www.sciencealert.com/can-you-tell-what-makes-someone-trustworthy-trust-guilt-prediction)
 - [Cynicism isn’t as smart as we think it is](https://qz.com/1329802/cynicism-isnt-as-smart-as-we-think-it-is/)
 - [Economics can explain why compliments make us feel weird](https://qz.com/810606/economics-can-explain-why-were-so-bad-at-accepting-compliments/)
+- [The loophole in the hedonic treadmill](http://nautil.us/blog/-the-loophole-in-the-hedonic-treadmill)

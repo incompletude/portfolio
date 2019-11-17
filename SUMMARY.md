@@ -10,6 +10,7 @@
   - [Bitcoin](cryptocurrencies/bitcoin.md)
 - [Ethics](ethics/ethics.md)
 - [Life](life/life.md)
+  - [Love](life/love.md)
   - [Mind](life/mind.md)
   - [Mindfulness](life/mindfulness.md)
   - [Parenting](life/parenting.md)
