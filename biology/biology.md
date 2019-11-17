@@ -7,6 +7,7 @@
 - [Apex predators arose in Asia, not Africa.](http://io9.gizmodo.com/the-worlds-first-big-cats-came-from-asia-not-africa-1463616060)
 - [Before wasps enslaved caterpillars, they enslaved a virus](https://io9.gizmodo.com/before-wasps-enslaved-caterpillars-they-enslaved-a-vir-1637318702)
 - [There is a deadly secret hidden in this fish's parenting plan](https://io9.gizmodo.com/there-is-a-deadly-secret-hidden-in-this-fishs-parenting-1716442052)
+- [The most unfortunate design flaws in the human body](https://io9.gizmodo.com/the-most-unfortunate-design-flaws-in-the-human-body-1518242787)
 
 ## Videos
 

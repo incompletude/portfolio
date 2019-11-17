@@ -24,6 +24,7 @@
 - [Movies](movies/movies.md)
 - [Music](music/music.md)
 - [News](news/news.md)
+- [Perception](perception/perception.md)
 - [Philosophy](philosophy/philosophy.md)
   - [Arthur Schopenhauer](philosophy/arthur-schopenhauer.md)
   - [Immanuel Kant](philosophy/immanuel-kant.md)
