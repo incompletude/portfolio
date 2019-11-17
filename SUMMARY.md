@@ -2,6 +2,7 @@
 
 - [Astronomy](astronomy/astronomy.md)
 - [Comedy](comedy/comedy.md)
+  - [George Carlin](comedy/george-carlin.md)
   - [Louis C.K.](comedy/louis-ck.md)
 - [Comics](comics/comics.md)
 - [Cryptocurrencies](cryptocurrencies/cryptocurrencies.md)
