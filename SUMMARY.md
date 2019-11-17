@@ -11,7 +11,6 @@
   - [Ethics](life/ethics.md)
   - [Love](life/love.md)
   - [Mindfulness](life/mindfulness.md)
-  - [Morphology](life/morphology.md)
   - [Parenting](life/parenting.md)
 - [Linguistics](linguistics/linguistics.md)
 - [Literature](literature/literature.md)
