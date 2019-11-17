@@ -1,6 +1,7 @@
-# Psychology
+# Mind
 
-- [Is neuroscience the future or the end of psychology?](https://www.psychologytoday.com/us/blog/talking-apes/201702/is-neuroscience-the-future-or-the-end-psychology)
+## Articles
+
 - [Scientists show how opinions trick your understanding of facts](https://qz.com/1268034/scientists-show-how-opinions-trick-your-understanding-of-facts/)
 - [Humans have way less agency than we think. Be grateful for the illusion](https://qz.com/1084893/do-people-have-free-will-a-neuropsychologist-explains-why-we-need-the-illusion-of-agency/)
 - [Science says there's one way to know if someone is truly trustworthy](https://www.sciencealert.com/can-you-tell-what-makes-someone-trustworthy-trust-guilt-prediction)
