@@ -21,6 +21,8 @@
 - [Mathematics](mathematics/mathematics.md)
   - [Fourier transform](mathematics/fourier-transform.md)
   - [Gödel’s incompleteness theorems](mathematics/godels-incompleteness-theorems.md)
+  - [Normal distribution](mathematics/normal-distribution.md)
+  - [Tarski's undefinability theorem](mathematics/tarskis-undefinability-theorem)
 - [Movies](movies/movies.md)
 - [Music](music/music.md)
 - [News](news/news.md)
