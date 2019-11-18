@@ -2,7 +2,7 @@
 
 ## Articles
 
-- [The difference between Encryption, Hashing and Salting](https://www.thesslstore.com/blog/difference-encryption-hashing-salting/)
+- [The difference between encryption, hashing and salting](https://www.thesslstore.com/blog/difference-encryption-hashing-salting/)
 
 ## Tools
 
