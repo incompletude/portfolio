@@ -9,6 +9,7 @@
 - [There is a deadly secret hidden in this fish's parenting plan](https://io9.gizmodo.com/there-is-a-deadly-secret-hidden-in-this-fishs-parenting-1716442052)
 - [The most unfortunate design flaws in the human body](https://io9.gizmodo.com/the-most-unfortunate-design-flaws-in-the-human-body-1518242787)
 - [Cowbirds have turned into devious criminals to avoid raising their own chicks](https://qz.com/869484/cowbirds-have-turned-into-devious-criminals-to-avoid-raising-their-own-chicks/)
+- [Why does it matter if homo sapiens had sex with neanderthals?](https://io9.gizmodo.com/why-does-it-matter-if-homo-sapiens-had-sex-with-neander-1557138642)
 
 ## Videos
 
