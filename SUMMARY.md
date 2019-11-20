@@ -1,5 +1,6 @@
 # Summary
 
+- [Art](art/art.md)
 - [Astronomy](astronomy/astronomy.md)
 - [Biology](biology/biology.md)
 - [Comedy](comedy/comedy.md)
@@ -24,9 +25,9 @@
   - [Tarski’s undefinability theorem](mathematics/tarskis-undefinability-theorem)
 - [Movies](movies/movies.md)
 - [Music](music/music.md)
-- [News](news/news.md)
 - [Internet](internet/internet.md)
   - [Advertising](internet/advertising.md)
+  - [News](internet/news.md)
 - [Philosophy](philosophy/philosophy.md)
   - [Arthur Schopenhauer](philosophy/arthur-schopenhauer.md)
   - [Immanuel Kant](philosophy/immanuel-kant.md)

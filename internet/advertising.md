@@ -14,4 +14,4 @@
 - [Safe for work XXX](https://www.youtube.com/watch?v=fmXGEplvPuY)
 - [Icons](https://vimeo.com/85523671)
 - [Please re-elect Gerald... please!](https://www.youtube.com/watch?v=wzjRwNUQDRU)
-- [The Launch](https://www.youtube.com/watch?v=ao7wOJ5qQ-s)
+- [The launch](https://www.youtube.com/watch?v=ao7wOJ5qQ-s)
