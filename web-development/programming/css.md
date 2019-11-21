@@ -21,6 +21,18 @@
 - [The holy grail layout with CSS grid](https://bitsofco.de/holy-grail-layout-css-grid/)
 - [If you think CSS is pretty easy, this has changed your thoughts 😜](https://blog.prototypr.io/if-you-think-css-is-pretty-easy-this-has-changed-your-thoughts-6543327cb8e5)
 
+## Frameworks
+
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## Pens
+
+- [Pure CSS toggle buttons](https://codepen.io/himalayasingh/pen/EdVzNL)
+- [10 CSS dividers](https://freefrontend.com/css-dividers/)
+- [CSS-only multi-color backgrounds](https://blog.prototypr.io/css-only-multi-color-backgrounds-4d96a5569a20)
+- [39 CSS animation examples](https://freefrontend.com/css-animation-examples/)
+- [PureCSS Lace](https://diana-adrianne.com/purecss-lace/)
+
 ## Publications
 
 - [Every Layout](https://every-layout.dev/)
@@ -34,7 +46,3 @@
 - [Transfonter](https://transfonter.org/)
 - [Animista](https://animista.net/)
 - [Archetype](https://archetypeapp.com/)
-
-## Frameworks
-
-- [Tailwind CSS](https://tailwindcss.com/)

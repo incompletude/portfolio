@@ -11,6 +11,7 @@
   - [Bitcoin](cryptocurrencies/bitcoin.md)
 - [Ethics](ethics/ethics.md)
 - [Life](life/life.md)
+  - [Cooking](life/cooking.md)
   - [Mindfulness](life/mindfulness.md)
   - [Parenting](life/parenting.md)
 - [Linguistics](linguistics/linguistics.md)

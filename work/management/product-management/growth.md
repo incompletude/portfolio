@@ -14,3 +14,5 @@
 - [The 8 most important landing page metrics](https://databox.com/key-data-metrics-for-landing-pages-and-lead-tracking-analysis)
 - [What are the most important website metrics you should track?](https://www.shopify.com/partners/blog/website-metrics-to-track)
 - [Top 10 user engagement KPIs to measure](https://www.searchenginejournal.com/content-marketing-kpis/user-engagement-metrics/#close)
+- [How to build a growth engine without ads or content](https://www.junction43.co/blog/lessons-from-superhuman-how-to-build-growth-engine)
+- [Business blogging guide: measuring impact of blog](https://contentmarketinginstitute.com/2015/08/measuring-your-blogs-impact/)

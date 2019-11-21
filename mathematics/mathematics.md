@@ -15,6 +15,8 @@
 ## Publications
 
 - [Spurious correlations](http://www.tylervigen.com/spurious-correlations)
+- [Visual polyhedra](http://dmccooey.com/polyhedra/index.html)
+- [Paper models of polyhedra](https://www.polyhedra.net/en/)
 
 ## Tools
 
