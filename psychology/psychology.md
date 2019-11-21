@@ -14,3 +14,4 @@
 - [Cynicism isn’t as smart as we think it is](https://qz.com/1329802/cynicism-isnt-as-smart-as-we-think-it-is/)
 - [Economics can explain why compliments make us feel weird](https://qz.com/810606/economics-can-explain-why-were-so-bad-at-accepting-compliments/)
 - [To fall in love with anyone, do this](https://www.nytimes.com/2015/01/11/style/modern-love-to-fall-in-love-with-anyone-do-this.html)
+- [Everybody lies: how Google search reveals our darkest secrets](https://www.theguardian.com/technology/2017/jul/09/everybody-lies-how-google-reveals-darkest-secrets-seth-stephens-davidowitz)

@@ -6,3 +6,4 @@
 - [How to stay focused on the business decisions that matter most](https://qz.com/work/1652907/how-to-stay-focused-on-the-business-decisions-that-matter-most/)
 - [Debugging your startup](https://www.atrium.co/blog/debugging-your-startup/)
 - [Silicon Valley is turning into its own worst fear](https://www.buzzfeednews.com/article/tedchiang/the-real-danger-to-civilization-isnt-ai-its-runaway)
+- [Everyone thinks breaking the rules gets things done. They're wrong.](https://io9.gizmodo.com/everyone-thinks-breaking-the-rules-gets-things-done-th-1688411972)

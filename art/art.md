@@ -15,3 +15,7 @@
 - [Jeremy Geddes](http://www.jeremygeddesart.com/)
 - [Nicolas Rivals](http://nicolasrivals.com/)
 - [Rafael Araujo](http://www.rafael-araujo.com/)
+
+## Videos
+
+- [Constructive interference](https://vimeo.com/186022053)
