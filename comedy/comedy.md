@@ -10,3 +10,4 @@
 - [Freestyle Dance Teacher](https://www.youtube.com/watch?v=ZkNMZlkrzaU)
 - [Lush Lagoon](https://www.youtube.com/watch?v=d7bo-aeznzY)
 - [How to shave your beard like a man](http://www.youtube.com/watch?v=TZB8HRrJ0KM)
+- [Vanusa Choca o Brasil Cantando o Hino Nacional](https://www.youtube.com/watch?v=lOhJ-T-IKTg)

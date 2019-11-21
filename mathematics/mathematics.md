@@ -9,6 +9,11 @@
 ](https://en.wikipedia.org/wiki/Fibonacci_number)
 - [Geometry, algebra, and intuition](https://www.shapeoperator.com/2017/02/28/geometry-algebra-intuition/)
 - [Sunset geometry](https://www.shapeoperator.com/2016/12/12/sunset-geometry/)
+- [Correlation does not imply causation](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation)
+
+## Publications
+
+- [Spurious correlations](http://www.tylervigen.com/spurious-correlations)
 
 ## Tools
 

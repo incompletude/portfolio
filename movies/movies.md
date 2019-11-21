@@ -9,3 +9,4 @@
 
 - [Why CG Sucks (Except It Doesn't)](https://www.youtube.com/watch?v=bL6hp8BKB24)
 - [There Will Be Blood / Through Numbers](https://vimeo.com/80654617)
+- [David Lynch's Return of the Jedi](https://www.youtube.com/watch?v=PALjbTo1D5U)

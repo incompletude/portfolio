@@ -78,6 +78,7 @@
 - [Work](work/work.md)
   - [Business](work/business/business.md)
   - [Finding work](work/finding-work/finding-work.md)
+  - [Interview](work/interview/interview.md)
   - [Management](work/management/management.md)
     - [Leadership](work/management/leadership/leadership.md)
     - [Product management](work/management/product-management/product-management.md)
