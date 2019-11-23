@@ -10,6 +10,7 @@
 - [A UX guide for designing error pages](https://blog.prototypr.io/a-ux-guide-for-designing-error-pages-fb9ced1f1c8a)
 - [Buttons on the web: placement and order](https://uxdesign.cc/buttons-placement-and-order-bb1c4abadfcb)
 - [Breaking down Amazon’s mega dropdown](https://bjk5.com/post/44698559168/breaking-down-amazons-mega-dropdown)
+- [When card UI design doesn’t work](https://medium.theuxblog.com/when-card-ui-design-doesnt-work-f4343118d108)
 
 ## Publications
 

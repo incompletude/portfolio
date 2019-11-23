@@ -15,3 +15,7 @@
 - [Economics can explain why compliments make us feel weird](https://qz.com/810606/economics-can-explain-why-were-so-bad-at-accepting-compliments/)
 - [To fall in love with anyone, do this](https://www.nytimes.com/2015/01/11/style/modern-love-to-fall-in-love-with-anyone-do-this.html)
 - [Everybody lies: how Google search reveals our darkest secrets](https://www.theguardian.com/technology/2017/jul/09/everybody-lies-how-google-reveals-darkest-secrets-seth-stephens-davidowitz)
+
+## Videos
+
+- [The case against reality](https://www.youtube.com/watch?v=4HFFr0-ybg0)

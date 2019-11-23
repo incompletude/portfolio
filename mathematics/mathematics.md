@@ -12,6 +12,10 @@
 - [Correlation does not imply causation](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation)
 - [Moiré pattern](https://en.wikipedia.org/wiki/Moir%C3%A9_pattern)
 
+## Podcasts
+
+- [A very brief history of Mathematics](https://soundcloud.com/stephenwolfram/a-very-brief-history-of-mathematics)
+
 ## Publications
 
 - [Spurious correlations](http://www.tylervigen.com/spurious-correlations)
@@ -27,3 +31,4 @@
 - [The map of mathematics](https://www.youtube.com/watch?v=OmJ-4B-mS-Y)
 - [Stephen Wolfram - Is mathematics invented or discovered](https://www.youtube.com/watch?v=nUCwtLTUPQ4)
 - [Math and analogies](https://www.youtube.com/watch?v=BtFVdjwXnuM)
+- [The beauty of Calculus](https://www.youtube.com/watch?v=1r6893ga_So)
