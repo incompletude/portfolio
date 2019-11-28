@@ -8,3 +8,7 @@
 ## Publications
 
 - [Progressão no GetNinjas](https://progressao.getninjas.com.br/)
+
+## Videos
+
+- [Value Proposition Canvas explained through the Uber example](https://www.youtube.com/watch?v=kiWkRiynPAo&t=199s)

@@ -14,12 +14,14 @@
 - [The holy grail layout with CSS grid](https://bitsofco.de/holy-grail-layout-css-grid/)
 - [CSS border-radius can do that?](https://medium.com/9elements/css-border-radius-can-do-that-d46df1d013ae)
 - [Faster layouts with CSS grid (and subgrid!)](https://hacks.mozilla.org/2019/10/faster-layouts-with-css-grid-and-subgrid/)
-- [Deep dive CSS: font metrics, line-height and vertical-align](https://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align)https://alistapart.com/article/more-meaningful-typography/
+- [Deep dive CSS: font metrics, line-height and vertical-align](https://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align)
 - [More meaningful typography](https://alistapart.com/article/more-meaningful-typography/)
 - [Aesthetic SASS 3: Typography and vertical rhythm](https://scotch.io/tutorials/aesthetic-sass-3-typography-and-vertical-rhythm)
 - [Drop caps & design systems](https://product.voxmedia.com/2019/6/17/18524029/the-ballad-of-drop-caps-and-design-systems)
 - [The holy grail layout with CSS grid](https://bitsofco.de/holy-grail-layout-css-grid/)
 - [If you think CSS is pretty easy, this has changed your thoughts 😜](https://blog.prototypr.io/if-you-think-css-is-pretty-easy-this-has-changed-your-thoughts-6543327cb8e5)
+- [CSS Utility Classes and "Separation of Concerns](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/)
+- [In Defense of Utility-First CSS](https://frontstuff.io/in-defense-of-utility-first-css)
 
 ## Frameworks
 

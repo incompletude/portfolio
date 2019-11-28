@@ -24,3 +24,4 @@
 - [An elegy for America's oldest bald eagle](https://www.audubon.org/news/an-elegy-americas-oldest-bald-eagle)
 - [Serenading the cattle with my trombone](https://www.youtube.com/watch?v=qs_-emj1qR4)
 - [The evolution of bacteria on a “mega-plate” Petri dish](https://www.youtube.com/watch?v=plVk4NVIUh8)
+- [Human behavioral biology](https://www.youtube.com/playlist?list=PLpXaCv0b7h12LpVunZ361VfCBQSwi_2e8)

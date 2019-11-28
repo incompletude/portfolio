@@ -7,3 +7,5 @@
 - [Your professional decline is coming (much) sooner than you think](https://www.theatlantic.com/magazine/archive/2019/07/work-peak-professional-decline/590650/)
 - [3 reasons to add online courses to your CV and how to do it](https://blog.edx.org/3-reasons-add-online-courses-cv-how-to-do-it/)
 - [The ‘law’ that explains why you can't get anything done](https://www.bbc.com/worklife/article/20191107-the-law-that-explains-why-you-cant-get-anything-done)
+- [Failure found to be an “essential prerequisite” for success](https://www.scientificamerican.com/article/failure-found-to-be-an-essential-prerequisite-for-success/)
+- [If you’re busy, you’re doing something wrong: the surprisingly relaxed lives of elite achievers](https://www.calnewport.com/blog/2011/11/11/if-youre-busy-youre-doing-something-wrong-the-surprisingly-relaxed-lives-of-elite-achievers/)
