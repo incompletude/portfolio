@@ -1,4 +1,4 @@
-# Management
+# Leadership
 
 ## Articles
 

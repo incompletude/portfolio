@@ -5,6 +5,13 @@
 - [Dieter Rams](https://en.wikipedia.org/wiki/Dieter_Rams)
 - [Software architecture is overrated, clear and simple design is underrated](https://blog.pragmaticengineer.com/software-architecture-is-overrated/)
 
+## Studios
+
+- [Meiuca](http://meiuca.design/)
+- [Work & Co](https://work.co/)
+- [brainn.co](https://brainn.co/)
+- [Dragon Rouge](https://www.dragonrouge.com/)
+
 ## Videos
 
 - [James Bridle: A new aesthetic for the digital age](https://www.youtube.com/watch?v=z84EDsnpb4U)
