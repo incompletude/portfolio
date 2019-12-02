@@ -11,3 +11,4 @@
 - [There Will Be Blood / Through Numbers](https://vimeo.com/80654617)
 - [David Lynch's Return of the Jedi](https://www.youtube.com/watch?v=PALjbTo1D5U)
 - [Tears in rain](https://www.youtube.com/watch?v=_JjJzMBGUwo)
+- [Color psychology in films](https://www.youtube.com/watch?v=XMJGgUvOcL8)

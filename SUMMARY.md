@@ -61,6 +61,7 @@
     - [.NET Core](web-development/programming/net-core.md)
     - [CSS](web-development/programming/css.md)
     - [HTML](web-development/programming/html.md)
+    - [Javascript](web-development/programming/javascript.md)
     - [Node.js](web-development/programming/nodejs/nodejs.md)
       - [Apollo Server](web-development/programming/nodejs/apollo-server.md)
       - [Serverless](web-development/programming/nodejs/serverless.md)

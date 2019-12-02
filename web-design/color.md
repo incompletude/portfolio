@@ -18,3 +18,4 @@
 - [ColorBox](https://www.colorbox.io/)
 - [Coolors](https://coolors.co/)
 - [Name that color](http://chir.ag/projects/name-that-color/)
+- [Happy Hues](https://www.happyhues.co/)

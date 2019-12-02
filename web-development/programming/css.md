@@ -22,6 +22,7 @@
 - [If you think CSS is pretty easy, this has changed your thoughts 😜](https://blog.prototypr.io/if-you-think-css-is-pretty-easy-this-has-changed-your-thoughts-6543327cb8e5)
 - [CSS Utility Classes and "Separation of Concerns](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/)
 - [In Defense of Utility-First CSS](https://frontstuff.io/in-defense-of-utility-first-css)
+- [Dot navigation styles](https://tympanus.net/codrops/2014/01/21/dot-navigation-styles/)
 
 ## Frameworks
 
@@ -34,6 +35,7 @@
 - [CSS-only multi-color backgrounds](https://blog.prototypr.io/css-only-multi-color-backgrounds-4d96a5569a20)
 - [39 CSS animation examples](https://freefrontend.com/css-animation-examples/)
 - [PureCSS Lace](https://diana-adrianne.com/purecss-lace/)
+- [Opening type](https://codepen.io/diegopardo/pen/GqEho)
 
 ## Publications
 
