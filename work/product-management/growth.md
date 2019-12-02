@@ -16,3 +16,5 @@
 - [Top 10 user engagement KPIs to measure](https://www.searchenginejournal.com/content-marketing-kpis/user-engagement-metrics/#close)
 - [How to build a growth engine without ads or content](https://www.junction43.co/blog/lessons-from-superhuman-how-to-build-growth-engine)
 - [Business blogging guide: measuring impact of blog](https://contentmarketinginstitute.com/2015/08/measuring-your-blogs-impact/)
+- [How Superhuman built an engine to find product/market fit](https://firstround.com/review/how-superhuman-built-an-engine-to-find-product-market-fit/)
+- [Startup benchmarks](https://www.vccafe.com/2019/11/02/benchmarks/)

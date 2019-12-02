@@ -1,6 +1,5 @@
 where to put
 
-
 - [Gmail](https://www.gmail.com)
 - [Google Drive](https://drive.google.com)
 - [WeTransfer](https://wetransfer.com/)
