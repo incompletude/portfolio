@@ -5,12 +5,15 @@
 - [Dieter Rams](https://en.wikipedia.org/wiki/Dieter_Rams)
 - [Software architecture is overrated, clear and simple design is underrated](https://blog.pragmaticengineer.com/software-architecture-is-overrated/)
 
-## Studios
+## Publications
 
-- [Meiuca](http://meiuca.design/)
-- [Work & Co](https://work.co/)
-- [brainn.co](https://brainn.co/)
-- [Dragon Rouge](https://www.dragonrouge.com/)
+- [Abduzeedo](https://abduzeedo.com/)
+- [R/m Design Almanac](https://almanac.readymag.com/)
+- [Design Principles](https://principles.design/)
+
+## Tools
+
+- [Behance](https://www.behance.net/)
 
 ## Videos
 

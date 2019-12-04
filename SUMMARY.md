@@ -1,5 +1,6 @@
 # Summary
 
+- [Advertising](advertising/advertising.md)
 - [Art](art/art.md)
 - [Astronomy](astronomy/astronomy.md)
 - [Biology](biology/biology.md)
@@ -26,10 +27,9 @@
   - [Tarski’s undefinability theorem](mathematics/tarskis-undefinability-theorem)
 - [Movies](movies/movies.md)
 - [Music](music/music.md)
+- [News](news/news.md)
 - [Internet](internet/internet.md)
-  - [Advertising](internet/advertising.md)
-  - [News](internet/news.md)
-  - [Services](internet/services.md)
+  - [Tools](internet/tools.md)
 - [Philosophy](philosophy/philosophy.md)
   - [Arthur Schopenhauer](philosophy/arthur-schopenhauer.md)
   - [Immanuel Kant](philosophy/immanuel-kant.md)
@@ -83,7 +83,6 @@
   - [Registrar](web-development/registrar/registrar.md)
   - [Security](web-development/security/security.md)
     - [Cryptography](web-development/security/cryptography.md)
-  - [SEO](web-development/seo/seo.md)
   - [Visual Studio Code](web-development/visual-studio-code/visual-studio-code.md)
 - [Work](work/work.md)
   - [Finding work](work/finding-work/finding-work.md)

@@ -19,7 +19,6 @@
 
 - [Google Optimize](https://marketingplatform.google.com/about/optimize/)
 - [Google Analytics](https://analytics.google.com/)
-- [Moz](https://moz.com/)
 
 ## Videos
 

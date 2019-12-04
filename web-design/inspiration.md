@@ -1,25 +1,26 @@
 # Inspiration
 
-## Articles
+## Etc
 
-- [How Boston Got Its ‘T’](https://www.citylab.com/design/2018/09/how-boston-got-its-t/570004/)
+- [Motherfucking website](http://motherfuckingwebsite.com/)
+- [One shared house](http://onesharedhouse.com/)
 
-## Publications
+## Products
 
-- [Abduzeedo](https://abduzeedo.com/)
-- [R/m Design Almanac](https://almanac.readymag.com/)
-- [Design Principles](https://principles.design/)
+- [Borjomi](http://thedeepestsite.com/)
+
+## Services
+
+- [Lemonade](https://www.lemonade.com/)
+- [QUID](https://quid.works/)
+
+## Studios
+
+- [Meiuca](http://meiuca.design/)
+- [Work & Co](https://work.co/)
+- [brainn.co](https://brainn.co/)
+- [Dragon Rouge](https://www.dragonrouge.com/)
 
 ## Templates
 
 - [Espire](http://themenate.com/espire/)
-
-## Tools
-
-- [Behance](https://www.behance.net/)
-
-## Websites
-
-- [Motherfucking website](http://motherfuckingwebsite.com/)
-- [Borjomi](http://thedeepestsite.com/)
-- [One shared house](http://onesharedhouse.com/)

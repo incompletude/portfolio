@@ -18,3 +18,9 @@
 - [Business blogging guide: measuring impact of blog](https://contentmarketinginstitute.com/2015/08/measuring-your-blogs-impact/)
 - [How Superhuman built an engine to find product/market fit](https://firstround.com/review/how-superhuman-built-an-engine-to-find-product-market-fit/)
 - [Startup benchmarks](https://www.vccafe.com/2019/11/02/benchmarks/)
+- [Minimum Viable SEO: If you only have a few minutes each week... Do this!](https://moz.com/blog/minimum-viable-seo-whiteboard-friday)
+
+## Tools
+
+- [Moz](https://moz.com/)
+- [SEMrush](https://www.semrush.com/)
