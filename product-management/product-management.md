@@ -15,11 +15,6 @@
 - [Design Sprint Kit](https://designsprintkit.withgoogle.com/)
 - [Problem Solving Handbook](https://medium.com/youser-experience/methods/home)
 
-## Tools
-
-- [Google Optimize](https://marketingplatform.google.com/about/optimize/)
-- [Google Analytics](https://analytics.google.com/)
-
 ## Videos
 
 - [Value Proposition Canvas explained through the Uber example](https://www.youtube.com/watch?v=kiWkRiynPAo&t=199s)

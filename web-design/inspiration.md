@@ -6,6 +6,8 @@
 - [One shared house](http://onesharedhouse.com/)
 - [Momento Zero](https://moment-zero.com/)
 - [In pieces](http://www.species-in-pieces.com/)
+- [Borjomi](http://thedeepestsite.com/)
+- [KLM iFly 50](https://www.ifly50.com/)
 
 ## Portfolios
 
@@ -19,10 +21,21 @@
 - [Marc Thomas](http://mrcthms.com/)
 - [Victoire Douy](http://vyctoire.com/)
 - [Aleks Faure](https://aleksfaure.com/)
+- [Infinite imaginations](https://www.infiniteimaginations.co/#/hello/)
+- [Denys Loveiko](https://loveiko.com/)
+- [Matt Hardy](http://matthardy.photo/)
+- [Aleks Faure](https://aleksfaure.com/)
 
 ## Products
 
-- [Borjomi](http://thedeepestsite.com/)
+- [Lana Paper mill](http://www.lanapapier.fr/en/)
+- [Melville Design](https://www.melville-design.com/)
+- [Molekule](https://molekule.com/)
+- [Cowboy](https://cowboy.com/)
+
+## Publications
+
+- [Animated Knots](https://www.animatedknots.com/)
 
 ## Services
 
@@ -31,10 +44,21 @@
 
 ## Studios
 
+### Brazil
+
 - [Meiuca](http://meiuca.design/)
 - [Work & Co](https://work.co/)
 - [brainn.co](https://brainn.co/)
 - [Dragon Rouge](https://www.dragonrouge.com/)
+
+### Other
+
+- [-99](https://www.minus99.com/)
+- [Arc](http://thisisarc.com/)
+- [hula hoop](http://www.hula-hoop.fr/)
+- [BGN](https://bgn.agency/)
+- [wrk](https://waaark.com/)
+- [Wokine](https://www.wokine.com/)
 
 ## Templates
 

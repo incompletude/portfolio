@@ -15,4 +15,5 @@
 
 - [Moz](https://moz.com/)
 - [SEMrush](https://www.semrush.com/)
-- [Analytics](https://analytics.google.com/)
+- [Google Optimize](https://marketingplatform.google.com/about/optimize/)
+- [Google Analytics](https://analytics.google.com/)
