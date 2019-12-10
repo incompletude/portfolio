@@ -22,6 +22,7 @@
   - [Raduan Nassar](literature/raduan-nassar.md)
   - [William Shakespeare](literature/william-shakespeare.md)
 - [Mathematics](mathematics/mathematics.md)
+  - [Calculus](mathematics/calculus.md)
   - [Fourier transform](mathematics/fourier-transform.md)
   - [Gödel’s incompleteness theorems](mathematics/godels-incompleteness-theorems.md)
   - [Probability theory](mathematics/probability-theory.md)
