@@ -41,6 +41,7 @@
 
 - [Lemonade](https://www.lemonade.com/)
 - [QUID](https://quid.works/)
+- [Revolut](https://www.revolut.com/)
 
 ## Studios
 

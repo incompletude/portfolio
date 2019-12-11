@@ -13,6 +13,7 @@
 - [A framework to create an accessible & harmonious typography system for faster design-dev handoff
 ](https://blog.prototypr.io/10-practical-steps-to-create-a-predictable-accessible-and-harmonious-typography-system-a-case-6c85d901bedd)
 - [The no-nonsense guide to font pairing](https://blog.prototypr.io/the-no-nonsense-guide-to-font-pairing-64e4ead688a6)
+- [Here’s the typography of the next decade](https://theoutline.com/post/8385/didones-font-of-the-decade)
 
 ## Events
 

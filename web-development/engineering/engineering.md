@@ -7,3 +7,4 @@
 - [Create your own dysfunctional single-page app in five easy steps](https://tinnedfruit.com/writing/create-your-own-dysfunctional-single-page-app.html)
 - [CanaryRelease](https://martinfowler.com/bliki/CanaryRelease.html)
 - [Backends For Frontends](https://samnewman.io/patterns/architectural/bff/)
+- [How to fight back against Google AMP as a web user and a web developer](https://markosaric.com/google-amp/)
