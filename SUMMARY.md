@@ -10,7 +10,7 @@
 - [Comics](comics/comics.md)
 - [Cryptocurrencies](cryptocurrencies/cryptocurrencies.md)
   - [Bitcoin](cryptocurrencies/bitcoin.md)
-- [Environment](environment/environment.md)
+- [Culture](culture/culture.md)
 - [Ethics](ethics/ethics.md)
 - [Life](life/life.md)
   - [Cooking](life/cooking.md)
