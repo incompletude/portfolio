@@ -9,6 +9,7 @@
 - [The ‘law’ that explains why you can't get anything done](https://www.bbc.com/worklife/article/20191107-the-law-that-explains-why-you-cant-get-anything-done)
 - [Failure found to be an “essential prerequisite” for success](https://www.scientificamerican.com/article/failure-found-to-be-an-essential-prerequisite-for-success/)
 - [If you’re busy, you’re doing something wrong: the surprisingly relaxed lives of elite achievers](https://www.calnewport.com/blog/2011/11/11/if-youre-busy-youre-doing-something-wrong-the-surprisingly-relaxed-lives-of-elite-achievers/)
+- [The 8-Hour Workday Is a Counterproductive Lie](https://www.wired.com/story/eight-hour-workday-is-a-lie/)
 
 ## Tools
 
