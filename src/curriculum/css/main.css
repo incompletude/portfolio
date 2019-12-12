@@ -113,3 +113,56 @@ body {
 ul {
     list-style: none;
 }
+
+/*
+
+styles
+
+*/
+
+.margin-1 {
+  margin: 24px;
+}
+
+.margin-bottom-2 {
+  margin-bottom: 48px;
+}
+
+.margin-bottom-1 {
+  margin-bottom: 24px;
+}
+
+.margin-bottom-1\/2 {
+  margin-bottom: 12px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.copy {
+  font-family: 'Maison Neue';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.copy.large {
+  font-size: 18px;
+}
+
+.copy.bold {
+  font-weight: 700;
+}
+
+.copy.demi {
+  font-weight: 600;
+}
+
+.copy.italic {
+  font-style: italic;
+}
