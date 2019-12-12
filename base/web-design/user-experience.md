@@ -16,6 +16,7 @@
 - [Forms need validation](https://uxdesign.cc/forms-need-validation-2ecbccbacea1)
 - [Design better input fields](https://uxdesign.cc/design-better-input-fields-3d02985a8e24)
 - [How to design better buttons](https://www.smashingmagazine.com/2016/11/a-quick-guide-for-designing-better-buttons/)
+- [Rules for Autocomplete](http://jeremymikkola.com/posts/2019_03_19_rules_for_autocomplete.html)
 
 ## Publications
 

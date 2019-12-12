@@ -25,6 +25,7 @@
 - [Denys Loveiko](https://loveiko.com/)
 - [Matt Hardy](http://matthardy.photo/)
 - [Aleks Faure](https://aleksfaure.com/)
+- [Edmund Yu](http://www.edmundyu.com/)
 
 ## Products
 
@@ -42,6 +43,7 @@
 - [Lemonade](https://www.lemonade.com/)
 - [QUID](https://quid.works/)
 - [Revolut](https://www.revolut.com/)
+- [Plaid](https://plaid.com/)
 
 ## Studios
 
@@ -64,3 +66,4 @@
 ## Templates
 
 - [Espire](http://themenate.com/espire/)
+- [Infographic Maker](https://videohive.net/item/infographic-maker/20030912)

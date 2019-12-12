@@ -16,6 +16,8 @@
 - [The best-performing CEOs in the world, 2019](https://hbr.org/2019/11/the-ceo-100-2019-edition)
 - [Everyone thinks breaking the rules gets things done. They're wrong.](https://io9.gizmodo.com/everyone-thinks-breaking-the-rules-gets-things-done-th-1688411972)
 - [The Art of Bargaining, Positional vs Interest-Based Negotiation](https://f3fundit.com/the-art-of-bargaining-positional-vs-interest-based-negotiation/)
+- [Science Of Persuasion](https://www.youtube.com/watch?v=cFdCzN7RYbw)
+- [The Evolution of Management](https://queue.acm.org/detail.cfm?id=3350548)
 
 ## Publications
 
