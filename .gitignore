@@ -1,8 +1,14 @@
 # package directories
 node_modules
 
-# Serverless directories
+# serverless directories
 .serverless
 
-# Fonts
+# fonts
 *.woff
+
+# environment
+.env
+
+# nuxt
+.nuxt
