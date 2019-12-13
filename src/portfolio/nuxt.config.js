@@ -12,15 +12,20 @@ module.exports = {
 
   srcDir: 'client/',
 
+  render: {
+    compressor: false,
+  },
+
   modules: [
     '@nuxt/http',
+    '@nuxtjs/style-resources',
   ],
 
   http: {
     baseURL: 'https://api.thedogapi.com/v1/',
   },
 
-  render: {
-    compressor: false,
+  styleResources: {
+    less: './assets/less/main.less',
   },
 }

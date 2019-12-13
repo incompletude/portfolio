@@ -10,7 +10,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "deploy": "npm run build && serverless deploy",
-    "deploy-offline": "npm run build && serverless offline start"
+    "offline": "npm run build && serverless offline start"
   },
   "dependencies": {
     "@nuxt/http": "^0.3.8",
@@ -21,6 +21,9 @@
     "serverless-http": "^2.3.0"
   },
   "devDependencies": {
+    "@nuxtjs/style-resources": "^1.0.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
     "serverless-domain-manager": "^3.3.0",
     "serverless-dotenv-plugin": "^2.1.1",
     "serverless-offline": "^5.12.1"

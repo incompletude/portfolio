@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>v1</h1>
+    <h1 class="red">v2</h1>
     <h3>Random dog of the day:</h3>
     <img :src="dog.url" alt />
   </div>
@@ -16,3 +16,9 @@ export default {
   }
 };
 </script>
+
+<style lang="less">
+.red {
+  background-color: @gray; // will be resolved to #333
+}
+</style>
