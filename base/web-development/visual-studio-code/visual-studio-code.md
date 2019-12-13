@@ -9,3 +9,5 @@
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 - [TabSanity](https://marketplace.visualstudio.com/items?itemName=jedmao.tabsanity)
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+- [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
+- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
