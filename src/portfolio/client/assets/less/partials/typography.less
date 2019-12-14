@@ -1,27 +1,27 @@
 @font-face {
   font-family: "Maison Neue";
-  src: url("/fonts/maison-neue/maison-neue-book.woff") format("woff");
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Maison Neue";
-  src: url("/fonts/maison-neue/maison-neue-book-italic.woff") format("woff");
-  font-weight: 200;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Maison Neue";
   src: url("/fonts/maison-neue/maison-neue-light.woff") format("woff");
-  font-weight: 300;
+  font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Maison Neue";
   src: url("/fonts/maison-neue/maison-neue-light-italic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Maison Neue";
+  src: url("/fonts/maison-neue/maison-neue-book.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Maison Neue";
+  src: url("/fonts/maison-neue/maison-neue-book-italic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
 }
@@ -66,4 +66,48 @@
   src: url("/fonts//maison-neue/maison-neue-bold-italic.woff") format("woff");
   font-weight: 700;
   font-style: italic;
+}
+
+// Font Family
+
+.font-family-maison-neue() {
+  font-family: "Maison Neue";
+}
+
+// Font Weight
+
+.font-weight-book() {
+  font-weight: 300;
+}
+
+// Font Size
+
+.font-size-17() {
+  font-size: 1.7rem;
+}
+
+.font-size-18() {
+  font-size: 1.8rem;
+}
+
+// Line height
+
+.line-height-24() {
+  line-height: 2.4rem;
+}
+
+// Helper
+
+.maison-neue-300-17\/24() {
+  .font-family-maison-neue;
+  .font-weight-book;
+  .font-size-17;
+  .line-height-24;
+}
+
+.maison-neue-300-18\/24() {
+  .font-family-maison-neue;
+  .font-weight-book;
+  .font-size-18;
+  .line-height-24;
 }

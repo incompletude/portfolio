@@ -15,6 +15,7 @@ export default {
     const dogs = await $http.$get('images/search?size=thumb&limit=10')
     return { dogs }
   },
+
   head() {
     return {
       title: 'Show all dogs!',

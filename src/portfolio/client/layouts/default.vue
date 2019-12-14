@@ -1,13 +1,14 @@
 <template>
   <div>
-    <navbar/>
-    <nuxt/>
+    <header-nav />
+
+    <nuxt />
   </div>
 </template>
 <script>
-import navbar from "~/components/navbar";
+import HeaderNav from '~/components/HeaderNav'
 
 export default {
-  components: { navbar }
-};
+  components: { 'header-nav': HeaderNav },
+}
 </script>

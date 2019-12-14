@@ -1,24 +1,9 @@
 <template>
-  <div>
-    <h1 class="red">v2</h1>
-    <h3>Random dog of the day:</h3>
-    <img :src="dog.url" alt />
-  </div>
+  <div></div>
 </template>
 
 <script>
-export default {
-  async asyncData({ params, $http }) {
-    const dogs = await $http.$get(
-      'https://api.thedogapi.com/v1/images/search?limit=1',
-    )
-    return { dog: dogs[0] }
-  },
-}
+export default {}
 </script>
 
-<style lang="less">
-body {
-  font-family: 'Maison Neue';
-}
-</style>
+<style lang="less"></style>
