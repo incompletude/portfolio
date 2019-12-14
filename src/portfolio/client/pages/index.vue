@@ -10,15 +10,15 @@
 export default {
   async asyncData({ params, $http }) {
     const dogs = await $http.$get(
-      "https://api.thedogapi.com/v1/images/search?limit=1"
-    );
-    return { dog: dogs[0] };
-  }
-};
+      'https://api.thedogapi.com/v1/images/search?limit=1',
+    )
+    return { dog: dogs[0] }
+  },
+}
 </script>
 
 <style lang="less">
 body {
-  font-family: "Maison Neue";
+  font-family: 'Maison Neue';
 }
 </style>

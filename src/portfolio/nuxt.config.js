@@ -16,10 +16,7 @@ module.exports = {
     compressor: false,
   },
 
-  modules: [
-    '@nuxt/http',
-    '@nuxtjs/style-resources',
-  ],
+  modules: ['@nuxt/http', '@nuxtjs/style-resources'],
 
   http: {
     baseURL: 'https://api.thedogapi.com/v1/',
