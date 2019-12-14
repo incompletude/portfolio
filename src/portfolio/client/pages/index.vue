@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style lang="less">
-.red {
-  background-color: @gray; // will be resolved to #333
+body {
+  font-family: "Maison Neue";
 }
 </style>

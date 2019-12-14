@@ -1,0 +1,14 @@
+@size-mobile: 576px;
+@size-tablet-portrait: 768px;
+@size-tablet-landscape: 992px;
+@size-desktop: 1200px;
+
+@media-mobile: ~"(min-width:" @size-mobile ~")";
+@media-tablet-portrait: ~"(min-width:" @size-tablet-portrait ~")";
+@media-tablet-landscape: ~"(min-width:" @size-tablet-landscape ~")";
+@media-desktop: ~"(min-width:" @size-desktop ~")";
+
+.on-mobile(@rules) { @media @media-mobile { @rules(); }};
+.on-tablet-portrait(@rules) { @media @media-tablet-portrait { @rules(); }};
+.on-tablet-landscape(@rules) { @media @media-tablet-landscape { @rules(); }};
+.on-desktop(@rules) { @media @media-desktop { @rules(); }};
