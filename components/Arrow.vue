@@ -36,12 +36,12 @@ export default {
 
 <style lang="less" scoped>
 .arrow {
-  .width-5\/3;
-  .height-5\/3;
-  .cursor-pointer;
   .flex;
   .justify-center;
   .items-center;
+  .width-5\/3;
+  .height-5\/3;
+  .cursor-pointer;
 
   &.up {
     .rotate-180;

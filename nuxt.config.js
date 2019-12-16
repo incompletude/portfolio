@@ -49,7 +49,7 @@ module.exports = {
     }
   },
 
-  plugins: ['~/plugins/lazyload', '~/plugins/globalComponents', { src: '~plugins/ga.js', ssr: false }],
+  plugins: ['~/plugins/globalComponents', '~/plugins/lazyload', '~/plugins/scrollto', { src: '~plugins/ga.js', ssr: false }],
 
   modules: [
     '@nuxtjs/style-resources',

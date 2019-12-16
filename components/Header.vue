@@ -1,6 +1,10 @@
 <template>
-  <div>
+  <div id="headerTarget">
     <div class="stripe"></div>
+
+    <div class="arrow-wrapper" :class="arrowClass" @click="onArrowClick">
+      <Arrow :lighter="true" :up="true" />
+    </div>
 
     <div class="container-extra-large">
       <header class="header">
@@ -10,7 +14,7 @@
         </div>
 
         <div>
-          <div class="hamburger-wrapper" :class="hamburgerClass" @click="hamburgerClick">
+          <div class="hamburger-wrapper" :class="hamburgerClass" @click="onHamburgerClick">
             <div class="hamburger">
               <div class="hamburger-bars">
                 <span class="hamburger-bar"></span>
@@ -42,23 +46,46 @@
 </template>
 
 <script>
+import Arrow from "~/components/Arrow";
+
 export default {
   data() {
-    return { hamburgerActive: false };
+    return { hamburgerActive: false, arrowActive: false };
   },
+
+  components: { Arrow },
 
   computed: {
     hamburgerClass() {
       return {
         active: this.hamburgerActive
       };
+    },
+    arrowClass() {
+      return {
+        active: this.arrowActive
+      };
     }
   },
 
   methods: {
-    hamburgerClick() {
+    onScroll(e) {
+      this.arrowActive = window.scrollY > 50 ? true : false;
+    },
+    onHamburgerClick(e) {
       this.hamburgerActive = !this.hamburgerActive;
+    },
+    onArrowClick(e) {
+      this.$scrollTo("#headerTarget");
     }
+  },
+
+  mounted() {
+    window.addEventListener("scroll", this.onScroll);
+  },
+
+  beforeDestroy() {
+    window.removeEventListener("scroll", this.onScroll);
   }
 };
 </script>
@@ -80,6 +107,27 @@ export default {
   .width-full;
   height: 2px;
   .background-green-42;
+}
+
+// arrow
+
+.arrow-wrapper {
+  .fixed;
+  .pin-right-1;
+  .pin-bottom-1;
+  .z-index-10;
+  .invisible;
+  .opacity-0;
+  .translate-y-1\/2;
+  .transition-all;
+  .transition-ease-out;
+  .transition-fast;
+
+  &.active {
+    .visible;
+    .opacity-100;
+    .translate-y-0;
+  }
 }
 
 // header

@@ -1,29 +1,29 @@
 <template>
   <main class="container-extra-large">
     <div class="hero">
-      <div>
-        <h1 class="hero-title">
-          Hey, I’m a creative technologist from São Paulo, Brazil.
-          <br />I can help you build and grow your next product.
-        </h1>
-        <p class="hero-copy">Have a project you’d like to discuss?</p>
-        <p class="hero-copy">
-          Let’s chat
-          <a
-            class="hero-mail"
-            href="mailto:contato@andrefreitas.dev"
-          >contato@andrefreitas.dev</a>
-        </p>
-      </div>
-      <div class="hero-arrow">
+      <h1 class="hero-title">
+        Hey, I’m a creative technologist from São Paulo, Brazil.
+        <br />I can help you build and grow your next product.
+      </h1>
+      <p class="hero-copy">Have a project you’d like to discuss?</p>
+      <p class="hero-copy">
+        Let’s chat
+        <a
+          class="hero-copy-mail"
+          href="mailto:contato@andrefreitas.dev"
+        >contato@andrefreitas.dev</a>
+      </p>
+      <div class="hero-arrow" @click="onHeroArrowClick">
         <Arrow :bounce="true" />
       </div>
     </div>
 
-    <section class="margin-bottom-3 padding-top-1">
+    <section id="heroTarget" class="margin-bottom-3 padding-top-1">
       <div class="row">
         <div class="col-12 margin-bottom-2">
-          <AboutHeading>Featured project</AboutHeading>
+          <header class="heading">
+            <h2 class="heading-title">Featured project</h2>
+          </header>
         </div>
       </div>
       <div class="row">
@@ -42,7 +42,9 @@
     <section class="margin-bottom-3">
       <div class="row">
         <div class="col-12 margin-bottom-2">
-          <AboutHeading>Worked with</AboutHeading>
+          <header class="heading">
+            <h2 class="heading-title">Worked with</h2>
+          </header>
         </div>
       </div>
       <div class="row">
@@ -63,7 +65,9 @@
     <section class="margin-bottom-3">
       <div class="row">
         <div class="col-12 margin-bottom-2">
-          <AboutHeading>Skills</AboutHeading>
+          <header class="heading">
+            <h2 class="heading-title">Skills</h2>
+          </header>
         </div>
       </div>
       <div class="row">
@@ -72,13 +76,53 @@
             class="skill-highlight"
           >Product development is hard. Managing projects is hard. Here are some things I’m good at, to help ease the pain.</h3>
         </div>
+
         <div class="col-12 tp:col-6">
           <div class="row">
             <div class="col-12 margin-bottom-2">
-              <h3 class="skill-title">Backend</h3>
+              <h3 class="skill-title">Design system</h3>
               <p
                 class="skill-description"
-              >I’m proficient in multiple backend programming languages, and I have been focusing in microservices architeture built on top of .NET Core or Node.js for the last few years.</p>
+              >I’m able to work with design teams to take designs from mockup to implementation in a structured way.</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 margin-bottom-2">
+              <h3 class="skill-title">Problem solving</h3>
+              <p
+                class="skill-description"
+              >I can take vague problems and requirements and break them down into technical steps and solutions.</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 margin-bottom-2">
+              <h3 class="skill-title">System thinking</h3>
+              <p
+                class="skill-description"
+              >I’m good at thinking abstractly and putting together systems with many moving parts.</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 margin-bottom-2">
+              <h3 class="skill-title">Organizing</h3>
+              <p class="skill-description">
+                I’m good at organizing projects using tools like
+                <a
+                  class="skill-tool"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  href="https://www.notion.so"
+                >Notion</a> and
+                <a
+                  class="skill-tool"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  href="https://jira.atlassian.com"
+                >Jira</a>, present projects in a well-structured manner, and work to deadlines.
+              </p>
             </div>
           </div>
         </div>
@@ -88,7 +132,10 @@
     <section class="margin-bottom-3">
       <div class="row">
         <div class="col-12 margin-bottom-2">
-          <AboutHeading>Projects</AboutHeading>
+          <header class="heading">
+            <h2 class="heading-title">Projects</h2>
+            <a class="heading-all" href="/projects/">View all</a>
+          </header>
         </div>
       </div>
       <div class="row">
@@ -106,7 +153,9 @@
     <section class="margin-bottom-3">
       <div class="row">
         <div class="col-12 margin-bottom-2">
-          <AboutHeading>Hire me</AboutHeading>
+          <header class="heading">
+            <h2 class="heading-title">Hire me</h2>
+          </header>
         </div>
       </div>
       <div class="row">
@@ -133,8 +182,6 @@
 <script>
 import Arrow from "~/components/Arrow";
 import Figure from "~/components/Figure";
-import AboutHeading from "~/components/About/Heading";
-
 import slugs from "~/contents/projects.js";
 
 export default {
@@ -151,7 +198,7 @@ export default {
     });
   },
 
-  components: { Arrow, Figure, AboutHeading },
+  components: { Arrow, Figure },
 
   computed: {
     featuredProject() {
@@ -169,9 +216,13 @@ export default {
     }
   },
 
-  mounted() {
-    console.log(this.recentProjects);
-  }
+  methods: {
+    onHeroArrowClick(event) {
+      this.$scrollTo("#heroTarget");
+    }
+  },
+
+  mounted() {}
 };
 </script>
 
@@ -179,12 +230,12 @@ export default {
 // hero
 
 .hero {
-  .height-screen;
-  .-margin-top-4;
-  .padding-top-4;
   .flex;
   .flex-column;
   .justify-center;
+  .height-screen;
+  .-margin-top-4;
+  .padding-top-4;
 
   .on-desktop({.-margin-top-5; .padding-top-5;});
 }
@@ -198,13 +249,10 @@ export default {
 .hero-copy {
   .maison-neue-300-22\/32;
   .color-gray-77;
-
-  &:not(:last-child) {
-    .padding-bottom-1;
-  }
+  .margin-bottom-1;
 }
 
-.hero-mail {
+.hero-copy-mail {
   .color-green-42;
   .transition-color;
   .transition-fast;
@@ -216,8 +264,35 @@ export default {
 }
 
 .hero-arrow {
+  .self-start;
   margin-left: -0.9rem;
-  .padding-top-1;
+}
+
+// heading
+
+.heading {
+  .flex;
+  .justify-between;
+  .items-center;
+}
+
+.heading-title {
+  .maison-neue-300-20\/32;
+  .color-gray-21;
+}
+
+.heading-all {
+  .maison-neue-300-18\/24;
+  .color-gray-77;
+  .no-underline;
+  .transition-color;
+  .transition-linear;
+  .transition-fast;
+
+  &:hover {
+    .color-green-42;
+    .underline;
+  }
 }
 
 // partner
@@ -253,6 +328,11 @@ export default {
 .skill-description {
   .maison-neue-300-20\/32;
   .color-gray-77;
+}
+
+.skill-tool {
+  .color-gray-77;
+  .underline;
 }
 
 // hire
