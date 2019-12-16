@@ -1,15 +1,15 @@
 <template>
   <main class="container-extra-large">
     <div class="hero">
-      <h1 class="hero-title">
+      <h1 class="hero-highlight">
         Hey, I’m a creative technologist from São Paulo, Brazil.
         <br />I can help you build and grow your next product.
       </h1>
-      <p class="hero-copy">Have a project you’d like to discuss?</p>
-      <p class="hero-copy">
+      <p class="hero-description">Have a project you’d like to discuss?</p>
+      <p class="hero-description">
         Let’s chat
         <a
-          class="hero-copy-mail"
+          class="hero-description-mail"
           href="mailto:contato@andrefreitas.dev"
         >contato@andrefreitas.dev</a>
       </p>
@@ -22,10 +22,11 @@
       <div class="row">
         <div class="col-12 margin-bottom-2">
           <header class="heading">
-            <h2 class="heading-title">Featured project</h2>
+            <h1 class="heading-title">Featured project</h1>
           </header>
         </div>
       </div>
+
       <div class="row">
         <div class="col-12 margin-bottom-2">
           <Figure
@@ -43,7 +44,7 @@
       <div class="row">
         <div class="col-12 margin-bottom-2">
           <header class="heading">
-            <h2 class="heading-title">Worked with</h2>
+            <h1 class="heading-title">Worked with</h1>
           </header>
         </div>
       </div>
@@ -53,7 +54,7 @@
           v-for="project in distinctProjectsByPartner"
         >
           <a
-            class="partner-title"
+            class="partner-anchor"
             target="_blank"
             rel="noopener noreferrer nofollow"
             :href="project.site"
@@ -66,15 +67,15 @@
       <div class="row">
         <div class="col-12 margin-bottom-2">
           <header class="heading">
-            <h2 class="heading-title">Skills</h2>
+            <h1 class="heading-title">Skills</h1>
           </header>
         </div>
       </div>
       <div class="row">
         <div class="col-12 tp:col-6 margin-bottom-2">
-          <h3
+          <h2
             class="skill-highlight"
-          >Product development is hard. Managing projects is hard. Here are some things I’m good at, to help ease the pain.</h3>
+          >Product development is hard. Managing projects is hard. Here are some things I’m good at, to help ease the pain.</h2>
         </div>
 
         <div class="col-12 tp:col-6">
@@ -111,13 +112,13 @@
               <p class="skill-description">
                 I’m good at organizing projects using tools like
                 <a
-                  class="skill-tool"
+                  class="skill-description-anchor"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
                   href="https://www.notion.so"
                 >Notion</a> and
                 <a
-                  class="skill-tool"
+                  class="skill-description-anchor"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
                   href="https://jira.atlassian.com"
@@ -133,8 +134,8 @@
       <div class="row">
         <div class="col-12 margin-bottom-2">
           <header class="heading">
-            <h2 class="heading-title">Projects</h2>
-            <a class="heading-all" href="/projects/">View all</a>
+            <h1 class="heading-title">Projects</h1>
+            <nuxt-link class="heading-anchor" to="/projects/">View all</nuxt-link>
           </header>
         </div>
       </div>
@@ -154,22 +155,22 @@
       <div class="row">
         <div class="col-12 margin-bottom-2">
           <header class="heading">
-            <h2 class="heading-title">Hire me</h2>
+            <h1 class="heading-title">Hire me</h1>
           </header>
         </div>
       </div>
       <div class="row">
         <div class="col-12 tp:col-8 margin-bottom-2">
           <p
-            class="hire-copy"
+            class="hire-description"
           >So are you looking for a professional, communicative, punctual, and with extensive web development skills?</p>
           <p
-            class="hire-copy"
+            class="hire-description"
           >If you have an application you are interested in developing, a problem that needs solving or a project that needs rescuing, I’d love to help you with it.</p>
-          <p class="hero-copy">
+          <p class="hire-description">
             Let’s chat
             <a
-              class="hire-mail"
+              class="hire-description-mail"
               href="mailto:contato@andrefreitas.dev"
             >contato@andrefreitas.dev</a>
           </p>
@@ -240,19 +241,19 @@ export default {
   .on-desktop({.-margin-top-5; .padding-top-5;});
 }
 
-.hero-title {
+.hero-highlight {
   .padding-bottom-1;
   .maison-neue-300-36\/48;
   .color-gray-77;
 }
 
-.hero-copy {
+.hero-description {
+  .padding-bottom-1;
   .maison-neue-300-22\/32;
   .color-gray-77;
-  .margin-bottom-1;
 }
 
-.hero-copy-mail {
+.hero-description-mail {
   .color-green-42;
   .transition-color;
   .transition-fast;
@@ -281,7 +282,7 @@ export default {
   .color-gray-21;
 }
 
-.heading-all {
+.heading-anchor {
   .maison-neue-300-18\/24;
   .color-gray-77;
   .no-underline;
@@ -297,7 +298,7 @@ export default {
 
 // partner
 
-.partner-title {
+.partner-anchor {
   .maison-neue-300-22\/32;
   .color-gray-77;
   .no-underline;
@@ -330,23 +331,24 @@ export default {
   .color-gray-77;
 }
 
-.skill-tool {
+.skill-description-anchor {
   .color-gray-77;
   .underline;
 }
 
 // hire
 
-.hire-copy {
+.hire-description {
   .maison-neue-300-22\/32;
   .color-gray-77;
+  .padding-bottom-1;
 
-  &:not(:last-child) {
-    .padding-bottom-1;
+  &:last-of-type {
+    .padding-bottom-0;
   }
 }
 
-.hire-mail {
+.hire-description-mail {
   .color-green-42;
   .transition-color;
   .transition-fast;

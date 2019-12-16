@@ -8,10 +8,10 @@
 
     <div class="container-extra-large">
       <header class="header">
-        <div class="brand">
-          <a class="brand-title" href="/">André Freitas</a>
+        <h1 class="brand">
+          <nuxt-link class="brand-anchor" to="/">André Freitas</nuxt-link>
           <p class="brand-description">Creative technologist</p>
-        </div>
+        </h1>
 
         <div>
           <div class="hamburger-wrapper" :class="hamburgerClass" @click="onHamburgerClick">
@@ -26,13 +26,13 @@
           <div class="nav-wrapper" :class="hamburgerClass">
             <ul class="nav">
               <li class="nav-item">
-                <a class="nav-title" href="/">About</a>
+                <nuxt-link class="nav-anchor" to="/">About</nuxt-link>
               </li>
               <li class="nav-item">
-                <a class="nav-title" href="/projects/featured/">Projects</a>
+                <nuxt-link class="nav-anchor" to="/projects/featured/">Projects</nuxt-link>
               </li>
               <li class="nav-item">
-                <a class="nav-title" href="/knowledge/">Knowledge</a>
+                <nuxt-link class="nav-anchor" to="/knowledge/">Knowledge</nuxt-link>
               </li>
               <li class="nav-item">
                 <a class="nav-mail" href="mailto:contato@andrefreitas.dev">contato@andrefreitas.dev</a>
@@ -148,7 +148,7 @@ export default {
   .flex-column;
 }
 
-.brand-title {
+.brand-anchor {
   .maison-neue-300-18\/24;
   .color-gray-77;
   .no-underline;
@@ -277,7 +277,7 @@ export default {
   );
 }
 
-.nav-title,
+.nav-anchor,
 .nav-mail {
   .maison-neue-300-18\/24;
   .no-underline;
@@ -291,7 +291,7 @@ export default {
   }
 }
 
-.nav-title {
+.nav-anchor {
   .color-gray-77;
 }
 

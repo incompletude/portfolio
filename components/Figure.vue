@@ -1,21 +1,21 @@
 <template>
   <figure class="figure" :class="figureClass">
-    <a class="figure-image" href="/projects/">
-      <div class="figure-image-background" v-lazy:background-image="imageSource"></div>
-      <div v-if="!large" class="figure-image-overlay" :style="{ 'background-color': color }">
-        <h3 class="overlay-title">
+    <a class="image" href="/projects/">
+      <div class="image-background" v-lazy:background-image="imageSource"></div>
+      <div v-if="!large" class="image-overlay" :style="{ 'background-color': color }">
+        <h2 class="overlay-title">
           {{ title }}
           <br />—
-        </h3>
-        <p class="overlay-description">{{ description }}</p>
+        </h2>
+        <h3 class="overlay-description">{{ description }}</h3>
       </div>
     </a>
 
     <figcaption class="figcaption">
-      <h3>
+      <h2>
         <a class="figcaption-title" href="/projects/">{{ title }}</a>
-      </h3>
-      <p class="figcaption-description">{{ description }}</p>
+      </h2>
+      <h3 class="figcaption-description">{{ description }}</h3>
     </figcaption>
   </figure>
 </template>
@@ -59,9 +59,9 @@ export default {
 </script>
 
 <style lang="less" scoped>
-// figure
+// image
 
-.figure-image {
+.image {
   .relative;
   .block;
   .background-gray-77;
@@ -77,7 +77,7 @@ export default {
   }
 }
 
-.figure-image-background {
+.image-background {
   .width-full;
   .height-full;
   .background-cover;
@@ -92,7 +92,7 @@ export default {
   }
 }
 
-.figure-image-overlay {
+.image-overlay {
   .absolute;
   .pin-top;
   .pin-left;

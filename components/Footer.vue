@@ -5,9 +5,9 @@
         <div class="row">
           <div class="col-12 tp:col-6 margin-top-3 margin-bottom-2">
             <div class="brand">
-              <h1 class="brand-title">André Freitas</h1>
+              <h1 class="brand-name">André Freitas</h1>
               <a class="brand-mail" href="mailto:contato@andrefreitas.dev">contato@andrefreitas.dev</a>
-              <p class="brand-copy">
+              <p class="brand-description">
                 I’m a brazilian product owner, full stack developer & UI/UX
                 designer. I can help you build and grow your next product.
               </p>
@@ -21,13 +21,13 @@
               <h2 class="nav-name">Menu</h2>
               <ul class="nav">
                 <li>
-                  <a class="nav-title" href="/">About</a>
+                  <nuxt-link class="nav-anchor" to="/">About</nuxt-link>
                 </li>
                 <li>
-                  <a class="nav-title" href="/projects/featured/">Projects</a>
+                  <nuxt-link class="nav-anchor" to="/projects/featured/">Projects</nuxt-link>
                 </li>
                 <li>
-                  <a class="nav-title" href="/knowledge/">Knowledge</a>
+                  <nuxt-link class="nav-anchor" to="/knowledge/">Knowledge</nuxt-link>
                 </li>
               </ul>
             </div>
@@ -39,12 +39,12 @@
               <ul class="nav">
                 <li>
                   <a
-                    class="nav-title"
+                    class="nav-anchor"
                     href="mailto:contato@andrefreitas.dev"
                   >contato@andrefreitas.dev</a>
                 </li>
                 <li>
-                  <a class="nav-title" href="skype:live:andrevieiradefreitas">Skype</a>
+                  <a class="nav-anchor" href="skype:live:andrevieiradefreitas">Skype</a>
                 </li>
               </ul>
             </div>
@@ -56,7 +56,7 @@
               <ul class="nav">
                 <li>
                   <a
-                    class="nav-title"
+                    class="nav-anchor"
                     href="https://github.com/incompletude"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -64,7 +64,7 @@
                 </li>
                 <li>
                   <a
-                    class="nav-title"
+                    class="nav-anchor"
                     href="https://www.linkedin.com/in/incompletude/"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -98,7 +98,7 @@ export default {};
 
 // brand
 
-.brand-title {
+.brand-name {
   .maison-neue-300-24\/32;
   .color-gray-21;
 }
@@ -115,7 +115,7 @@ export default {};
   }
 }
 
-.brand-copy {
+.brand-description {
   .maison-neue-300-20\/32;
   .color-gray-64;
 }
@@ -128,7 +128,7 @@ export default {};
   .color-gray-21;
 }
 
-.nav-title {
+.nav-anchor {
   .maison-neue-300-20\/32;
   .color-gray-64;
   .no-underline;
