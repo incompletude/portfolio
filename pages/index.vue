@@ -75,12 +75,12 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 tp:col-6 margin-bottom-2">
+        <div class="col-12 tp:col-6 margin-bottom-2" v-for="project in recentProjects">
           <Figure
-            :title="featuredProject.title"
-            :description="featuredProject.description"
-            :image="`projects/${featuredProject.slug}/${featuredProject.image}`"
-            :color="featuredProject.color"
+            :title="project.title"
+            :description="project.description"
+            :image="`projects/${project.slug}/${project.image}`"
+            :color="project.color"
           />
         </div>
       </div>
@@ -121,11 +121,15 @@ export default {
       return this.projects.filter((e, i, projects) => {
         return projects.map(p => p.partner).indexOf(e.partner) === i;
       });
+    },
+
+    recentProjects() {
+      return this.projects.slice(0, 4);
     }
   },
 
   mounted() {
-    console.log(this.featuredProject);
+    console.log(this.recentProjects);
   }
 };
 </script>

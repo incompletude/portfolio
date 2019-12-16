@@ -1,5 +1,5 @@
 ---
-slug: 'deca'
+slug: 'jeunesse'
 title: 'Jeunesse'
 description: 'Video streaming web app'
 image: 'jeunesse.jpg'
