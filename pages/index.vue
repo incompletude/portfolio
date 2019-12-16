@@ -50,7 +50,12 @@
           class="col-6 tp:col-4 tl:col-3 margin-bottom-1"
           v-for="project in distinctProjectsByPartner"
         >
-          <AboutPartner :href="project.site">{{ project.partner }}</AboutPartner>
+          <a
+            class="partner-title"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            :href="project.site"
+          >{{ project.partner }}</a>
         </div>
       </div>
     </section>
@@ -120,7 +125,6 @@
 import Arrow from "~/components/Arrow";
 import Figure from "~/components/Figure";
 import AboutHeading from "~/components/About/Heading";
-import AboutPartner from "~/components/About/Partner";
 
 import slugs from "~/contents/projects.js";
 
@@ -138,7 +142,7 @@ export default {
     });
   },
 
-  components: { Arrow, Figure, AboutHeading, AboutPartner },
+  components: { Arrow, Figure, AboutHeading },
 
   computed: {
     featuredProject() {
@@ -207,6 +211,22 @@ export default {
   .padding-top-1;
 }
 
+// partner
+
+.partner-title {
+  .maison-neue-300-22\/40;
+  .color-gray-77;
+  .no-underline;
+  .transition-color;
+  .transition-fast;
+  .transition-linear;
+
+  &:hover {
+    .color-green-42;
+    .underline;
+  }
+}
+
 // hire me
 
 .hire-copy {
@@ -241,11 +261,9 @@ export default {
                 tempor incididunt
             </h3>
 
-
                     <h3 class="skill-title">Backend</h3>
                     <p class="skill-description">
                         I'm proficient in multiple backend programming languages, and I have been focusing in microservices architeture built on top of .NET Core or Node.js for the last few years.
                     </p>
-
 
 -->
