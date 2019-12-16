@@ -67,10 +67,19 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 tp:col-6 margin-bottom-2">hightlight</div>
+        <div class="col-12 tp:col-6 margin-bottom-2">
+          <h3
+            class="skill-highlight"
+          >Product development is hard. Managing projects is hard. Here are some things I’m good at, to help ease the pain.</h3>
+        </div>
         <div class="col-12 tp:col-6">
           <div class="row">
-            <div class="col-12 margin-bottom-2">skill</div>
+            <div class="col-12 margin-bottom-2">
+              <h3 class="skill-title">Backend</h3>
+              <p
+                class="skill-description"
+              >I’m proficient in multiple backend programming languages, and I have been focusing in microservices architeture built on top of .NET Core or Node.js for the last few years.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -107,7 +116,7 @@
           >So are you looking for a professional, communicative, punctual, and with extensive web development skills?</p>
           <p
             class="hire-copy"
-          >If you have an application you are interested in developing, a problem that needs solving or a project that needs rescuing, I'd love to help you with it.</p>
+          >If you have an application you are interested in developing, a problem that needs solving or a project that needs rescuing, I’d love to help you with it.</p>
           <p class="hero-copy">
             Let’s chat
             <a
@@ -214,7 +223,7 @@ export default {
 // partner
 
 .partner-title {
-  .maison-neue-300-22\/40;
+  .maison-neue-300-22\/32;
   .color-gray-77;
   .no-underline;
   .transition-color;
@@ -227,7 +236,26 @@ export default {
   }
 }
 
-// hire me
+// skill
+
+.skill-highlight {
+  .padding-right-1;
+  .maison-neue-300-24\/32;
+  .color-gray-77;
+}
+
+.skill-title {
+  .padding-bottom-1\/2;
+  .maison-neue-300-22\/32;
+  .color-gray-77;
+}
+
+.skill-description {
+  .maison-neue-300-20\/32;
+  .color-gray-77;
+}
+
+// hire
 
 .hire-copy {
   .maison-neue-300-22\/32;
@@ -249,21 +277,3 @@ export default {
   }
 }
 </style>
-
-
-<!--
-
-            <h3 class="skill__highlight">
-                Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit,
-                sed do
-                eiusmod
-                tempor incididunt
-            </h3>
-
-                    <h3 class="skill-title">Backend</h3>
-                    <p class="skill-description">
-                        I'm proficient in multiple backend programming languages, and I have been focusing in microservices architeture built on top of .NET Core or Node.js for the last few years.
-                    </p>
-
--->

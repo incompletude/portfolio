@@ -112,6 +112,8 @@ export default {
   }
 }
 
+// overlay
+
 .overlay-title,
 .overlay-description {
   .color-white;
@@ -132,6 +134,8 @@ export default {
 .overlay-description {
   .maison-neue-300-18\/24;
 }
+
+// figcaption
 
 .figcaption {
   .margin-top-1\/2;
