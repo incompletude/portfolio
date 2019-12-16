@@ -8,7 +8,7 @@
               <h1 class="brand-title">André Freitas</h1>
               <a class="brand-mail" href="mailto:contato@andrefreitas.dev">contato@andrefreitas.dev</a>
               <p class="brand-copy">
-                I’m a Brazilian product owner, full stack developer & UI/UX
+                I’m a brazilian product owner, full stack developer & UI/UX
                 designer. I can help you build and grow your next product.
               </p>
             </div>

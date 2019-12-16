@@ -4,7 +4,7 @@
       <div>
         <h1 class="hero-title">
           Hey, I’m a creative technologist from São Paulo, Brazil.
-          <br />I can help you build your next product.
+          <br />I can help you build and grow your next product.
         </h1>
         <p class="hero-copy">Have a project you’d like to discuss?</p>
         <p class="hero-copy">
@@ -46,7 +46,10 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-6 tp:col-4 tl:col-3 margin-bottom-1" v-for="project in distinctProjects">
+        <div
+          class="col-6 tp:col-4 tl:col-3 margin-bottom-1"
+          v-for="project in distinctProjectsByPartner"
+        >
           <AboutPartner :href="project.site">{{ project.partner }}</AboutPartner>
         </div>
       </div>
@@ -85,6 +88,31 @@
         </div>
       </div>
     </section>
+
+    <section class="margin-bottom-3">
+      <div class="row">
+        <div class="col-12 margin-bottom-2">
+          <AboutHeading>Hire me</AboutHeading>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 tp:col-8 margin-bottom-2">
+          <p
+            class="hire-copy"
+          >So are you looking for a professional, communicative, punctual, and with extensive web development skills?</p>
+          <p
+            class="hire-copy"
+          >If you have an application you are interested in developing, a problem that needs solving or a project that needs rescuing, I'd love to help you with it.</p>
+          <p class="hero-copy">
+            Let’s chat
+            <a
+              class="hire-mail"
+              href="mailto:contato@andrefreitas.dev"
+            >contato@andrefreitas.dev</a>
+          </p>
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -117,7 +145,7 @@ export default {
       return this.projects.find(p => p.featured === true);
     },
 
-    distinctProjects() {
+    distinctProjectsByPartner() {
       return this.projects.filter((e, i, projects) => {
         return projects.map(p => p.partner).indexOf(e.partner) === i;
       });
@@ -156,6 +184,7 @@ export default {
 
 .hero-copy {
   .maison-neue-300-22\/32;
+  .color-gray-77;
 
   &:not(:last-child) {
     .padding-bottom-1;
@@ -177,6 +206,28 @@ export default {
   margin-left: -0.9rem;
   .padding-top-1;
 }
+
+// hire me
+
+.hire-copy {
+  .maison-neue-300-22\/32;
+  .color-gray-77;
+
+  &:not(:last-child) {
+    .padding-bottom-1;
+  }
+}
+
+.hire-mail {
+  .color-green-42;
+  .transition-color;
+  .transition-fast;
+  .transition-linear;
+
+  &:hover {
+    .color-green-50;
+  }
+}
 </style>
 
 
@@ -196,71 +247,5 @@ export default {
                         I'm proficient in multiple backend programming languages, and I have been focusing in microservices architeture built on top of .NET Core or Node.js for the last few years.
                     </p>
 
-                <div class="col-12 margin-bottom-2">
-
-                    <h3 class="skill__title">Database</h3>
-                    <p class="skill__description">
-                        I'm confortable designing and implementing performant databases in both SQL and NoSQL environments.
-                    </p>
-                </div>
-
-                <div class="col-12 margin-bottom-2">
-
-                    <h3 class="skill__title">Frontend</h3>
-                    <p class="skill__description">
-                        I'm proficient in most all of the languages, libraries and tools required by the modern web development environment.
-                    </p>
-                </div>
-
-                <div class="skill__accordion" data-controller="skill-accordion">
-
-                    <div class="col-12">
-
-                        <a class="skill__anchor active" data-action="click->skill-accordion#open">See the rest</a>
-                    </div>
-
-                    <div class="col-12 margin-bottom-2">
-
-                        <h3 class="skill__title">Design Pattern</h3>
-                        <p class="skill__description">
-                            I understand the importance of future-proof software, and I have applied multiple design patterns to aid further software development along the years.
-                        </p>
-                    </div>
-
-                    <div class="col-12 margin-bottom-2">
-
-                        <h3 class="skill__title">Design System</h3>
-                        <p class="skill__description">
-                            While I'm not a graphic designer, I have an eye for good design and typography. I'm confortable using Photoshop, Illustrator and Sketch, and I'm able to work with design teams to take designs from mock-up to implementation.
-                        </p>
-                    </div>
-
-                    <div class="col-12 margin-bottom-2">
-
-                        <h3 class="skill__title">UI & UX</h3>
-                        <p class="skill__description">
-                            I recognize the importance of user focused UI and UX design, and I'm confortable working along with other pixel perfect maniacs to craft user centered digital experiencies.
-                        </p>
-                    </div>
-
-                    <div class="col-12 margin-bottom-2">
-
-                        <h3 class="skill__title">Documentation</h3>
-                        <p class="skill__description">
-                            Often overlooked, I think it's important to have a clear picture of the current development stage to aid the next development round.
-                        </p>
-                    </div>
-
-                    <div class="col-12 margin-bottom-2">
-
-                        <h3 class="skill__title">Project Management</h3>
-                        <p class="skill__description">
-                            Leading multiple projects along the years, I understand the importance of identifyng the stages of a project and working to a schedule around those.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
 -->
