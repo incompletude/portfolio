@@ -1,14 +1,17 @@
-# package directories
+# npm dependencies
 node_modules
 
-# serverless directories
-.serverless
+# npm logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
 
 # fonts
 *.woff
 
 # environment
 .env
-
-# nuxt
-.nuxt
