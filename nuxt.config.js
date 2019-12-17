@@ -14,6 +14,35 @@ module.exports = {
     ]
   },
 
+  router: {
+    extendRoutes(routes, resolve) {
+      routes.push({
+        path: "/projects/featured/",
+        component: resolve(__dirname, "pages/projects/index.vue")
+      });
+
+      routes.push({
+        path: "/projects/category/:id/",
+        component: resolve(__dirname, "pages/projects/index.vue")
+      });
+
+      routes.push({
+        path: "/projects/discipline/:id/",
+        component: resolve(__dirname, "pages/projects/index.vue")
+      });
+
+      routes.push({
+        path: "/projects/year/:id/",
+        component: resolve(__dirname, "pages/projects/index.vue")
+      });
+
+      routes.push({
+        path: "/projects/:id/",
+        component: resolve(__dirname, "pages/projects/project.vue")
+      });
+    }
+  },
+
   build: {
     extend(config) {
       const rule = config.module.rules.find(r => r.test.toString() === '/\\.(png|jpe?g|gif|svg|webp)$/i')
