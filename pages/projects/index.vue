@@ -122,7 +122,7 @@ export default {
     const params = route.params;
     const query = route.query;
 
-    console.log(path, params, query);
+    context.error({ statusCode: 500 });
 
     const featured = path.includes("featured") ? true : null;
     const category = path.includes("category") ? params.id : null;
