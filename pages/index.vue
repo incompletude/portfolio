@@ -179,9 +179,9 @@ import markdownReader from "~/contents/projects.js";
 
 export default {
   async asyncData(context) {
-    const lastFeaturedProject = await markdownReader.getLastFeaturedProject();
-    const projectsByDistinctPartner = await markdownReader.getProjectsByDistinctPartner();
-    const recentProjects = await markdownReader.getRecentProjects();
+    const lastFeaturedProject = await markdownReader.asyncGetLastFeaturedProject();
+    const projectsByDistinctPartner = await markdownReader.asyncGetProjectsByDistinctPartner();
+    const recentProjects = await markdownReader.asyncGetRecentProjects();
 
     return {
       lastFeaturedProject,

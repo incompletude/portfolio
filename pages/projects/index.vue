@@ -110,25 +110,79 @@
       </aside>
     </div>
 
-    <div class="col-12 margin-bottom-3 tl:col-9 tl:margin-top-2">b</div>
+    <div class="col-12 margin-bottom-3 tl:col-9 tl:margin-top-2">
+      <div class="row">
+        <div class="col-12 tp:col-6 margin-bottom-2" v-for="project in projects">
+          <Figure
+            :title="project.title"
+            :description="project.description"
+            :image="`projects/${project.slug}/${project.image}`"
+            :color="project.color"
+          />
+        </div>
+
+        <div class="col-12 margin-top-2 margin-bottom-2" v-if="pageCount > 1">
+          <div class="pagination-wrapper">
+            <p class="pagination-separator">—</p>
+            <ul class="pagination">
+              <li v-if="currentPage > 1">
+                <nuxt-link class="pagination-anchor" :to="`?page=${currentPage - 1}`">Previous</nuxt-link>
+              </li>
+              <li v-for="index in pageCount">
+                <span class="pagination-index" v-if="currentPage === index">{{ index }}</span>
+                <nuxt-link class="pagination-anchor" v-else :to="`?page=${index}`">{{ index }}</nuxt-link>
+              </li>
+              <li v-if="currentPage < pageCount">
+                <nuxt-link class="pagination-anchor" :to="`?page=${currentPage + 1}`">Next</nuxt-link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
+import markdownReader from "~/contents/projects.js";
+
 export default {
+  watchQuery: ["page"],
+
+  async validate(context) {
+    // todo: validate page
+    return true;
+  },
+
   async asyncData(context) {
     const route = context.route;
     const path = route.path;
     const params = route.params;
     const query = route.query;
 
-    context.error({ statusCode: 500 });
-
     const featured = path.includes("featured") ? true : null;
     const category = path.includes("category") ? params.id : null;
     const tag = path.includes("tag") ? params.id : null;
     const year = path.includes("year") ? params.id : null;
-    const page = query.page ? query.page : 1;
+    const page = query.page ? parseInt(query.page) : 1;
+
+    const pagedProjects = await markdownReader.asyncGetPagedProjects(
+      featured,
+      category,
+      tag,
+      year,
+      page
+    );
+
+    if (pagedProjects) {
+      return {
+        projects: pagedProjects.projects,
+        currentPage: pagedProjects.currentPage,
+        pageCount: pagedProjects.pageCount
+      };
+    } else {
+      context.error({ statusCode: 404 });
+    }
   },
 
   data() {
@@ -148,16 +202,20 @@ export default {
       if (this.accordionActive) {
         this.accordionActive = false;
         this.accordionHeight = `${this.$refs.accordion.scrollHeight}px`;
-        this.$nextTick(() => {
-          this.accordionHeight = `0px`;
-          setTimeout(() => (this.accordionHeight = null), 150);
-        });
+        setTimeout(() => (this.accordionHeight = `0px`), 1);
+        setTimeout(() => (this.accordionHeight = null), 150);
       } else {
         this.accordionActive = true;
         this.accordionHeight = `${this.$refs.accordion.scrollHeight}px`;
         setTimeout(() => (this.accordionHeight = "auto"), 150);
       }
     }
+  },
+
+  head() {
+    return {
+      title: "Projects | André Freitas"
+    };
   }
 };
 </script>
@@ -219,5 +277,35 @@ export default {
   .transition-linear;
 
   .on-tablet-landscape({.height-auto;});
+}
+
+// pagination
+
+.pagination-separator {
+  .padding-bottom-1\/2;
+  .color-gray-77;
+  .maison-neue-300-18\/24;
+}
+
+.pagination {
+  .flex;
+}
+
+.pagination-index {
+  .color-gray-77;
+  .maison-neue-300-20\/32;
+  .margin-right-1;
+  .underline;
+}
+
+.pagination-anchor {
+  .color-gray-77;
+  .maison-neue-300-20\/32;
+  .margin-right-1;
+  .no-underline;
+
+  &:hover {
+    .underline;
+  }
 }
 </style>
