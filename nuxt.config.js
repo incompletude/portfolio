@@ -15,6 +15,9 @@ module.exports = {
   },
 
   router: {
+    linkActiveClass: 'active',
+    linkExactActiveClass: 'exact-active',
+
     extendRoutes(routes, resolve) {
       routes.push({
         path: "/projects/featured/",
@@ -27,7 +30,7 @@ module.exports = {
       });
 
       routes.push({
-        path: "/projects/discipline/:id/",
+        path: "/projects/tag/:id/",
         component: resolve(__dirname, "pages/projects/index.vue")
       });
 

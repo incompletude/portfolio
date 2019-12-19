@@ -26,10 +26,10 @@
           <div class="nav-wrapper" :class="hamburgerClass">
             <ul class="nav">
               <li class="nav-item">
-                <nuxt-link class="nav-anchor" to="/">About</nuxt-link>
+                <nuxt-link class="nav-anchor" to="/" exact>About</nuxt-link>
               </li>
               <li class="nav-item">
-                <nuxt-link class="nav-anchor" to="/projects/featured/">Projects</nuxt-link>
+                <nuxt-link class="nav-anchor" to="/projects/">Projects</nuxt-link>
               </li>
               <li class="nav-item">
                 <nuxt-link class="nav-anchor" to="/knowledge/">Knowledge</nuxt-link>

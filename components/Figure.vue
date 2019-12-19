@@ -2,7 +2,7 @@
   <figure class="figure" :class="figureClass">
     <a class="image" href="/projects/">
       <div class="image-background" v-lazy:background-image="imageSource"></div>
-      <div v-if="!large" class="image-overlay" :style="{ 'background-color': color }">
+      <div v-if="!large" class="image-overlay" :style="overlayStyle">
         <h2 class="overlay-title">
           {{ title }}
           <br />—
@@ -52,6 +52,11 @@ export default {
     figureClass() {
       return {
         large: this.large
+      };
+    },
+    overlayStyle() {
+      return {
+        "background-color": this.color
       };
     }
   }

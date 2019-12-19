@@ -1,15 +1,17 @@
 <template>
   <div>
     <Header />
-    <nuxt />
+    <div class="container-extra-large">
+      <nuxt />
+    </div>
     <Footer />
   </div>
 </template>
 <script>
-import Header from '~/components/Header'
-import Footer from '~/components/Footer'
+import Header from "~/components/Header";
+import Footer from "~/components/Footer";
 
 export default {
-  components: { Header, Footer },
-}
+  components: { Header, Footer }
+};
 </script>

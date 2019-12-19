@@ -24,7 +24,7 @@
                   <nuxt-link class="nav-anchor" to="/">About</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link class="nav-anchor" to="/projects/featured/">Projects</nuxt-link>
+                  <nuxt-link class="nav-anchor" to="/projects/">Projects</nuxt-link>
                 </li>
                 <li>
                   <nuxt-link class="nav-anchor" to="/knowledge/">Knowledge</nuxt-link>

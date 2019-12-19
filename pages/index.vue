@@ -1,5 +1,5 @@
 <template>
-  <main class="container-extra-large">
+  <div>
     <div class="hero">
       <h1 class="hero-highlight">
         Hey, I’m a creative technologist from São Paulo, Brazil.
@@ -31,10 +31,10 @@
         <div class="col-12 margin-bottom-2">
           <Figure
             :large="true"
-            :title="featuredProject.title"
-            :description="featuredProject.description"
-            :image="`projects/${featuredProject.slug}/${featuredProject.image}`"
-            :color="featuredProject.color"
+            :title="lastFeaturedProject.title"
+            :description="lastFeaturedProject.description"
+            :image="`projects/${lastFeaturedProject.slug}/${lastFeaturedProject.image}`"
+            :color="lastFeaturedProject.color"
           />
         </div>
       </div>
@@ -51,7 +51,7 @@
       <div class="row">
         <div
           class="col-6 tp:col-4 tl:col-3 margin-bottom-1"
-          v-for="project in distinctProjectsByPartner"
+          v-for="project in projectsByDistinctPartner"
         >
           <a
             class="partner-anchor"
@@ -86,27 +86,21 @@
                 class="skill-description"
               >I’m able to work with design teams to take designs from mockup to implementation in a structured way.</p>
             </div>
-          </div>
 
-          <div class="row">
             <div class="col-12 margin-bottom-2">
               <h3 class="skill-title">Problem solving</h3>
               <p
                 class="skill-description"
               >I can take vague problems and requirements and break them down into technical steps and solutions.</p>
             </div>
-          </div>
 
-          <div class="row">
             <div class="col-12 margin-bottom-2">
               <h3 class="skill-title">System thinking</h3>
               <p
                 class="skill-description"
               >I’m good at thinking abstractly and putting together systems with many moving parts.</p>
             </div>
-          </div>
 
-          <div class="row">
             <div class="col-12 margin-bottom-2">
               <h3 class="skill-title">Organizing</h3>
               <p class="skill-description">
@@ -177,44 +171,23 @@
         </div>
       </div>
     </section>
-  </main>
+  </div>
 </template>
 
 <script>
-import Arrow from "~/components/Arrow";
-import Figure from "~/components/Figure";
-import slugs from "~/contents/projects.js";
+import markdownReader from "~/contents/projects.js";
 
 export default {
-  async asyncData({ app }) {
-    async function asyncImport(slug) {
-      const md = await import(`~/contents/projects/${slug}.md`);
-      return md.attributes;
-    }
+  async asyncData(context) {
+    const lastFeaturedProject = await markdownReader.getLastFeaturedProject();
+    const projectsByDistinctPartner = await markdownReader.getProjectsByDistinctPartner();
+    const recentProjects = await markdownReader.getRecentProjects();
 
-    return Promise.all(slugs.map(slug => asyncImport(slug))).then(response => {
-      return {
-        projects: response
-      };
-    });
-  },
-
-  components: { Arrow, Figure },
-
-  computed: {
-    featuredProject() {
-      return this.projects.find(p => p.featured === true);
-    },
-
-    distinctProjectsByPartner() {
-      return this.projects.filter((e, i, projects) => {
-        return projects.map(p => p.partner).indexOf(e.partner) === i;
-      });
-    },
-
-    recentProjects() {
-      return this.projects.slice(0, 4);
-    }
+    return {
+      lastFeaturedProject,
+      projectsByDistinctPartner,
+      recentProjects
+    };
   },
 
   methods: {
