@@ -21,7 +21,11 @@
                 <div class="nav-wrapper">
                   <ul class="nav">
                     <li>
-                      <nuxt-link class="nav-anchor" to="/projects/" exact>All 15 projects</nuxt-link>
+                      <nuxt-link
+                        class="nav-anchor"
+                        to="/projects/"
+                        exact
+                      >All {{ rowCount }} projects</nuxt-link>
                     </li>
                     <li>
                       <nuxt-link class="nav-anchor" to="/projects/featured/">Featured projects</nuxt-link>
@@ -158,8 +162,8 @@ export default {
     const featured = path.includes("featured") ? true : null;
     const category = path.includes("category") ? params.id : null;
     const tag = path.includes("tag") ? params.id : null;
-    const year = path.includes("year") ? params.id : null;
-    const page = query.page ? query.page : 1;
+    const year = path.includes("year") ? parseInt(params.id) : null;
+    const page = query.page ? parseInt(query.page) : 1;
 
     const projectsPage = await projectRepository.asyncGetPage(
       featured,
@@ -173,10 +177,12 @@ export default {
       return {
         projects: projectsPage.projects,
         currentPage: projectsPage.currentPage,
-        pageCount: projectsPage.pageCount
+        pageCount: projectsPage.pageCount,
+        rowCount: projectsPage.rowCount
       };
     } else {
       context.error({ statusCode: 404 });
+      return false;
     }
   },
 

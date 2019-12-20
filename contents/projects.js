@@ -52,7 +52,13 @@ export default {
   },
 
   async asyncGetPage(featured, category, tag, year, page) {
+    if (isNaN(page) || isNaN(year)) {
+      return false;
+    }
+
     let projects = await this.asyncGetAll();
+
+    const rowCount = projects.length;
 
     if (featured) {
       projects = projects.filter(p => p.featured === true)
@@ -70,7 +76,7 @@ export default {
     else if (year) {
       projects = projects.filter(p => {
         const published_at = new Date(p.published_at);
-        return published_at.getFullYear() == year;
+        return published_at.getFullYear() === year;
       })
     }
 
@@ -79,8 +85,8 @@ export default {
 
     if (projects.length === 0) {
       return false;
-    } else {
-      return { projects: projects, currentPage: page, pageCount: pageCount }
     }
+
+    return { projects: projects, currentPage: page, pageCount: pageCount, rowCount: rowCount }
   }
 }
