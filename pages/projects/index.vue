@@ -150,10 +150,6 @@ import projectRepository from "~/contents/projects.js";
 export default {
   watchQuery: ["page"],
 
-  async validate(context) {
-    return true;
-  },
-
   async asyncData(context) {
     const route = context.route;
     const path = route.path;
@@ -163,7 +159,7 @@ export default {
     const category = path.includes("category") ? params.id : null;
     const tag = path.includes("tag") ? params.id : null;
     const year = path.includes("year") ? params.id : null;
-    const page = query.page ? parseInt(query.page) : 1;
+    const page = query.page ? query.page : 1;
 
     const projectsPage = await projectRepository.asyncGetPage(
       featured,

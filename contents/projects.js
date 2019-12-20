@@ -16,14 +16,14 @@ export default {
     ]
   },
 
-  async asyncImportProject(slug) {
+  async asyncImport(slug) {
     const md = await import(`~/contents/projects/${slug}.md`);
     return md.attributes;
   },
 
   async asyncGetAll() {
     const projects = await Promise.all(
-      this.getAllSlugs().map(slug => this.asyncImportProject(slug))
+      this.getAllSlugs().map(slug => this.asyncImport(slug))
     ).then(response => {
       return response;
     });
@@ -54,19 +54,24 @@ export default {
   async asyncGetPage(featured, category, tag, year, page) {
     let projects = await this.asyncGetAll();
 
-    console.log(projects)
-
     if (featured) {
       projects = projects.filter(p => p.featured === true)
     }
     else if (category) {
       projects = projects.filter(p => {
-        return p.categories && p.categories.includes(category);
+        return p.categories.includes(category);
       })
     }
     else if (tag) {
+      projects = projects.filter(p => {
+        return p.tags.includes(tag);
+      })
     }
     else if (year) {
+      projects = projects.filter(p => {
+        const published_at = new Date(p.published_at);
+        return published_at.getFullYear() == year;
+      })
     }
 
     const pageCount = Math.ceil(projects.length / 10);

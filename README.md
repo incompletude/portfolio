@@ -1,5 +1,5 @@
 # Knowledge
 
 traduzir para portugues
-terminar filtros da pagina de projetos
-validate page parameter em projetos
+criar enum com categorias tags e anos
+adicionar total de registros em projetos
