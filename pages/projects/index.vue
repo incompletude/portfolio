@@ -120,8 +120,8 @@
           <Figure
             :title="project.title"
             :description="project.description"
-            :href="`projects/${project.slug}`"
-            :image="`projects/${project.slug}/${project.image}`"
+            :href="`/projects/${project.slug}`"
+            :image="`/projects/${project.slug}/${project.image}`"
             :color="project.color"
           />
         </div>

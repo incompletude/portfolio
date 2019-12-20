@@ -33,8 +33,8 @@
             :large="true"
             :title="projectLastFeatured.title"
             :description="projectLastFeatured.description"
-            :href="`projects/${projectLastFeatured.slug}`"
-            :image="`projects/${projectLastFeatured.slug}/${projectLastFeatured.image}`"
+            :href="`/projects/${projectLastFeatured.slug}`"
+            :image="`/projects/${projectLastFeatured.slug}/${projectLastFeatured.image}`"
             :color="projectLastFeatured.color"
           />
         </div>
@@ -139,8 +139,8 @@
           <Figure
             :title="project.title"
             :description="project.description"
-            :href="`projects/${project.slug}`"
-            :image="`projects/${project.slug}/${project.image}`"
+            :href="`/projects/${project.slug}`"
+            :image="`/projects/${project.slug}/${project.image}`"
             :color="project.color"
           />
         </div>

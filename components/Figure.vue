@@ -51,7 +51,7 @@ export default {
 
   computed: {
     imageSource() {
-      return require(`../assets/images/${this.image}`);
+      return require(`../assets/images${this.image}`);
     },
     figureClass() {
       return {
@@ -73,7 +73,7 @@ export default {
 .image {
   .relative;
   .block;
-  .background-gray-77;
+  .background-gray-21;
 
   height: 288px; // 12 * 24
   .on-tablet-portrait({height: 336px;}); // (12 + 2) * 24
