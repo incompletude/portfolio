@@ -1,6 +1,6 @@
 <template>
   <figure class="figure" :class="figureClass">
-    <a class="image" href="/projects/">
+    <nuxt-link class="image" :to="href">
       <div class="image-background" v-lazy:background-image="imageSource"></div>
       <div v-if="!large" class="image-overlay" :style="overlayStyle">
         <h2 class="overlay-title">
@@ -9,11 +9,11 @@
         </h2>
         <h3 class="overlay-description">{{ description }}</h3>
       </div>
-    </a>
+    </nuxt-link>
 
     <figcaption class="figcaption">
       <h2>
-        <a class="figcaption-title" href="/projects/">{{ title }}</a>
+        <nuxt-link class="figcaption-title" :to="href">{{ title }}</nuxt-link>
       </h2>
       <h3 class="figcaption-description">{{ description }}</h3>
     </figcaption>
@@ -32,6 +32,10 @@ export default {
       required: true
     },
     description: {
+      type: String,
+      required: true
+    },
+    href: {
       type: String,
       required: true
     },

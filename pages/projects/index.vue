@@ -116,6 +116,7 @@
           <Figure
             :title="project.title"
             :description="project.description"
+            :href="`projects/${project.slug}`"
             :image="`projects/${project.slug}/${project.image}`"
             :color="project.color"
           />
@@ -144,13 +145,12 @@
 </template>
 
 <script>
-import markdownReader from "~/contents/projects.js";
+import projectRepository from "~/contents/projects.js";
 
 export default {
   watchQuery: ["page"],
 
   async validate(context) {
-    // todo: validate page
     return true;
   },
 
@@ -159,14 +159,13 @@ export default {
     const path = route.path;
     const params = route.params;
     const query = route.query;
-
     const featured = path.includes("featured") ? true : null;
     const category = path.includes("category") ? params.id : null;
     const tag = path.includes("tag") ? params.id : null;
     const year = path.includes("year") ? params.id : null;
     const page = query.page ? parseInt(query.page) : 1;
 
-    const pagedProjects = await markdownReader.asyncGetPagedProjects(
+    const projectsPage = await projectRepository.asyncGetPage(
       featured,
       category,
       tag,
@@ -174,11 +173,11 @@ export default {
       page
     );
 
-    if (pagedProjects) {
+    if (projectsPage) {
       return {
-        projects: pagedProjects.projects,
-        currentPage: pagedProjects.currentPage,
-        pageCount: pagedProjects.pageCount
+        projects: projectsPage.projects,
+        currentPage: projectsPage.currentPage,
+        pageCount: projectsPage.pageCount
       };
     } else {
       context.error({ statusCode: 404 });

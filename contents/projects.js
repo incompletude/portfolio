@@ -21,7 +21,7 @@ export default {
     return md.attributes;
   },
 
-  async asyncGetAllProjects() {
+  async asyncGetAll() {
     const projects = await Promise.all(
       this.getAllSlugs().map(slug => this.asyncImportProject(slug))
     ).then(response => {
@@ -31,32 +31,38 @@ export default {
     return projects;
   },
 
-  async asyncGetLastFeaturedProject() {
-    const projects = await this.asyncGetAllProjects();
+  async asyncFindLastFeatured() {
+    const projects = await this.asyncGetAll();
 
-    return projects.find(project => project.featured === true);
+    return projects.find(p => p.featured === true);
   },
 
-  async asyncGetProjectsByDistinctPartner() {
-    const projects = await this.asyncGetAllProjects();
+  async asyncGetByDistinctPartner() {
+    const projects = await this.asyncGetAll();
 
     return projects.filter((e, i, arr) => {
       return arr.map(p => p.partner).indexOf(e.partner) === i;
     });
   },
 
-  async asyncGetRecentProjects() {
-    const projects = await this.asyncGetAllProjects();
+  async asyncGetRecent() {
+    const projects = await this.asyncGetAll();
 
     return projects.slice(0, 4);
   },
 
-  async asyncGetPagedProjects(featured, category, tag, year, page) {
-    let projects = await this.asyncGetAllProjects();
+  async asyncGetPage(featured, category, tag, year, page) {
+    let projects = await this.asyncGetAll();
+
+    console.log(projects)
 
     if (featured) {
+      projects = projects.filter(p => p.featured === true)
     }
     else if (category) {
+      projects = projects.filter(p => {
+        return p.categories && p.categories.includes(category);
+      })
     }
     else if (tag) {
     }

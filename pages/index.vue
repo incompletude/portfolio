@@ -31,10 +31,11 @@
         <div class="col-12 margin-bottom-2">
           <Figure
             :large="true"
-            :title="lastFeaturedProject.title"
-            :description="lastFeaturedProject.description"
-            :image="`projects/${lastFeaturedProject.slug}/${lastFeaturedProject.image}`"
-            :color="lastFeaturedProject.color"
+            :title="projectLastFeatured.title"
+            :description="projectLastFeatured.description"
+            :href="`projects/${projectLastFeatured.slug}`"
+            :image="`projects/${projectLastFeatured.slug}/${projectLastFeatured.image}`"
+            :color="projectLastFeatured.color"
           />
         </div>
       </div>
@@ -134,10 +135,11 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 tp:col-6 margin-bottom-2" v-for="project in recentProjects">
+        <div class="col-12 tp:col-6 margin-bottom-2" v-for="project in projectsRecent">
           <Figure
             :title="project.title"
             :description="project.description"
+            :href="`projects/${project.slug}`"
             :image="`projects/${project.slug}/${project.image}`"
             :color="project.color"
           />
@@ -175,18 +177,18 @@
 </template>
 
 <script>
-import markdownReader from "~/contents/projects.js";
+import projectRepository from "~/contents/projects.js";
 
 export default {
   async asyncData(context) {
-    const lastFeaturedProject = await markdownReader.asyncGetLastFeaturedProject();
-    const projectsByDistinctPartner = await markdownReader.asyncGetProjectsByDistinctPartner();
-    const recentProjects = await markdownReader.asyncGetRecentProjects();
+    const projectLastFeatured = await projectRepository.asyncFindLastFeatured();
+    const projectsByDistinctPartner = await projectRepository.asyncGetByDistinctPartner();
+    const projectsRecent = await projectRepository.asyncGetRecent();
 
     return {
-      lastFeaturedProject,
+      projectLastFeatured,
       projectsByDistinctPartner,
-      recentProjects
+      projectsRecent
     };
   },
 
