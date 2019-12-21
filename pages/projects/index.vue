@@ -3,15 +3,11 @@
     <div class="col-12 margin-top-2 tl:col-3 tl:margin-bottom-3">
       <aside class="row">
         <div class="col-12 margin-bottom-2 tl:none">
-          <header class="heading">
-            <div>
-              <p class="heading-title">Filter projects</p>
-              <p class="heading-description">By category, tag or year</p>
-            </div>
-            <div class="arrow-wrapper" @click="onHeadingArrowClick">
-              <Arrow />
-            </div>
-          </header>
+          <HeadingArrow
+            title="Filter projects"
+            description="By category, tag or year"
+            @arrow-click="onHeadingArrowClick"
+          />
         </div>
 
         <div class="col-12">
@@ -25,7 +21,7 @@
                         class="nav-anchor"
                         to="/projects/"
                         exact
-                      >All {{ rowCount }} projects</nuxt-link>
+                      >All {{ projectsCount }} projects</nuxt-link>
                     </li>
                     <li>
                       <nuxt-link class="nav-anchor" to="/projects/featured/">Featured projects</nuxt-link>
@@ -178,7 +174,7 @@ export default {
         projects: projectsPage.projects,
         currentPage: projectsPage.currentPage,
         pageCount: projectsPage.pageCount,
-        rowCount: projectsPage.rowCount
+        projectsCount: projectsPage.projectsCount
       };
     } else {
       context.error({ statusCode: 404 });
@@ -231,24 +227,6 @@ export default {
   &:hover {
     .color-green-42;
   }
-}
-
-// heading
-
-.heading {
-  .flex;
-  .justify-between;
-  .items-center;
-}
-
-.heading-title {
-  .maison-neue-300-22\/32;
-  .color-gray-77;
-}
-
-.heading-description {
-  .maison-neue-300-20\/32;
-  .color-gray-21;
 }
 
 // pagination

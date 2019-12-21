@@ -8,10 +8,12 @@
       <p class="hero-description">Have a project you’d like to discuss?</p>
       <p class="hero-description">
         Let’s chat
-        <Anchor
+        <a
           class="hero-description-mail"
           href="mailto:contato@andrefreitas.dev"
-        >contato@andrefreitas.dev</Anchor>
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+        >contato@andrefreitas.dev</a>
       </p>
       <div class="hero-arrow" @click="onHeroArrowClick">
         <Arrow :bounce="true" />
@@ -54,7 +56,12 @@
           class="col-6 tp:col-4 tl:col-3 margin-bottom-1"
           v-for="project in projectsByDistinctPartner"
         >
-          <Anchor class="partner-anchor" :href="project.site">{{ project.partner }}</Anchor>
+          <a
+            class="partner-anchor"
+            :href="project.site"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >{{ project.partner }}</a>
         </div>
       </div>
     </section>
@@ -101,8 +108,18 @@
               <h3 class="skill-title">Organizing</h3>
               <p class="skill-description">
                 I’m good at organizing projects using tools like
-                <Anchor class="skill-description-anchor" href="https://www.notion.so">Notion</Anchor>&nbsp;and&nbsp;
-                <Anchor class="skill-description-anchor" href="https://jira.atlassian.com">Jira</Anchor>, present projects in a well-structured manner, and work to deadlines.
+                <a
+                  class="skill-description-anchor"
+                  href="https://www.notion.so"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >Notion</a> and
+                <a
+                  class="skill-description-anchor"
+                  href="https://jira.atlassian.com"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >Jira</a>, present projects in a well-structured manner, and work to deadlines.
               </p>
             </div>
           </div>
@@ -150,10 +167,12 @@
           >If you have an application you are interested in developing, a problem that needs solving or a project that needs rescuing, I’d love to help you with it.</p>
           <p class="hire-description">
             Let’s chat
-            <Anchor
+            <a
               class="hire-description-mail"
               href="mailto:contato@andrefreitas.dev"
-            >contato@andrefreitas.dev</Anchor>
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >contato@andrefreitas.dev</a>
           </p>
         </div>
       </div>

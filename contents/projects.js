@@ -58,7 +58,7 @@ export default {
 
     let projects = await this.asyncGetAll();
 
-    const rowCount = projects.length;
+    const projectsCount = projects.length;
 
     if (featured) {
       projects = projects.filter(p => p.featured === true)
@@ -87,6 +87,6 @@ export default {
       return false;
     }
 
-    return { projects: projects, currentPage: page, pageCount: pageCount, rowCount: rowCount }
+    return { projects: projects, currentPage: page, pageCount: pageCount, projectsCount: projectsCount }
   }
 }

@@ -32,7 +32,7 @@ export default {
         setTimeout(() => (this.height = "auto"), 150);
       } else {
         this.height = `${this.$refs.accordion.scrollHeight}px`;
-        setTimeout(() => (this.height = `0px`), 1);
+        setTimeout(() => (this.height = "0px"), 1);
         setTimeout(() => (this.height = null), 150);
       }
     }
