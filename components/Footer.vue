@@ -6,7 +6,10 @@
           <div class="col-12 tp:col-6 margin-top-3 margin-bottom-2">
             <div class="brand">
               <h1 class="brand-name">André Freitas</h1>
-              <a class="brand-mail" href="mailto:contato@andrefreitas.dev">contato@andrefreitas.dev</a>
+              <Anchor
+                class="brand-mail"
+                href="mailto:contato@andrefreitas.dev"
+              >contato@andrefreitas.dev</Anchor>
               <p class="brand-description">
                 I’m a brazilian product owner, full stack developer & UI/UX
                 designer. I can help you build and grow your next product.
@@ -38,13 +41,13 @@
               <h2 class="nav-name">Contact</h2>
               <ul class="nav">
                 <li>
-                  <a
+                  <Anchor
                     class="nav-anchor"
                     href="mailto:contato@andrefreitas.dev"
-                  >contato@andrefreitas.dev</a>
+                  >contato@andrefreitas.dev</Anchor>
                 </li>
                 <li>
-                  <a class="nav-anchor" href="skype:live:andrevieiradefreitas">Skype</a>
+                  <Anchor class="nav-anchor" href="skype:live:andrevieiradefreitas">Skype</Anchor>
                 </li>
               </ul>
             </div>
@@ -55,20 +58,13 @@
               <h2 class="nav-name">Social</h2>
               <ul class="nav">
                 <li>
-                  <a
-                    class="nav-anchor"
-                    href="https://github.com/incompletude"
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
-                  >Github</a>
+                  <Anchor class="nav-anchor" href="https://github.com/incompletude">Github</Anchor>
                 </li>
                 <li>
-                  <a
+                  <Anchor
                     class="nav-anchor"
                     href="https://www.linkedin.com/in/incompletude/"
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
-                  >LinkedIn</a>
+                  >LinkedIn</Anchor>
                 </li>
               </ul>
             </div>

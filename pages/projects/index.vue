@@ -5,7 +5,7 @@
         <div class="col-12 margin-bottom-2 tl:none">
           <header class="heading">
             <div>
-              <h2 class="heading-title">Filter projects</h2>
+              <p class="heading-title">Filter projects</p>
               <p class="heading-description">By category, tag or year</p>
             </div>
             <div class="arrow-wrapper" @click="onHeadingArrowClick">
@@ -15,7 +15,7 @@
         </div>
 
         <div class="col-12">
-          <div class="accordion" ref="accordion" :style="accordionStyle">
+          <Accordion :active="accordionActive">
             <div class="row">
               <div class="col-12 margin-bottom-2">
                 <div class="nav-wrapper">
@@ -36,7 +36,7 @@
 
               <div class="col-12 tp:col-4 tl:col-12 margin-bottom-2">
                 <div class="nav-wrapper">
-                  <h2 class="nav-name">Category</h2>
+                  <p class="nav-name">Category</p>
                   <ul class="nav">
                     <li>
                       <nuxt-link class="nav-anchor" to="/projects/category/client-work/">Client work</nuxt-link>
@@ -59,7 +59,7 @@
 
               <div class="col-12 tp:col-4 tl:col-12 margin-bottom-2">
                 <div class="nav-wrapper">
-                  <h2 class="nav-name">Tag</h2>
+                  <p class="nav-name">Tag</p>
                   <ul class="nav">
                     <li>
                       <nuxt-link class="nav-anchor" to="/projects/tag/backend/">Backend</nuxt-link>
@@ -85,7 +85,7 @@
 
               <div class="col-12 tp:col-4 tl:col-12 margin-bottom-2">
                 <div class="nav-wrapper">
-                  <h2 class="nav-name">Year</h2>
+                  <p class="nav-name">Year</p>
                   <ul class="nav">
                     <li>
                       <nuxt-link class="nav-anchor" to="/projects/year/2019/">2019</nuxt-link>
@@ -109,7 +109,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </Accordion>
         </div>
       </aside>
     </div>
@@ -187,29 +187,12 @@ export default {
   },
 
   data() {
-    return { accordionActive: false, accordionHeight: null };
-  },
-
-  computed: {
-    accordionStyle() {
-      return {
-        height: this.accordionHeight
-      };
-    }
+    return { accordionActive: false };
   },
 
   methods: {
     onHeadingArrowClick(event) {
-      if (this.accordionActive) {
-        this.accordionActive = false;
-        this.accordionHeight = `${this.$refs.accordion.scrollHeight}px`;
-        setTimeout(() => (this.accordionHeight = `0px`), 1);
-        setTimeout(() => (this.accordionHeight = null), 150);
-      } else {
-        this.accordionActive = true;
-        this.accordionHeight = `${this.$refs.accordion.scrollHeight}px`;
-        setTimeout(() => (this.accordionHeight = "auto"), 150);
-      }
+      this.accordionActive = !this.accordionActive;
     }
   },
 
@@ -266,18 +249,6 @@ export default {
 .heading-description {
   .maison-neue-300-20\/32;
   .color-gray-21;
-}
-
-// accordion
-
-.accordion {
-  .height-0;
-  .overflow-hidden;
-  .transition-height;
-  .transition-fast;
-  .transition-linear;
-
-  .on-tablet-landscape({.height-auto;});
 }
 
 // pagination
