@@ -16,7 +16,7 @@
         >contato@andrefreitas.dev</a>
       </p>
       <div class="hero-arrow" @click="onHeroArrowClick">
-        <Arrow :bounce="true" />
+        <v-arrow color="dark" direction="down" :bounce="true" />
       </div>
     </div>
 
@@ -31,8 +31,8 @@
 
       <div class="row">
         <div class="col-12 margin-bottom-2">
-          <Figure
-            :large="true"
+          <v-figure
+            size="large"
             :title="projectFeatured.title"
             :description="projectFeatured.description"
             :href="`/projects/${projectFeatured.slug}`"
@@ -135,7 +135,8 @@
       </div>
       <div class="row">
         <div class="col-12 tp:col-6 margin-bottom-2" v-for="project in projectsRecent">
-          <Figure
+          <v-figure
+            size="medium"
             :title="project.title"
             :description="project.description"
             :href="`/projects/${project.slug}`"
@@ -200,7 +201,7 @@ export default {
     }
   },
 
-  mounted() {}
+  mounted() { }
 };
 </script>
 

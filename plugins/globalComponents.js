@@ -1,8 +1,10 @@
 import Vue from "vue";
 import Arrow from "~/components/Arrow.vue";
+import Image from "~/components/Image.vue";
 import Figure from "~/components/Figure.vue";
 import Accordion from "~/components/Accordion.vue";
 
-Vue.component("Arrow", Arrow);
-Vue.component("Figure", Figure);
-Vue.component("Accordion", Accordion);
+Vue.component("v-arrow", Arrow);
+Vue.component("v-figure", Figure);
+Vue.component("v-image", Image);
+Vue.component("v-accordion", Accordion);

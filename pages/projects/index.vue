@@ -9,13 +9,13 @@
               <p class="heading-description">By category, tag or year</p>
             </div>
             <div class="arrow-wrapper" @click="onHeadingArrowClick">
-              <Arrow />
+              <v-arrow color="dark" direction="down" />
             </div>
           </header>
         </div>
 
         <div class="col-12">
-          <Accordion :active="accordionActive">
+          <v-accordion :active="accordionActive">
             <div class="row">
               <div class="col-12 margin-bottom-2">
                 <div class="nav-wrapper">
@@ -73,7 +73,7 @@
                 </div>
               </div>
             </div>
-          </Accordion>
+          </v-accordion>
         </div>
       </aside>
     </div>
@@ -81,7 +81,8 @@
     <div class="col-12 margin-bottom-3 tl:col-9 tl:margin-top-2">
       <div class="row">
         <div class="col-12 tp:col-6 margin-bottom-2" v-for="project in projects">
-          <Figure
+          <v-figure
+            size="medium"
             :title="project.title"
             :description="project.description"
             :href="`/projects/${project.slug}`"

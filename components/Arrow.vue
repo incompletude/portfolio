@@ -1,5 +1,5 @@
 <template>
-  <div class="arrow" :class="arrowClass">
+  <div class="arrow" :class="[color, direction, bounce ? 'bounce' : '']">
     <span class="arrow-bar"></span>
     <span class="arrow-bar"></span>
   </div>
@@ -8,27 +8,21 @@
 <script>
 export default {
   props: {
-    up: {
-      type: Boolean,
-      default: false
+    color: {
+      validator(value) {
+        return ["light", "dark"].indexOf(value) > -1
+      },
+      required: true
     },
-    lighter: {
-      type: Boolean,
-      default: false
+    direction: {
+      validator(value) {
+        return ["up", "down"].indexOf(value) > -1
+      },
+      required: true
     },
     bounce: {
       type: Boolean,
       default: false
-    }
-  },
-
-  computed: {
-    arrowClass() {
-      return {
-        up: this.up,
-        lighter: this.lighter,
-        bounce: this.bounce
-      };
     }
   }
 };
@@ -61,7 +55,7 @@ export default {
   .background-gray-77;
   .pointer-events-none;
 
-  .arrow.lighter & {
+  .arrow.light & {
     .background-gray-21;
   }
 

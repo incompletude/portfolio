@@ -1,10 +1,10 @@
 <template>
   <div>
-    <Header />
+    <v-header />
     <div class="container-extra-large">
       <nuxt />
     </div>
-    <Footer />
+    <v-footer />
   </div>
 </template>
 <script>
@@ -12,6 +12,6 @@ import Header from "~/components/Header";
 import Footer from "~/components/Footer";
 
 export default {
-  components: { Header, Footer }
+  components: { "v-header": Header, "v-footer": Footer }
 };
 </script>

@@ -3,7 +3,7 @@
     <div class="stripe"></div>
 
     <div class="arrow-wrapper" :class="arrowClass" @click="onArrowClick">
-      <Arrow :lighter="true" :up="true" />
+      <v-arrow color="light" direction="up" />
     </div>
 
     <div class="container-extra-large">
