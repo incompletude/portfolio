@@ -3,11 +3,15 @@
     <div class="col-12 margin-top-2 tl:col-3 tl:margin-bottom-3">
       <aside class="row">
         <div class="col-12 margin-bottom-2 tl:none">
-          <HeadingArrow
-            title="Filter projects"
-            description="By category, tag or year"
-            @arrow-click="onHeadingArrowClick"
-          />
+          <header class="heading">
+            <div>
+              <p class="heading-title">Filter projects</p>
+              <p class="heading-description">By category, tag or year</p>
+            </div>
+            <div class="arrow-wrapper" @click="onHeadingArrowClick">
+              <Arrow />
+            </div>
+          </header>
         </div>
 
         <div class="col-12">
@@ -34,20 +38,11 @@
                 <div class="nav-wrapper">
                   <p class="nav-name">Category</p>
                   <ul class="nav">
-                    <li>
-                      <nuxt-link class="nav-anchor" to="/projects/category/client-work/">Client work</nuxt-link>
-                    </li>
-                    <li>
+                    <li v-for="category in categories">
                       <nuxt-link
                         class="nav-anchor"
-                        to="/projects/category/product-development/"
-                      >Product development</nuxt-link>
-                    </li>
-                    <li>
-                      <nuxt-link
-                        class="nav-anchor"
-                        to="/projects/category/product-management/"
-                      >Product management</nuxt-link>
+                        :to="`/projects/category/${category.key}/`"
+                      >{{ category.value }}</nuxt-link>
                     </li>
                   </ul>
                 </div>
@@ -57,23 +52,11 @@
                 <div class="nav-wrapper">
                   <p class="nav-name">Tag</p>
                   <ul class="nav">
-                    <li>
-                      <nuxt-link class="nav-anchor" to="/projects/tag/backend/">Backend</nuxt-link>
-                    </li>
-                    <li>
-                      <nuxt-link class="nav-anchor" to="/projects/tag/database/">Database</nuxt-link>
-                    </li>
-                    <li>
-                      <nuxt-link class="nav-anchor" to="/projects/tag/design-system/">Design system</nuxt-link>
-                    </li>
-                    <li>
-                      <nuxt-link class="nav-anchor" to="/projects/tag/frontend/">Frontend</nuxt-link>
-                    </li>
-                    <li>
-                      <nuxt-link class="nav-anchor" to="/projects/tag/tech-lead/">Tech lead</nuxt-link>
-                    </li>
-                    <li>
-                      <nuxt-link class="nav-anchor" to="/projects/tag/ui-ux/">UI/UX</nuxt-link>
+                    <li v-for="tag in tags">
+                      <nuxt-link
+                        class="nav-anchor"
+                        :to="`/projects/tag/${tag.key}/`"
+                      >{{ tag.value }}</nuxt-link>
                     </li>
                   </ul>
                 </div>
@@ -83,23 +66,8 @@
                 <div class="nav-wrapper">
                   <p class="nav-name">Year</p>
                   <ul class="nav">
-                    <li>
-                      <nuxt-link class="nav-anchor" to="/projects/year/2019/">2019</nuxt-link>
-                    </li>
-                    <li>
-                      <nuxt-link class="nav-anchor" to="/projects/year/2018/">2018</nuxt-link>
-                    </li>
-                    <li>
-                      <nuxt-link class="nav-anchor" to="/projects/year/2017/">2017</nuxt-link>
-                    </li>
-                    <li>
-                      <nuxt-link class="nav-anchor" to="/projects/year/2016/">2016</nuxt-link>
-                    </li>
-                    <li>
-                      <nuxt-link class="nav-anchor" to="/projects/year/2015/">2015</nuxt-link>
-                    </li>
-                    <li>
-                      <nuxt-link class="nav-anchor" to="/projects/year/2014/">2014</nuxt-link>
+                    <li v-for="year in years">
+                      <nuxt-link class="nav-anchor" :to="`/projects/year/${year}/`">{{ year }}</nuxt-link>
                     </li>
                   </ul>
                 </div>
@@ -145,23 +113,28 @@
 </template>
 
 <script>
-import projectRepository from "~/contents/projects.js";
+import ProjectFactory from "~/contents/projects.js";
 
 export default {
   watchQuery: ["page"],
 
   async asyncData(context) {
     const route = context.route;
-    const path = route.path;
-    const params = route.params;
-    const query = route.query;
-    const featured = path.includes("featured") ? true : null;
-    const category = path.includes("category") ? params.id : null;
-    const tag = path.includes("tag") ? params.id : null;
-    const year = path.includes("year") ? parseInt(params.id) : null;
-    const page = query.page ? parseInt(query.page) : 1;
+    const routePath = route.path;
+    const routeParams = route.params;
+    const routeQuery = route.query;
 
-    const projectsPage = await projectRepository.asyncGetPage(
+    const featured = routePath.includes("featured") ? true : null;
+    const category = routePath.includes("category") ? routeParams.id : null;
+    const tag = routePath.includes("tag") ? routeParams.id : null;
+    const year = routePath.includes("year") ? parseInt(routeParams.id) : null;
+    const page = routeQuery.page ? parseInt(routeQuery.page) : 1;
+
+    const projectFactory = await new ProjectFactory();
+    const categories = projectFactory.getDistinctCategories();
+    const tags = projectFactory.getDistinctTags();
+    const years = projectFactory.getDistinctYears();
+    const projectsPage = projectFactory.getPage(
       featured,
       category,
       tag,
@@ -171,7 +144,10 @@ export default {
 
     if (projectsPage) {
       return {
-        projects: projectsPage.projects,
+        categories: categories,
+        tags: tags,
+        years: years,
+        projects: projectsPage.projects.map(p => p.attributes),
         currentPage: projectsPage.currentPage,
         pageCount: projectsPage.pageCount,
         projectsCount: projectsPage.projectsCount
@@ -201,13 +177,25 @@ export default {
 </script>
 
 <style lang="less" scoped>
-// nav
+// heading
 
-.nav {
-  .transition-height;
-  .transition-fast;
-  .transition-linear;
+.heading {
+  .flex;
+  .justify-between;
+  .items-center;
 }
+
+.heading-title {
+  .maison-neue-300-22\/32;
+  .color-gray-77;
+}
+
+.heading-description {
+  .maison-neue-300-20\/32;
+  .color-gray-21;
+}
+
+// nav
 
 .nav-name {
   .padding-bottom-1\/2;

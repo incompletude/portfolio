@@ -1,19 +1,19 @@
 ---
-slug: 'remessa-online'
-title: 'Remessa Online'
-description: 'International money transfer service plataform'
-image: 'remessa-online.jpg'
-color: '#002a5c'
-partner: 'Remessa Online'
-site: 'https://www.remessaonline.com.br'
+slug: "remessa-online"
+title: "Remessa Online"
+description: "International money transfer service plataform"
+image: "remessa-online.jpg"
+color: "#002a5c"
+partner: "Remessa Online"
+site: "https://www.remessaonline.com.br"
 featured: true
-published_at: '15 Dec 2019'
+year: 2019
 categories:
-  - 'product-management'
+  product-management: "Product management"
 tags:
-  - 'backend'
-  - 'frontend'
-  - 'ui-ux'
+  backend: "Backend"
+  frontend: "Frontend"
+  ui-ux: "UI/UX"
 ---
 Bacon ipsum dolor amet spare ribs ham t-bone buffalo prosciutto, frankfurter bresaola short ribs cupim ground round filet mignon shoulder pork chuck strip steak. Jowl biltong meatloaf ham hock alcatra hamburger pork chop andouille pastrami leberkas frankfurter short ribs bacon venison. Shoulder pork belly andouille burgdoggen, rump bacon boudin tongue drumstick jowl porchetta fatback cow picanha. Tri-tip sirloin venison, corned beef boudin strip steak shank ham hock ball tip andouille tongue turkey brisket landjaeger ground round. Biltong corned beef pork ham, cupim sirloin ribeye. Leberkas corned beef rump fatback prosciutto burgdoggen meatloaf kielbasa bresaola pig ham pork loin landjaeger picanha. Pastrami pork pork belly shoulder bresaola, chuck brisket flank boudin spare ribs alcatra ham picanha.
 

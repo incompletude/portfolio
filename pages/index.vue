@@ -33,11 +33,11 @@
         <div class="col-12 margin-bottom-2">
           <Figure
             :large="true"
-            :title="projectLastFeatured.title"
-            :description="projectLastFeatured.description"
-            :href="`/projects/${projectLastFeatured.slug}`"
-            :image="`/projects/${projectLastFeatured.slug}/${projectLastFeatured.image}`"
-            :color="projectLastFeatured.color"
+            :title="projectFeatured.title"
+            :description="projectFeatured.description"
+            :href="`/projects/${projectFeatured.slug}`"
+            :image="`/projects/${projectFeatured.slug}/${projectFeatured.image}`"
+            :color="projectFeatured.color"
           />
         </div>
       </div>
@@ -52,10 +52,7 @@
         </div>
       </div>
       <div class="row">
-        <div
-          class="col-6 tp:col-4 tl:col-3 margin-bottom-1"
-          v-for="project in projectsByDistinctPartner"
-        >
+        <div class="col-6 tp:col-4 tl:col-3 margin-bottom-1" v-for="project in projectsPartners">
           <a
             class="partner-anchor"
             :href="project.site"
@@ -181,18 +178,19 @@
 </template>
 
 <script>
-import projectRepository from "~/contents/projects.js";
+import ProjectFactory from "~/contents/projects.js";
 
 export default {
   async asyncData(context) {
-    const projectLastFeatured = await projectRepository.asyncFindLastFeatured();
-    const projectsByDistinctPartner = await projectRepository.asyncGetByDistinctPartner();
-    const projectsRecent = await projectRepository.asyncGetRecent();
+    const projectFactory = await new ProjectFactory();
+    const projectFeatured = projectFactory.findFeatured();
+    const projectsPartners = projectFactory.getByDistinctPartners();
+    const projectsRecent = projectFactory.getRecent();
 
     return {
-      projectLastFeatured,
-      projectsByDistinctPartner,
-      projectsRecent
+      projectFeatured: projectFeatured.attributes,
+      projectsPartners: projectsPartners.map(p => p.attributes),
+      projectsRecent: projectsRecent.map(p => p.attributes)
     };
   },
 

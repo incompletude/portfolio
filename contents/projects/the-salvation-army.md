@@ -1,18 +1,18 @@
 ---
-slug: 'the-salvation-army'
-title: 'The Salvation Army'
-description: 'Fundraising web sites'
-image: 'the-salvation-army.jpg'
-color: '#ef4746'
-partner: 'The Salvation Army'
-site: 'https://www.salvationarmy.org'
+slug: "the-salvation-army"
+title: "The Salvation Army"
+description: "Fundraising web sites"
+image: "the-salvation-army.jpg"
+color: "#ef4746"
+partner: "The Salvation Army"
+site: "https://www.salvationarmy.org"
 featured: false
-published_at: '20 Jul 2014'
+year: 2014
 categories:
-  - 'product-development'
+  product-development: "Product development"
 tags:
-  - 'tech-lead'
-  - 'ui-ux'
+  tech-lead: "Tech lead"
+  ui-ux: "UI/UX"
 ---
 Bacon ipsum dolor amet spare ribs ham t-bone buffalo prosciutto, frankfurter bresaola short ribs cupim ground round filet mignon shoulder pork chuck strip steak. Jowl biltong meatloaf ham hock alcatra hamburger pork chop andouille pastrami leberkas frankfurter short ribs bacon venison. Shoulder pork belly andouille burgdoggen, rump bacon boudin tongue drumstick jowl porchetta fatback cow picanha. Tri-tip sirloin venison, corned beef boudin strip steak shank ham hock ball tip andouille tongue turkey brisket landjaeger ground round. Biltong corned beef pork ham, cupim sirloin ribeye. Leberkas corned beef rump fatback prosciutto burgdoggen meatloaf kielbasa bresaola pig ham pork loin landjaeger picanha. Pastrami pork pork belly shoulder bresaola, chuck brisket flank boudin spare ribs alcatra ham picanha.
 

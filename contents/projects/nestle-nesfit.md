@@ -1,20 +1,20 @@
 ---
-slug: 'nestle-nesfit'
-title: 'Nesfit'
-description: 'Whole grain product line web site'
-image: 'nesfit.jpg'
-color: '#154063'
-partner: 'Nestlé'
-site: 'http://www.nesfit.com.br'
+slug: "nestle-nesfit"
+title: "Nesfit"
+description: "Whole grain product line web site"
+image: "nesfit.jpg"
+color: "#154063"
+partner: "Nestlé"
+site: "http://www.nesfit.com.br"
 featured: false
-published_at: '31 Oct 2017'
+year: 2017
 categories:
-  - 'client-work'
+  client-work: "Client work"
 tags:
-  - 'backend'
-  - 'frontend'
-  - 'tech-lead'
-  - 'ui-ux'
+  backend: "Backend"
+  frontend: "Frontend"
+  tech-lead: "Tech lead"
+  ui-ux: "UI/UX"
 ---
 Bacon ipsum dolor amet spare ribs ham t-bone buffalo prosciutto, frankfurter bresaola short ribs cupim ground round filet mignon shoulder pork chuck strip steak. Jowl biltong meatloaf ham hock alcatra hamburger pork chop andouille pastrami leberkas frankfurter short ribs bacon venison. Shoulder pork belly andouille burgdoggen, rump bacon boudin tongue drumstick jowl porchetta fatback cow picanha. Tri-tip sirloin venison, corned beef boudin strip steak shank ham hock ball tip andouille tongue turkey brisket landjaeger ground round. Biltong corned beef pork ham, cupim sirloin ribeye. Leberkas corned beef rump fatback prosciutto burgdoggen meatloaf kielbasa bresaola pig ham pork loin landjaeger picanha. Pastrami pork pork belly shoulder bresaola, chuck brisket flank boudin spare ribs alcatra ham picanha.
 
