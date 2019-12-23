@@ -167,14 +167,8 @@ export default {
     onHeadingArrowClick(event) {
       this.accordionActive = !this.accordionActive;
     }
-  },
-
-  head() {
-    return {
-      title: "Projects | André Freitas"
-    };
   }
-};
+}
 </script>
 
 <style lang="less" scoped>

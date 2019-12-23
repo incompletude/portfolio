@@ -4,7 +4,7 @@ import Mode from 'frontmatter-markdown-loader/mode'
 
 module.exports = {
   head: {
-    title: 'André Freitas | Product owner, full stack developer & UI/UX designer',
+    title: "André Freitas | Product owner, full stack developer & UI/UX designer",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no' },
@@ -13,6 +13,8 @@ module.exports = {
       { property: 'og:updated_time', content: builtAt }
     ]
   },
+
+  loading: false,
 
   router: {
     linkActiveClass: 'active',

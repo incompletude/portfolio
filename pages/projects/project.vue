@@ -81,8 +81,10 @@
         <div class="col-12 margin-bottom-2">
           <v-image size="large" :image="`/projects/${slug}/${image}`" />
         </div>
-        <div class="col-12">
-          <div class="post">test</div>
+        <div class="col-12 margin-bottom-2">
+          <client-only>
+            <v-dynamic-markdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
+          </client-only>
         </div>
       </div>
     </div>
@@ -110,7 +112,9 @@ export default {
         tags: Object.entries(project.attributes.tags).map(([slug, name]) => ({ slug, name })),
         year: project.attributes.year,
         site: project.attributes.site,
-        image: project.attributes.image
+        image: project.attributes.image,
+        renderFunc: `(${project.vue.render})`,
+        staticRenderFuncs: `[${project.vue.staticRenderFns}]`,
       };
     } else {
       context.error({ statusCode: 404 });
@@ -127,7 +131,7 @@ export default {
       this.accordionActive = !this.accordionActive;
     }
   }
-};
+}
 </script>
 
 <style lang="less" scoped>
@@ -170,6 +174,16 @@ export default {
   &.active,
   &:hover {
     .color-green-42;
+  }
+}
+</style>
+
+<style lang="less">
+.dynamicMarkdown {
+  & p {
+    .padding-bottom-1;
+    .maison-neue-300-20\/32;
+    .color-gray-77;
   }
 }
 </style>
