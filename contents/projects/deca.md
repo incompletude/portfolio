@@ -5,7 +5,7 @@ description: "Houseware manufacturer web app"
 image: "deca.jpg"
 color: "#0095b2"
 partner: "Deca"
-site: "https://www.deca.com.br"
+site: "https://deca.com.br"
 featured: false
 year: 2016
 categories:

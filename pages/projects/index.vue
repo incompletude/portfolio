@@ -41,8 +41,8 @@
                     <li v-for="category in categories">
                       <nuxt-link
                         class="nav-anchor"
-                        :to="`/projects/category/${category.key}/`"
-                      >{{ category.value }}</nuxt-link>
+                        :to="`/projects/category/${category.slug}/`"
+                      >{{ category.name }}</nuxt-link>
                     </li>
                   </ul>
                 </div>
@@ -55,8 +55,8 @@
                     <li v-for="tag in tags">
                       <nuxt-link
                         class="nav-anchor"
-                        :to="`/projects/tag/${tag.key}/`"
-                      >{{ tag.value }}</nuxt-link>
+                        :to="`/projects/tag/${tag.slug}/`"
+                      >{{ tag.name }}</nuxt-link>
                     </li>
                   </ul>
                 </div>
@@ -144,9 +144,9 @@ export default {
 
     if (projectsPage) {
       return {
-        categories: categories,
-        tags: tags,
-        years: years,
+        categories,
+        tags,
+        years,
         projects: projectsPage.projects.map(p => p.attributes),
         currentPage: projectsPage.currentPage,
         pageCount: projectsPage.pageCount,

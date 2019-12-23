@@ -5,7 +5,7 @@ description: "New product line ad campaign & web site"
 image: "tim.jpg"
 color: "#5bc3b3"
 partner: "TIM"
-site: "https://www.tim.com.br"
+site: "https://tim.com.br"
 featured: false
 year: 2016
 categories:

@@ -5,7 +5,7 @@ description: "Advertising agency institutional site"
 image: "mccann.jpg"
 color: "#c5d8c1"
 partner: "WMcCann"
-site: "https://www.wmccann.com"
+site: "https://wmccann.com"
 featured: false
 year: 2016
 categories:

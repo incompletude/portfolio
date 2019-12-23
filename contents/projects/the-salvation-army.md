@@ -5,7 +5,7 @@ description: "Fundraising web sites"
 image: "the-salvation-army.jpg"
 color: "#ef4746"
 partner: "The Salvation Army"
-site: "https://www.salvationarmy.org"
+site: "https://salvationarmy.org"
 featured: false
 year: 2014
 categories:

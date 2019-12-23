@@ -4,8 +4,8 @@ title: "Nesfit"
 description: "Whole grain product line web site"
 image: "nesfit.jpg"
 color: "#154063"
-partner: "Nestlé"
-site: "http://www.nesfit.com.br"
+partner: "Nesfit"
+site: "http://nesfit.com.br"
 featured: false
 year: 2017
 categories:

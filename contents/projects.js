@@ -38,28 +38,26 @@ class ProjectFactory {
     return projects;
   }
 
-  findFeatured() {
+  findByFeatured() {
     return this.projects.find(p => p.attributes.featured === true);
   }
 
-  getByDistinctPartners() {
-    return this.projects.filter((e, i, arr) => {
-      return arr.map(p => p.attributes.partner).indexOf(e.attributes.partner) === i;
-    });
+  getByPartners() {
+    return this.projects.slice(0, 12);
   }
 
-  getRecent() {
+  getByRecent() {
     return this.projects.slice(0, 4);
   }
 
   getDistinctCategories() {
     return Object.entries(Object.assign({}, ...this.projects.map(p => p.attributes.categories)))
-      .map(([key, value]) => ({ key, value })).sort((a, b) => (a.key > b.key) ? 1 : -1);
+      .map(([slug, name]) => ({ slug, name })).sort((a, b) => (a.slug > b.slug) ? 1 : -1);
   }
 
   getDistinctTags() {
     return Object.entries(Object.assign({}, ...this.projects.map(p => p.attributes.tags)))
-      .map(([key, value]) => ({ key, value })).sort((a, b) => (a.key > b.key) ? 1 : -1);
+      .map(([slug, name]) => ({ slug, name })).sort((a, b) => (a.slug > b.slug) ? 1 : -1);
   }
 
   getDistinctYears() {
@@ -74,7 +72,10 @@ class ProjectFactory {
     let projects = null;
 
     if (featured) projects = this.projects.filter(p => p.attributes.featured === true);
-    else if (category) projects = this.projects.filter(p => p.attributes.categories.hasOwnProperty(category));
+    else if (category) projects = this.projects.filter(p => {
+      console.log(p.attributes.categories)
+      return p.attributes.categories.hasOwnProperty(category)
+    });
     else if (tag) projects = this.projects.filter(p => p.attributes.tags.hasOwnProperty(tag));
     else if (year) projects = this.projects.filter(p => p.attributes.year === year);
     else projects = this.projects;

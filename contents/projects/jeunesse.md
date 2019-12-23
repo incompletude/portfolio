@@ -5,7 +5,7 @@ description: "Video streaming web app"
 image: "jeunesse.jpg"
 color: "#002a5c"
 partner: "Jeunesse"
-site: "https://www.jeunesseglobal.com"
+site: "https://jeunesseglobal.com"
 featured: false
 year: 2018
 categories:

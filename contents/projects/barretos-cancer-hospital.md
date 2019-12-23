@@ -5,7 +5,7 @@ description: "Fundraising web apps"
 image: "barretos-cancer-hospital.jpg"
 color: "#ec548c"
 partner: "Hospital de Amor"
-site: "https://www.hcancerbarretos.com.br"
+site: "https://hcancerbarretos.com.br"
 featured: false
 year: 2015
 categories:

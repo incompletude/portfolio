@@ -183,9 +183,9 @@ import ProjectFactory from "~/contents/projects.js";
 export default {
   async asyncData(context) {
     const projectFactory = await new ProjectFactory();
-    const projectFeatured = projectFactory.findFeatured();
-    const projectsPartners = projectFactory.getByDistinctPartners();
-    const projectsRecent = projectFactory.getRecent();
+    const projectFeatured = projectFactory.findByFeatured();
+    const projectsPartners = projectFactory.getByPartners();
+    const projectsRecent = projectFactory.getByRecent();
 
     return {
       projectFeatured: projectFeatured.attributes,

@@ -20,12 +20,53 @@
                 <div class="nav-wrapper">
                   <p class="nav-name">Category</p>
                   <ul class="nav">
-                    <!--<li v-for="category in categories">
+                    <li v-for="category in categories">
                       <nuxt-link
                         class="nav-anchor"
                         :to="`/projects/category/${category.slug}/`"
                       >{{ category.name }}</nuxt-link>
-                    </li>-->
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-12 tp:col-4 tl:col-12 margin-bottom-2">
+                <div class="nav-wrapper">
+                  <p class="nav-name">Tag</p>
+                  <ul class="nav">
+                    <li v-for="tag in tags">
+                      <nuxt-link
+                        class="nav-anchor"
+                        :to="`/projects/tag/${tag.slug}/`"
+                      >{{ tag.name }}</nuxt-link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-12 tp:col-4 tl:col-12 margin-bottom-2">
+                <div class="nav-wrapper">
+                  <p class="nav-name">Year</p>
+                  <ul class="nav">
+                    <li>
+                      <nuxt-link class="nav-anchor" :to="`/projects/year/${year}/`">{{ year }}</nuxt-link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-12 tp:col-4 tl:col-12 margin-bottom-2">
+                <div class="nav-wrapper">
+                  <p class="nav-name">Site</p>
+                  <ul class="nav">
+                    <li>
+                      <a
+                        class="nav-anchor"
+                        :href="site"
+                        target="_blank"
+                        rel="noopener noreferrer nofollow"
+                      >{{ site }}</a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -55,7 +96,11 @@ export default {
       return {
         slug: project.attributes.slug,
         title: project.attributes.title,
-        description: project.attributes.description
+        description: project.attributes.description,
+        categories: Object.entries(project.attributes.categories).map(([slug, name]) => ({ slug, name })),
+        tags: Object.entries(project.attributes.tags).map(([slug, name]) => ({ slug, name })),
+        year: project.attributes.year,
+        site: project.attributes.site
       };
     } else {
       context.error({ statusCode: 404 });
@@ -94,5 +139,27 @@ export default {
 .heading-description {
   .maison-neue-300-20\/32;
   .color-gray-21;
+}
+
+// nav
+
+.nav-name {
+  .padding-bottom-1\/2;
+  .color-gray-21;
+  .maison-neue-300-16\/24;
+}
+
+.nav-anchor {
+  .maison-neue-300-16\/24;
+  .color-gray-77;
+  .no-underline;
+  .transition-color;
+  .transition-linear;
+  .transition-fast;
+
+  &.active,
+  &:hover {
+    .color-green-42;
+  }
 }
 </style>

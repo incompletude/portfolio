@@ -5,7 +5,7 @@ description: "Ad campaigns & product web sites"
 image: "mastercard.jpg"
 color: "#f69475"
 partner: "Mastercard"
-site: "https://www.mastercard.com.br"
+site: "https://mastercard.com.br"
 featured: false
 year: 2017
 categories:

@@ -5,7 +5,7 @@ description: "Product web app & ad campaign"
 image: "microsoft.jpg"
 color: "#2eb047"
 partner: "Microsoft"
-site: "https://www.microsoft.com"
+site: "https://microsoft.com"
 featured: false
 year: 2017
 categories:

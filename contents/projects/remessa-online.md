@@ -5,7 +5,7 @@ description: "International money transfer service plataform"
 image: "remessa-online.jpg"
 color: "#002a5c"
 partner: "Remessa Online"
-site: "https://www.remessaonline.com.br"
+site: "https://remessaonline.com.br"
 featured: true
 year: 2019
 categories:
