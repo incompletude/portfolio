@@ -26,16 +26,24 @@
           <div class="nav-wrapper" :class="hamburgerClass">
             <ul class="nav">
               <li class="nav-item">
-                <nuxt-link class="nav-anchor" to="/" exact>About</nuxt-link>
+                <nuxt-link class="nav-anchor" to="/" exact @click.native="onAnchorClick">About</nuxt-link>
               </li>
               <li class="nav-item">
-                <nuxt-link class="nav-anchor" to="/projects/">Projects</nuxt-link>
+                <nuxt-link class="nav-anchor" to="/projects/" @click.native="onAnchorClick">Projects</nuxt-link>
               </li>
               <li class="nav-item">
-                <nuxt-link class="nav-anchor" to="/knowledge/">Knowledge</nuxt-link>
+                <nuxt-link
+                  class="nav-anchor"
+                  to="/knowledge/"
+                  @click.native="onAnchorClick"
+                >Knowledge</nuxt-link>
               </li>
               <li class="nav-item">
-                <a class="nav-mail" href="mailto:contato@andrefreitas.dev">contato@andrefreitas.dev</a>
+                <a
+                  class="nav-mail"
+                  href="mailto:contato@andrefreitas.dev"
+                  @click.native="onAnchorClick"
+                >contato@andrefreitas.dev</a>
               </li>
             </ul>
           </div>
@@ -46,51 +54,79 @@
 </template>
 
 <script>
-import Arrow from "~/components/Arrow";
-
 export default {
   data() {
-    return { hamburgerActive: false, arrowActive: false };
+    return { hamburgerActive: false, arrowActive: false }
   },
-
-  components: { Arrow },
 
   computed: {
     hamburgerClass() {
       return {
         active: this.hamburgerActive
-      };
+      }
     },
     arrowClass() {
       return {
         active: this.arrowActive
-      };
+      }
     }
   },
 
   methods: {
     onScroll(e) {
-      this.arrowActive = window.scrollY > 50 ? true : false;
+      this.arrowActive = window.scrollY > 50 ? true : false
     },
+
     onHamburgerClick(e) {
-      this.hamburgerActive = !this.hamburgerActive;
+      const body = document.body
+
+      if (this.hamburgerActive) {
+        this.hamburgerActive = false
+        body.classList.remove("unscrollable")
+      } else {
+        this.hamburgerActive = true
+        body.classList.add("unscrollable")
+      }
     },
+
+    onAnchorClick(e) {
+      const body = document.body
+      this.hamburgerActive = false
+      body.classList.remove("unscrollable")
+    },
+
     onArrowClick(e) {
-      this.$scrollTo("#headerTarget");
+      this.$scrollTo("#headerTarget")
     }
   },
 
   mounted() {
-    window.addEventListener("scroll", this.onScroll);
+    window.addEventListener("scroll", this.onScroll)
   },
 
   beforeDestroy() {
-    window.removeEventListener("scroll", this.onScroll);
+    window.removeEventListener("scroll", this.onScroll)
   }
-};
+}
 </script>
 
 <style lang="less">
+// html
+
+html {
+  .overflow-y-scroll;
+}
+
+// body
+
+body {
+  &.unscrollable {
+    .fixed;
+
+    .on-tablet-portrait({.static;});
+  }
+}
+
 // selection
 
 ::selection {
