@@ -6,8 +6,8 @@
 git push heroku deploy:master
 ```
 
-## To do
+## Backlog
 
-Translation
-Meta tags
-Share images
+- Meta tags
+- Share images
+- Translation

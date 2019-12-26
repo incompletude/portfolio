@@ -10,6 +10,7 @@
 ## Publications
 
 - [Impossible world](https://im-possible.info/)
+- [Best Illusion of the Year Contest](http://illusionoftheyear.com/)
 
 ## Videos
 
