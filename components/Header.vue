@@ -56,13 +56,13 @@
 <script>
 export default {
   data() {
-    return { hamburgerActive: false, arrowActive: false }
+    return { arrowActive: false }
   },
 
   computed: {
     hamburgerClass() {
       return {
-        active: this.hamburgerActive
+        active: this.$store.getters["header-nav/toggle"]
       }
     },
     arrowClass() {
@@ -80,19 +80,18 @@ export default {
     onHamburgerClick(e) {
       const body = document.body
 
-      if (this.hamburgerActive) {
-        this.hamburgerActive = false
-        body.classList.remove("unscrollable")
-      } else {
-        this.hamburgerActive = true
+      this.$store.getters["header-nav/toggle"] ?
+        body.classList.remove("unscrollable") :
         body.classList.add("unscrollable")
-      }
+
+      this.$store.dispatch("header-nav/toggle")
     },
 
     onAnchorClick(e) {
       const body = document.body
-      this.hamburgerActive = false
       body.classList.remove("unscrollable")
+
+      this.$store.dispatch("header-nav/toggle")
     },
 
     onArrowClick(e) {
