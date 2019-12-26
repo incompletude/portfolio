@@ -10,8 +10,5 @@ npm-debug.log
 # Nuxt generate
 dist
 
-# fonts
-*.woff
-
 # environment
 .env
