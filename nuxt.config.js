@@ -99,8 +99,5 @@ module.exports = {
       families: ['Maison Neue'],
       urls: ['/fonts/fonts.css']
     }
-  },
-
-  generate: {
   }
 }

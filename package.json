@@ -16,8 +16,8 @@
   },
   "scripts": {
     "dev": "nuxt",
-    "generate": "nuxt generate",
-    "analyze": "nuxt build --analyze"
+    "build": "nuxt build",
+    "generate": "nuxt generate"
   },
   "devDependencies": {
     "frontmatter-markdown-loader": "^3.0.0",

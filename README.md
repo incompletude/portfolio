@@ -1,4 +1,7 @@
 # Knowledge
 
-traduzir para portugues
-meta tags
+## To do
+
+Translation
+Meta tags
+Share images
