@@ -1,4 +1,10 @@
-# Knowledge
+# Portfolio
+
+## Deploy
+
+```
+git push heroku deploy:master
+```
 
 ## To do
 
