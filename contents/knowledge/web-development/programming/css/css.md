@@ -23,6 +23,7 @@
 - [CSS Utility Classes and "Separation of Concerns](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/)
 - [In Defense of Utility-First CSS](https://frontstuff.io/in-defense-of-utility-first-css)
 - [Dot navigation styles](https://tympanus.net/codrops/2014/01/21/dot-navigation-styles/)
+- [Coping with flexbox](https://kgrz.io/coping-with-flexbox.html)
 
 ## Frameworks
 
