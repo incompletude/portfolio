@@ -1,7 +1,5 @@
 <template>
   <div id="headerTarget">
-    <div class="stripe"></div>
-
     <div class="arrow-wrapper" :class="arrowClass" @click="onArrowClick">
       <v-arrow color="light" direction="up" />
     </div>
@@ -135,15 +133,6 @@ body {
 </style>
 
 <style lang="less" scoped>
-// stripe
-
-.stripe {
-  .absolute;
-  .width-full;
-  height: 2px;
-  .background-green-42;
-}
-
 // arrow
 
 .arrow-wrapper {

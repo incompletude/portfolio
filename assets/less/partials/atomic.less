@@ -380,6 +380,10 @@
 
 // Transition
 
+.no-transition() {
+  transition: none !important;
+}
+
 .transition-color() {
   transition-property: color;
 }
@@ -390,6 +394,10 @@
 
 .transition-transform() {
   transition-property: transform;
+}
+
+.transition-width() {
+  transition-property: width;
 }
 
 .transition-height() {
@@ -410,6 +418,14 @@
 
 .transition-fast() {
     transition-duration: 150ms;
+}
+
+.transition-normal() {
+  transition-duration: 300ms;
+}
+
+.transition-slow() {
+  transition-duration: 450ms;
 }
 
 // Animation
