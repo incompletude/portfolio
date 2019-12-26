@@ -1,19 +1,5 @@
 @font-face {
   font-family: "Maison Neue";
-  src: url("/fonts/maison-neue-light.woff") format("woff");
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Maison Neue";
-  src: url("/fonts/maison-neue-light-italic.woff") format("woff");
-  font-weight: 200;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Maison Neue";
   src: url("/fonts/maison-neue-book.woff") format("woff");
   font-weight: 300;
   font-style: normal;
@@ -37,33 +23,5 @@
   font-family: "Maison Neue";
   src: url("/fonts/maison-neue-medium-italic.woff") format("woff");
   font-weight: 500;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Maison Neue";
-  src: url("/fonts/maison-neue-demi.woff") format("woff");
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Maison Neue";
-  src: url("/fonts/maison-neue-demi-italic.woff") format("woff");
-  font-weight: 600;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Maison Neue";
-  src: url("/fonts/maison-neue-bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Maison Neue";
-  src: url("/fonts/maison-neue-bold-italic.woff") format("woff");
-  font-weight: 700;
   font-style: italic;
 }
