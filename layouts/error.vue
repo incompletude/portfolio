@@ -40,12 +40,12 @@ export default {
 
 .error-code {
   .padding-bottom-1;
-  .maison-neue-300-72\/80;
+  .maison-neue-300-48\/56;
   .color-gray-77;
 }
 
 .error-message {
-  .maison-neue-300-48\/56;
+  .maison-neue-300-36\/48;
   .color-gray-21;
 }
 </style>
