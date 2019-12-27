@@ -60,7 +60,7 @@ export default {
   computed: {
     hamburgerClass() {
       return {
-        active: this.$store.getters["header-nav/toggle"]
+        active: this.$store.getters["headerNav/toggle"]
       }
     },
     arrowClass() {
@@ -78,18 +78,18 @@ export default {
     onHamburgerClick(e) {
       const body = document.body
 
-      this.$store.getters["header-nav/toggle"] ?
+      this.$store.getters["headerNav/toggle"] ?
         body.classList.remove("unscrollable") :
         body.classList.add("unscrollable")
 
-      this.$store.dispatch("header-nav/toggle")
+      this.$store.dispatch("headerNav/toggle")
     },
 
     onAnchorClick(e) {
       const body = document.body
       body.classList.remove("unscrollable")
 
-      this.$store.dispatch("header-nav/toggle")
+      this.$store.dispatch("headerNav/toggle")
     },
 
     onArrowClick(e) {
