@@ -62,6 +62,15 @@
 - [BGN](https://bgn.agency/)
 - [wrk](https://waaark.com/)
 - [Wokine](https://www.wokine.com/)
+- [ClaPat](https://www.clapat.com/)
+- [FCINQ](https://www.fcinq.com/)
+- [Locomotive](https://locomotive.ca/)
+- [Madwell](https://www.madwell.com/)
+- [makemepulse](http://www.makemepulse.com/)
+- [Norgram](http://norgram.co/)
+- [Nurture Digital](https://www.nurturedigital.com/)
+- [Studio Marani](http://www.studiomarani.it/)
+- [Wiseman Editing](http://wisemanediting.com/)
 
 ## Templates
 
