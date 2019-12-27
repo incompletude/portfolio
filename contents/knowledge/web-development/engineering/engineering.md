@@ -8,6 +8,7 @@
 - [CanaryRelease](https://martinfowler.com/bliki/CanaryRelease.html)
 - [Backends For Frontends](https://samnewman.io/patterns/architectural/bff/)
 - [How to fight back against Google AMP as a web user and a web developer](https://markosaric.com/google-amp/)
+- [The #1 bug predictor is not technical, it's organizational complexity](https://augustl.com/blog/2019/best_bug_predictor_is_organizational_complexity/)
 
 ## Publications
 
