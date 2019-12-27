@@ -8,3 +8,7 @@
 - [CanaryRelease](https://martinfowler.com/bliki/CanaryRelease.html)
 - [Backends For Frontends](https://samnewman.io/patterns/architectural/bff/)
 - [How to fight back against Google AMP as a web user and a web developer](https://markosaric.com/google-amp/)
+
+## Publications
+
+- [Semantic Versioning](https://semver.org/)
