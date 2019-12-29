@@ -132,12 +132,11 @@ export default {
         meta: [
           { name: "description", property: "og:description", content: this.description, hid: "description" },
           { property: "og:title", content: this.title },
-          { property: "og:image", content: this.ogImage },
-          { name: "twitter:description", content: this.description },
-          { name: "twitter:image", content: this.ogImage }
+          { property: "og:description", content: this.description },
+          { property: "og:image", content: this.ogImage }
         ],
       }
-    },*/
+    },
 
   /*computed: {
     ogImage() {

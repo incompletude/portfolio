@@ -3,7 +3,7 @@ slug: "remessa-online"
 title: "Remessa Online"
 description: "International money transfer service plataform"
 image: "remessa-online.jpg"
-color: "#002a5c"
+color: "#4099f8"
 partner: "Remessa Online"
 site: "https://remessaonline.com.br"
 featured: true
