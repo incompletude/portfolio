@@ -5,12 +5,20 @@ export const state = () => ({
 export const mutations = {
   TOGGLE(state) {
     state.toggle = !state.toggle
+  },
+
+  CLOSE(state) {
+    state.toggle = false
   }
 }
 
 export const actions = {
   toggle({ commit }) {
     commit('TOGGLE')
+  },
+
+  close({ commit }) {
+    commit('CLOSE')
   }
 }
 

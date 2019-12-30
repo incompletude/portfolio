@@ -89,7 +89,7 @@ export default {
       const body = document.body
       body.classList.remove("unscrollable")
 
-      this.$store.dispatch("headerNav/toggle")
+      this.$store.dispatch("headerNav/close")
     },
 
     onArrowClick(e) {
