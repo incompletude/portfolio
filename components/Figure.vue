@@ -1,7 +1,7 @@
 <template>
   <figure :class="`figure ${size}`">
     <nuxt-link :to="href">
-      <v-image :size="size" :image="image">
+      <v-background-image :size="size" :image="image">
         <div v-if="size === 'medium'" class="image-overlay" :style="overlayStyle">
           <h2 class="overlay-title">
             {{ title }}
@@ -9,7 +9,7 @@
           </h2>
           <h3 class="overlay-description">{{ description }}</h3>
         </div>
-      </v-image>
+      </v-background-image>
     </nuxt-link>
 
     <figcaption class="figcaption">
@@ -65,6 +65,7 @@ export default {
 // image
 
 .image-overlay {
+  .none;
   .absolute;
   .pin-top;
   .pin-left;
@@ -72,9 +73,6 @@ export default {
   .pin-bottom;
   .padding-1;
   .opacity-0;
-  .flex;
-  .flex-column;
-  .justify-between;
   .transition-opacity;
   .transition-linear;
   .transition-fast;
@@ -82,6 +80,8 @@ export default {
   .figure:hover & {
     .opacity-100;
   }
+
+  .on-tablet-landscape({.flex; .flex-column; .justify-between;});
 }
 
 // overlay
