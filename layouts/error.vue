@@ -39,7 +39,6 @@ export default {
 }
 
 .error-code {
-  .padding-bottom-1;
   .maison-neue-300-48\/56;
   .color-gray-77;
 }

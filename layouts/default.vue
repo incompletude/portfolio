@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-header />
-    <div class="container-extra-large">
+    <div class="container-desktop">
       <nuxt />
     </div>
     <v-footer />

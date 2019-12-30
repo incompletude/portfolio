@@ -1,7 +1,7 @@
 <template>
   <div>
     <footer class="footer">
-      <div class="container-extra-large">
+      <div class="container-desktop">
         <div class="row">
           <div class="col-12 tp:col-6 margin-top-3 margin-bottom-2">
             <div class="brand">

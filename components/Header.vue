@@ -4,7 +4,7 @@
       <v-arrow color="light" direction="up" />
     </div>
 
-    <div class="container-extra-large">
+    <div class="container-desktop">
       <header class="header">
         <h1 class="brand">
           <nuxt-link class="brand-anchor" to="/">André Freitas</nuxt-link>

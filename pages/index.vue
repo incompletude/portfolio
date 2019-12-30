@@ -116,7 +116,7 @@
                   href="https://jira.atlassian.com"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
-                >Jira</a>, present projects in a well-structured manner, and work to deadlines.
+                >Jira</a>, at presenting projects in a well-structured manner, and in working to meet deadlines.
               </p>
             </div>
           </div>
@@ -159,7 +159,7 @@
         <div class="col-12 tp:col-8 margin-bottom-2">
           <p
             class="hire-description"
-          >So are you looking for a professional, communicative, punctual, and with extensive web development skills?</p>
+          >Are you looking for a professional who’s communicative, punctual, and with extensive web development skills?</p>
           <p
             class="hire-description"
           >If you have an application you are interested in developing, a problem that needs solving or a project that needs rescuing, I’d love to help you with it.</p>
