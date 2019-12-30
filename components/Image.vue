@@ -26,12 +26,15 @@ export default {
 
 <style lang="less" scoped>
 .image {
+  .block;
+  .margin-x-auto;
+
   &.mobile {
     max-width: 240px; // 10 * 24
   }
 
   &.desktop {
-    max-width: 100%;
+    .max-width-full;
   }
 }
 </style>
