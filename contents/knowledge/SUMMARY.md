@@ -75,6 +75,7 @@
     - [.NET Core](web-development/programming/net-core/net-core.md)
     - [Node.js](web-development/programming/nodejs/nodejs.md)
       - [Apollo Server](web-development/programming/nodejs/apollo-server.md)
+      - [Knex.js](web-development/programming/nodejs/knexjs.md)
       - [Serverless](web-development/programming/nodejs/serverless.md)
       - [Snap.svg](web-development/programming/nodejs/snapsvg.md)
       - [Stimulus](web-development/programming/nodejs/stimulus.md)
