@@ -22,3 +22,4 @@
 - [A day in the life of earth](https://www.youtube.com/watch?v=p6dtYdWPabI)
 - [Mojave Blues](https://vimeo.com/153992994)
 - [Dust and cosmic rays raining down on Rosetta comet](https://twitter.com/landru79/status/988490703075463168)
+- [Font's Point - Stabilized Sky Timelapse](https://www.youtube.com/watch?v=w8OK7M2_hUg)
