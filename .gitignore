@@ -4,11 +4,14 @@ node_modules
 # npm logs
 npm-debug.log
 
-# Nuxt build
+# nuxt build
 .nuxt
 
-# Nuxt generate
+# nuxt generate
 dist
 
 # environment
 .env
+
+# serverless
+.serverless

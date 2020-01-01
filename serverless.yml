@@ -1,0 +1,32 @@
+service: portfolio
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  stage: ${env:STAGE}
+  region: ${env:REGION}
+  environment:
+    NODE_ENV: ${env:STAGE}
+
+functions:
+  nuxt:
+    handler: index.nuxt
+    events:
+      - http: ANY /
+      - http: ANY /{proxy+}
+
+plugins:
+  - serverless-dotenv-plugin
+  - serverless-apigw-binary
+  - serverless-domain-manager
+  - serverless-offline
+
+custom:
+  apigwBinary:
+    types:
+      - "*/*"
+  customDomain:
+    domainName: ${env:DOMAIN}
+    basePath: ""
+    stage: ${env:STAGE}
+    createRoute53Record: true

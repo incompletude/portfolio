@@ -1,6 +1,6 @@
 const builtAt = new Date().toISOString()
 const path = require("path")
-import Mode from "frontmatter-markdown-loader/mode"
+const Mode = require("frontmatter-markdown-loader/mode")
 
 const baseUrl = "https://andrefreitas.dev"
 
@@ -47,27 +47,27 @@ module.exports = {
       routes.push({
         path: "/projects/featured/",
         component: resolve(__dirname, "pages/projects/index.vue")
-      });
+      })
 
       routes.push({
         path: "/projects/category/:id/",
         component: resolve(__dirname, "pages/projects/index.vue")
-      });
+      })
 
       routes.push({
         path: "/projects/tag/:id/",
         component: resolve(__dirname, "pages/projects/index.vue")
-      });
+      })
 
       routes.push({
         path: "/projects/year/:id/",
         component: resolve(__dirname, "pages/projects/index.vue")
-      });
+      })
 
       routes.push({
         path: "/projects/:id/",
         component: resolve(__dirname, "pages/projects/project.vue")
-      });
+      })
     }
   },
 
