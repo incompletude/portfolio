@@ -114,6 +114,16 @@ html {
   .overflow-y-scroll;
 }
 
+// font
+
+.wf-loading body {
+  .invisible;
+}
+
+.wf-active body .wf-inactive body {
+  .visible;
+}
+
 // body
 
 body {
