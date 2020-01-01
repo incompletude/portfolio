@@ -40,7 +40,7 @@
                 <a
                   class="nav-mail"
                   href="mailto:contato@andrefreitas.dev"
-                  @click.native="onAnchorClick"
+                  @click="onAnchorClick"
                 >contato@andrefreitas.dev</a>
               </li>
             </ul>
@@ -54,7 +54,7 @@
 <script>
 export default {
   data() {
-    return { arrowActive: false }
+    return { arrowActive: false, htmlElement: null, bodyElement: null }
   },
 
   computed: {
@@ -71,37 +71,59 @@ export default {
   },
 
   methods: {
-    onScroll(e) {
-      this.arrowActive = window.scrollY > 50 ? true : false
-    },
-
     onHamburgerClick(e) {
-      const body = document.body
-
       this.$store.getters["headerNav/toggle"] ?
-        body.classList.remove("unscrollable") :
-        body.classList.add("unscrollable")
+        this.bodyElement.classList.remove("unscrollable") :
+        this.bodyElement.classList.add("unscrollable")
 
       this.$store.dispatch("headerNav/toggle")
     },
 
     onAnchorClick(e) {
-      const body = document.body
-      body.classList.remove("unscrollable")
+      this.bodyElement.classList.remove("unscrollable")
 
       this.$store.dispatch("headerNav/close")
     },
 
     onArrowClick(e) {
       this.$scrollTo("#headerTarget")
-    }
+    },
+
+    onScroll(e) {
+      this.arrowActive = window.scrollY > 50 ? true : false
+    },
+
+    onClassChange(value) {
+      const classList = value.split(" ")
+      if (classList.includes("wf-active")) {
+        this.bodyElement.removeAttribute("style");
+      }
+    },
   },
 
   mounted() {
+    this.htmlElement = document.documentElement
+    this.bodyElement = document.body
+
+    this.observer = new MutationObserver(mutations => {
+      for (const m of mutations) {
+        const newValue = m.target.getAttribute(m.attributeName)
+        this.onClassChange(newValue, m.oldValue)
+      }
+    })
+
+    this.observer.observe(this.htmlElement, {
+      attributes: true,
+      attributeOldValue: true,
+      attributeFilter: ["class"],
+    })
+
     window.addEventListener("scroll", this.onScroll)
   },
 
   beforeDestroy() {
+    this.observer.disconnect()
+
     window.removeEventListener("scroll", this.onScroll)
   }
 }
@@ -112,16 +134,6 @@ export default {
 
 html {
   .overflow-y-scroll;
-}
-
-// font
-
-.wf-loading body {
-  .invisible;
-}
-
-.wf-active body .wf-inactive body {
-  .visible;
 }
 
 // body

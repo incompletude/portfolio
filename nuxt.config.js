@@ -18,7 +18,10 @@ module.exports = {
       { name: "robots", content: "index, follow" },
       { property: "og:type", content: "profile" },
       { property: "og:updated_time", content: builtAt }
-    ]
+    ],
+    bodyAttrs: {
+      style: "opacity: 0; pointer-events: none;"
+    },
   },
 
   loading: "~/components/LoadingStripe.vue",
