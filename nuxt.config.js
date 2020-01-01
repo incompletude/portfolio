@@ -19,8 +19,8 @@ module.exports = {
       { property: "og:type", content: "profile" },
       { property: "og:updated_time", content: builtAt }
     ],
-    bodyAttrs: {
-      style: "opacity: 0; pointer-events: none;"
+    htmlAttrs: {
+      style: "opacity:0;pointer-events:none;"
     },
   },
 

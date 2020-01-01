@@ -95,8 +95,7 @@ export default {
 
     onClassChange(value) {
       const classList = value.split(" ")
-
-      if (classList.includes("wf-active")) this.bodyElement.removeAttribute("style")
+      if (classList.includes("wf-active")) this.htmlElement.removeAttribute("style")
     },
   },
 
