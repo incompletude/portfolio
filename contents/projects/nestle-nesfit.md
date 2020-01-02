@@ -16,11 +16,11 @@ tags:
   tech-lead: "Tech lead"
   ui-ux: "UI/UX"
 ---
-During the years leading the digital tech team at WMcCann, I had the opportunity to work in digital activation projects for Nesfit, the whole grain product line from Nestlé.
+During the years leading the digital tech team at [WMcCann](https://wmccann.com), I had the opportunity to work in digital activation projects for [Nesfit](http://nesfit.com.br), the whole grain product line from [Nestlé](https://nestle.com.br).
 
-Nestlé wanted to build websites to promote health life habits, and the benefits of consuming whole grain foods. We launched yearly websites facilitating the access to high quality content for their customers.
+[Nestlé](https://nestle.com.br) wanted to build websites to promote health life habits, and the benefits of consuming whole grain foods. We launched yearly websites facilitating the access to high quality content for their customers.
 
-This was a fun project that involved a Microsoft tech stack and modern development techniques to work inside Nestlé infrastrucutre.
+This was a fun project that involved a [.NET](https://dotnet.microsoft.com) stack and modern development techniques to work inside their infrastrucutre.
 
 <v-image
   size="desktop"

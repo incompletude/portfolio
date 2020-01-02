@@ -206,5 +206,10 @@ export default {
     .maison-neue-300-20\/32;
     .color-gray-77;
   }
+
+  & a {
+    .color-gray-77;
+    .underline;
+  }
 }
 </style>
