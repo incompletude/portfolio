@@ -24,6 +24,7 @@
 - [In Defense of Utility-First CSS](https://frontstuff.io/in-defense-of-utility-first-css)
 - [Dot navigation styles](https://tympanus.net/codrops/2014/01/21/dot-navigation-styles/)
 - [Coping with flexbox](https://kgrz.io/coping-with-flexbox.html)
+- [A Comprehensive Guide to Font Loading Strategies](https://www.zachleat.com/web/comprehensive-webfonts/)
 
 ## Frameworks
 
