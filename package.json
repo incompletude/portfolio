@@ -13,7 +13,7 @@
     "offline": "npm run build && serverless offline"
   },
   "dependencies": {
-    "nuxt": "^2.10.2",
+    "nuxt": "^2.11.0",
     "nuxt-start": "^2.6.3",
     "nuxt-webfontloader": "^1.1.0",
     "@nuxtjs/style-resources": "^1.0.0",
@@ -24,6 +24,7 @@
     "serverless-http": "^2.0.1"
   },
   "devDependencies": {
+    "@nuxtjs/google-analytics": "^2.2.2",
     "highlight.js": "^9.16.2",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",

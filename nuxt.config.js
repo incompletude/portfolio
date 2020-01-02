@@ -26,6 +26,14 @@ module.exports = {
 
   loading: "~/components/LoadingStripe.vue",
 
+  buildModules: [
+    "@nuxtjs/google-analytics"
+  ],
+
+  googleAnalytics: {
+    id: "UA-155233690-1"
+  },
+
   modules: [
     "@nuxtjs/style-resources",
     "nuxt-webfontloader"
@@ -113,6 +121,5 @@ module.exports = {
     "~/plugins/globalComponents",
     { src: "~/plugins/scrollto", ssr: false },
     { src: "~/plugins/lazyload", ssr: false },
-    { src: "~plugins/ga", ssr: false }
   ],
 }
