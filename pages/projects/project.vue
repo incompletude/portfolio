@@ -82,9 +82,7 @@
           <v-background-image size="large" :image="`/projects/${slug}/${image}`" />
         </div>
         <div class="col-12 margin-bottom-2">
-          <client-only>
-            <v-dynamic-markdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
-          </client-only>
+          <v-dynamic-markdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
         </div>
       </div>
     </div>
