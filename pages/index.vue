@@ -179,30 +179,30 @@
 </template>
 
 <script>
-import ProjectFactory from "~/contents/projects.js";
+import ProjectFactory from "~/contents/projects.js"
 
 export default {
   async asyncData(context) {
-    const projectFactory = await new ProjectFactory();
-    const projectFeatured = projectFactory.findByFeatured();
-    const projectsPartners = projectFactory.getByPartners();
-    const projectsRecent = projectFactory.getByRecent();
+    const projectFactory = await new ProjectFactory()
+    const projectFeatured = projectFactory.findByFeatured()
+    const projectsPartners = projectFactory.getByPartners()
+    const projectsRecent = projectFactory.getByRecent()
 
     return {
       projectFeatured: projectFeatured.attributes,
       projectsPartners: projectsPartners.map(p => p.attributes),
       projectsRecent: projectsRecent.map(p => p.attributes)
-    };
+    }
   },
 
   methods: {
     onHeroArrowClick(event) {
-      this.$scrollTo("#heroTarget");
+      this.$scrollTo("#heroTarget")
     }
   },
 
   mounted() { }
-};
+}
 </script>
 
 <style lang="less" scoped>
