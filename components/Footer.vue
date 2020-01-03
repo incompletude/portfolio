@@ -89,7 +89,7 @@
 
         <div class="row">
           <div class="col-12 margin-bottom-1">
-            <p class="copyright">Copyright André Freitas 2018–2019 ©</p>
+            <p class="copyright">Copyright André Freitas 2019–2020 ©</p>
           </div>
         </div>
       </div>
