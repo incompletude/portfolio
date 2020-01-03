@@ -21,7 +21,7 @@ In 2016 [WMcCann](https://wmccann.com) needed a new blog like website to properl
 
 I was luck enough to get this task from conceptualization to delivery. Working along with a creative team, we built and launched a custom blog based on [Wordpress](https://wordpress.org).
 
-Take a look:
+I enjoyed working on this project as it was a challenge back in 2016 to get the block-based, responsive design working across platforms and at various resolutions. It still looks great today and functions really well.
 
 <v-image
   size="desktop"
