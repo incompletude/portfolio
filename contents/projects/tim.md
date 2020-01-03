@@ -22,7 +22,7 @@ They wanted to increase awareness to their new mobile plans in a broad offline a
 
 We built and launched multiple landing pages and ads that allowed brand ambassadors to interact with customers real time in a live streaming.
 
-It was a very fun and challeging project to be part of, requiring lots of orchestration to make sure every moving part was ready for a country wide launch.
+It was a very fun and challeging project to be part of, requiring lots of orchestration and cool tech to make sure every moving part was ready for a country wide launch.
 
 <v-image
   size="desktop"

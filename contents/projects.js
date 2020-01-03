@@ -80,9 +80,9 @@ class ProjectFactory {
     if (projects.length === 0) return false
 
     const projectsCount = this.projects.length
-    const pageCount = Math.ceil(projects.length / 10)
+    const pageCount = Math.ceil(projects.length / 8)
 
-    projects = projects.slice((page - 1) * 10, page * 10)
+    projects = projects.slice((page - 1) * 8, page * 8)
 
     return { projects: projects, currentPage: page, pageCount: pageCount, projectsCount: projectsCount }
   }
