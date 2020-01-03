@@ -6,3 +6,4 @@
 - Share images
 - Translation
 - Dark mode
+- About this site section
