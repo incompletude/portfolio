@@ -84,7 +84,7 @@
         <div class="col-12 margin-bottom-2">
           <v-dynamic-markdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
         </div>
-        <div class="col-12 tl:col-7 margin-bottom-2"></div>
+        <div class="col-12 tl:col-7"></div>
         <div class="col-12 tl:col-5 margin-bottom-2">
           <div class="project-nav" v-if="projectPrevious">
             <p class="project-nav-title">Previous project</p>
