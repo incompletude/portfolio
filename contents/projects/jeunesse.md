@@ -6,7 +6,7 @@ image: "jeunesse.jpg"
 color: "#002a5c"
 partner: "Jeunesse"
 site: "https://jeunesseglobal.com"
-featured: false
+featured: true
 year: 2018
 categories:
   product-development: "Product development"

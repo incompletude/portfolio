@@ -1,26 +1,23 @@
-const builtAt = new Date().toISOString()
 const path = require("path")
 const Mode = require("frontmatter-markdown-loader/mode")
 
 const baseUrl = "https://andrefreitas.dev"
 const title = "André Freitas | Product owner, full stack developer & UI/UX designer"
 const description = "Hey, I’m a creative technologist from São Paulo, Brazil. I can help you build and grow your next product."
+const builtAt = new Date().toISOString()
 
 module.exports = {
-  env: {
-    baseUrl
-  },
-
   head: {
     title: title,
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" },
-      { name: "author", content: "André Freitas" },
       { name: "robots", content: "index, follow" },
+      { name: "author", content: "André Freitas" },
       { name: "description", property: "og:description", content: description, hid: "description" },
       { property: "og:title", content: title },
       { property: "og:description", content: description },
+      { property: "og:url", content: baseUrl },
       { property: "og:type", content: "profile" },
       { property: "og:updated_time", content: builtAt }
     ],
