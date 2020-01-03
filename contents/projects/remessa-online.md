@@ -17,7 +17,7 @@ tags:
 ---
 [Remessa Online](https://remessaonline.com.br) is a international money transfer service plataform in Brazil. They wanted to improve their customer acquisition through new features, better SEO, and improvements on their plataform.
 
-I was invited to be the project manager of the acquisition agile team, and work on improvements to boost their customer acquisition. We built and launched multiple projects using a [Node.js](https://nodejs.org) and [React](https://reactjs.org), achieving expressive growth rate in a short time.
+I was invited to be the project owner of the acquisition agile team, and work on improvements to boost their customer acquisition. We built and launched multiple projects using [Node.js](https://nodejs.org) and [React](https://reactjs.org), achieving expressive growth rate in a short time.
 
 It was a very enriching and fun experience to work with such a capable team and dynamic enviroment.
 

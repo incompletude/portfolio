@@ -19,7 +19,7 @@ In 2018 I was invited to a team to work on a video streaming web app prototype t
 
 They wanted to build a cheaper, scalable and reliable comunication channel for their partners.
 
-It was a very cool project to be involved with. It was based on a [PHP](https://www.php.net), video streaming APIs, and a design system we built from scratch.
+It was a very cool project to be involved with. It was based on [PHP](https://www.php.net), video streaming APIs, and a design system we built from scratch.
 
 <v-image
   size="desktop"
