@@ -2,8 +2,7 @@
 
 ## Backlog
 
-- Meta tags
-- Share images
-- Translation
-- Dark mode
+- Share image
 - About this site section
+- Dark mode
+- Translation
