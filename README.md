@@ -3,6 +3,6 @@
 ## Backlog
 
 - Share image
-- About this site section
+- About this site page
 - Dark mode
 - Translation
