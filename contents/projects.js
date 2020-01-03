@@ -90,6 +90,14 @@ class ProjectFactory {
   find(slug) {
     return this.projects.find(p => p.attributes.slug === slug)
   }
+
+  findPrevious(slug) {
+    return this.projects[this.projects.findIndex(p => p.attributes.slug === slug) - 1]
+  }
+
+  findNext(slug) {
+    return this.projects[this.projects.findIndex(p => p.attributes.slug === slug) + 1]
+  }
 }
 
 export default ProjectFactory

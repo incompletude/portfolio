@@ -84,22 +84,42 @@
         <div class="col-12 margin-bottom-2">
           <v-dynamic-markdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
         </div>
+        <div class="col-12 tl:col-7 margin-bottom-2"></div>
+        <div class="col-12 tl:col-5 margin-bottom-2">
+          <div class="project-nav" v-if="projectPrevious">
+            <p class="project-nav-title">Previous project</p>
+            <nuxt-link
+              class="project-nav-anchor"
+              :to="`/projects/${projectPrevious.slug}`"
+            >{{ projectPrevious.title }}</nuxt-link>
+          </div>
+
+          <div class="project-nav" v-if="projectNext">
+            <p class="project-nav-title">Next project</p>
+            <nuxt-link
+              class="project-nav-anchor"
+              :to="`/projects/${projectNext.slug}`"
+            >{{ projectNext.title }}</nuxt-link>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import ProjectFactory from "~/contents/projects.js";
+import ProjectFactory from "~/contents/projects.js"
 
 export default {
   async asyncData(context) {
-    const route = context.route;
-    const routeParams = route.params;
-    const slug = routeParams.id;
+    const route = context.route
+    const routeParams = route.params
+    const slug = routeParams.id
 
-    const projectFactory = await new ProjectFactory();
-    const project = await projectFactory.find(slug);
+    const projectFactory = await new ProjectFactory()
+    const project = projectFactory.find(slug)
+    const projectPrevious = projectFactory.findPrevious(slug)
+    const projectNext = projectFactory.findNext(slug)
 
     if (project) {
       return {
@@ -113,15 +133,17 @@ export default {
         image: project.attributes.image,
         renderFunc: `(${project.vue.render})`,
         staticRenderFuncs: `[${project.vue.staticRenderFns}]`,
-      };
+        projectPrevious: projectPrevious ? projectPrevious.attributes : null,
+        projectNext: projectNext ? projectNext.attributes : null,
+      }
     } else {
-      context.error({ statusCode: 404 });
-      return false;
+      context.error({ statusCode: 404 })
+      return false
     }
   },
 
   data() {
-    return { accordionActive: false };
+    return { accordionActive: false }
   },
 
   /*  head() {
@@ -138,7 +160,7 @@ export default {
 
   /*computed: {
     ogImage() {
-      return `${process.env.baseUrl}/images/blog/${this.id}/_thumbnail.jpg`;
+      return `${process.env.baseUrl}/images/blog/${this.id}/_thumbnail.jpg`
     },
   },*/
 
@@ -147,7 +169,7 @@ export default {
 
   methods: {
     onHeadingArrowClick(event) {
-      this.accordionActive = !this.accordionActive;
+      this.accordionActive = !this.accordionActive
     }
   }
 }
@@ -193,6 +215,32 @@ export default {
   &.active,
   &:hover {
     .color-green-42;
+  }
+}
+
+// project nav
+.project-nav {
+  .padding-bottom-1;
+
+  &:last-of-type {
+    .padding-bottom-0;
+  }
+}
+
+.project-nav-title {
+  .maison-neue-300-20\/32;
+  .color-gray-77;
+}
+
+.project-nav-anchor {
+  .maison-neue-300-22\/32;
+  .color-green-42;
+  .transition-color;
+  .transition-fast;
+  .transition-linear;
+
+  &:hover {
+    .color-green-50;
   }
 }
 </style>
