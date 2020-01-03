@@ -1,7 +1,7 @@
 ---
 slug: "nestle-nesfit"
 title: "Nesfit"
-description: "Whole grain product line web site"
+description: "Whole grain product line website"
 image: "nesfit.jpg"
 color: "#154063"
 partner: "Nesfit"

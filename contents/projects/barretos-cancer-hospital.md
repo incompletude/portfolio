@@ -1,7 +1,7 @@
 ---
 slug: "barretos-cancer-hospital"
 title: "Barretos Cancer Hospital"
-description: "Fundraising web apps"
+description: "Fundraising websites"
 image: "barretos-cancer-hospital.jpg"
 color: "#ec548c"
 partner: "Hospital de Amor"

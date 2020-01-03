@@ -1,7 +1,7 @@
 ---
 slug: "wmccann"
 title: "WMcCann"
-description: "Advertising agency institutional site"
+description: "Advertising agency institutional website"
 image: "mccann.jpg"
 color: "#c5d8c1"
 partner: "WMcCann"

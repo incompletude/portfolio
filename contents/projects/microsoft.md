@@ -1,7 +1,7 @@
 ---
 slug: "microsoft"
 title: "Microsoft"
-description: "Product web app & ad campaign"
+description: "Product website & ad campaign"
 image: "microsoft.jpg"
 color: "#2eb047"
 partner: "Microsoft"

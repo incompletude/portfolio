@@ -1,7 +1,7 @@
 ---
 slug: "tim"
 title: "TIM"
-description: "New product line ad campaign & web site"
+description: "New product line ad campaign & website"
 image: "tim.jpg"
 color: "#5bc3b3"
 partner: "TIM"

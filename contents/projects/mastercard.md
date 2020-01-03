@@ -1,7 +1,7 @@
 ---
 slug: "mastercard"
 title: "Mastercard"
-description: "Ad campaigns & product web sites"
+description: "Ad campaigns & product websites"
 image: "mastercard.jpg"
 color: "#f69475"
 partner: "Mastercard"

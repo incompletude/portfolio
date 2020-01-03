@@ -1,7 +1,7 @@
 ---
 slug: "the-salvation-army"
 title: "The Salvation Army"
-description: "Fundraising web sites"
+description: "Fundraising websites"
 image: "the-salvation-army.jpg"
 color: "#ef4746"
 partner: "The Salvation Army"
