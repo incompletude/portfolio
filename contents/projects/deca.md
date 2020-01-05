@@ -15,3 +15,7 @@ tags:
   ui-ux: "UI/UX"
 ---
 Soon :)
+
+<v-image
+  size="desktop"
+  image="/projects/deca/deca-1.jpg" />
