@@ -26,6 +26,7 @@
 - [Matt Hardy](http://matthardy.photo/)
 - [Aleks Faure](https://aleksfaure.com/)
 - [Edmund Yu](http://www.edmundyu.com/)
+- [Emergence](https://www.emcap.com/)
 
 ## Products
 
@@ -33,6 +34,7 @@
 - [Melville Design](https://www.melville-design.com/)
 - [Molekule](https://molekule.com/)
 - [Cowboy](https://cowboy.com/)
+- [Bewegen](https://bewegen.com/)
 
 ## Publications
 

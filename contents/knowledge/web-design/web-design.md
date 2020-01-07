@@ -5,6 +5,14 @@
 - [Dieter Rams](https://en.wikipedia.org/wiki/Dieter_Rams)
 - [Software architecture is overrated, clear and simple design is underrated](https://blog.pragmaticengineer.com/software-architecture-is-overrated/)
 
+## Awards
+
+- [A Design Award](https://competition.adesignaward.com/)
+- [Awwwards](http://www.awwwards.com/)
+- [The FWA](https://thefwa.com/)
+- [Shorty Awards](https://shortyawards.com/)
+- [Webby Awards](https://www.webbyawards.com/)
+
 ## Publications
 
 - [Abduzeedo](https://abduzeedo.com/)

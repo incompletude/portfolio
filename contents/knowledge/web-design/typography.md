@@ -37,6 +37,8 @@
 
 - [Typ.io](https://typ.io/)
 - [Fonts in use](https://fontsinuse.com/)
+- [Kern Type](https://type.method.ac/)
+- [Lorem Ipsum](https://loremipsum.io/)
 
 ## Typefaces
 
