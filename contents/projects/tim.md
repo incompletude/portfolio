@@ -20,9 +20,9 @@ While working at [WMcCann](https://wmccann.com) I worked along with our digital 
 
 They wanted to increase awareness and acquisition of their new mobile plans in a broad offline and online campaign.
 
-We built and launched multiple landing pages and ads that allowed brand ambassadors to interact with customers in a real time live streaming.
+We built and launched multiple landing pages and ads based on **WebSockets** that allowed brand ambassadors to interact with customers in a real time live streaming.
 
-It was a very fun and challeging project to be part of, requiring lots of orchestration and cool tech to make sure every moving part was ready for the country wide launch.
+It was a very fun and challeging project to be part of, requiring lots of orchestration to make sure every moving part was ready for the country wide launch.
 
 <v-image
   size="desktop"

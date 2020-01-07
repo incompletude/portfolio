@@ -21,7 +21,7 @@ While working at [WMcCann](https://wmccann.com), our team worked on multiple pro
 
 Our goal was to increase awareness and raise funds for [Hospital de Amor](https://hcancerbarretos.com.br), one of the biggest cancer treatment centers in Latin America.
 
-We built and launched multiple activation websites based on [Node.js](https://nodejs.org), achieving broad media coverage in a short time.
+We built and launched multiple activation websites based on **Node.js**, achieving broad media coverage in a short time.
 
 It was a very fulfilling experience to work along with children and artists to help people in need.
 

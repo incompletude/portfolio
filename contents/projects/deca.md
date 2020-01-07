@@ -18,7 +18,7 @@ While working at [WMcCann](https://wmccann.com), our team worked on a digital pr
 
 They wanted to provide easy access to their catalog of thousands of houseware products to mutiple user journeys, from end users to architects and engineers.
 
-Our digital team conceptualized and built a web app based on [Drupal](https://www.drupal.org), involving a [SAP](https://www.sap.com) integration to facilitate content upload, and a custom search engine based on [Solr](https://lucene.apache.org) to ease product queries.
+Our digital team conceptualized and built a web app based on **Drupal**, involving a **SAP** integration to facilitate content upload, and a custom search engine based on **Solr** to ease product queries.
 
 It was a fun and challenging project to be part of.
 

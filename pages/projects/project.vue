@@ -219,6 +219,7 @@ export default {
 }
 
 // project nav
+
 .project-nav {
   .padding-bottom-1;
 
@@ -251,6 +252,10 @@ export default {
     .padding-bottom-1;
     .maison-neue-300-20\/32;
     .color-gray-77;
+  }
+
+  & strong {
+    .font-weight-medium;
   }
 
   & a {
