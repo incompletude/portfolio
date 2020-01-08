@@ -114,34 +114,34 @@
 </template>
 
 <script>
-import ProjectFactory from "~/contents/projects.js";
+import ProjectFactory from "~/contents/projects.js"
 
 export default {
   watchQuery: ["page"],
 
   async asyncData(context) {
-    const route = context.route;
-    const routePath = route.path;
-    const routeParams = route.params;
-    const routeQuery = route.query;
+    const route = context.route
+    const routePath = route.path
+    const routeParams = route.params
+    const routeQuery = route.query
 
-    const featured = routePath.includes("featured") ? true : null;
-    const category = routePath.includes("category") ? routeParams.id : null;
-    const tag = routePath.includes("tag") ? routeParams.id : null;
-    const year = routePath.includes("year") ? parseInt(routeParams.id) : null;
-    const page = routeQuery.page ? parseInt(routeQuery.page) : 1;
+    const featured = routePath.includes("featured") ? true : null
+    const category = routePath.includes("category") ? routeParams.id : null
+    const tag = routePath.includes("tag") ? routeParams.id : null
+    const year = routePath.includes("year") ? parseInt(routeParams.id) : null
+    const page = routeQuery.page ? parseInt(routeQuery.page) : 1
 
-    const projectFactory = await new ProjectFactory();
-    const categories = projectFactory.getDistinctCategories();
-    const tags = projectFactory.getDistinctTags();
-    const years = projectFactory.getDistinctYears();
+    const projectFactory = await new ProjectFactory()
+    const categories = projectFactory.getDistinctCategories()
+    const tags = projectFactory.getDistinctTags()
+    const years = projectFactory.getDistinctYears()
     const projectsPage = projectFactory.getPage(
       featured,
       category,
       tag,
       year,
       page
-    );
+    )
 
     if (projectsPage) {
       return {
@@ -152,20 +152,20 @@ export default {
         currentPage: projectsPage.currentPage,
         pageCount: projectsPage.pageCount,
         projectsCount: projectsPage.projectsCount
-      };
+      }
     } else {
-      context.error({ statusCode: 404 });
-      return false;
+      context.error({ statusCode: 404 })
+      return false
     }
   },
 
   data() {
-    return { accordionActive: false };
+    return { accordionActive: false }
   },
 
   methods: {
     onHeadingArrowClick(event) {
-      this.accordionActive = !this.accordionActive;
+      this.accordionActive = !this.accordionActive
     }
   }
 }

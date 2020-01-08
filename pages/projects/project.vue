@@ -135,8 +135,8 @@ export default {
         year: project.attributes.year,
         site: project.attributes.site,
         image: project.attributes.image,
-        renderFunc: `(${project.vue.render})`,
-        staticRenderFuncs: `[${project.vue.staticRenderFns}]`,
+        renderFunc: `${project.vue.render}`,
+        staticRenderFuncs: `${project.vue.staticRenderFns}`,
         projectPrevious: projectPrevious ? projectPrevious.attributes : null,
         projectNext: projectNext ? projectNext.attributes : null,
       }

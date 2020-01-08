@@ -5,8 +5,8 @@ export default {
     return this.templateRender ? this.templateRender() : createElement("div", "Rendering");
   },
   created() {
-    this.templateRender = eval(this.renderFunc)
-    this.$options.staticRenderFns = eval(this.staticRenderFuncs)
+    this.templateRender = eval(`(${this.renderFunc})`)
+    this.$options.staticRenderFns = eval(`[${this.staticRenderFuncs}]`)
   }
 }
 </script>
