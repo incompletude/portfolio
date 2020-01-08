@@ -95,9 +95,6 @@ module.exports = {
         include: path.resolve(__dirname, "contents"),
         options: {
           mode: [Mode.VUE_RENDER_FUNCTIONS],
-          vue: {
-            root: "markdown"
-          }
         }
       }, {
         test: /\.(jpe?g|png)$/i,
