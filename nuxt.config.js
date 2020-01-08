@@ -96,7 +96,7 @@ module.exports = {
         options: {
           mode: [Mode.VUE_RENDER_FUNCTIONS],
           vue: {
-            root: "dynamicMarkdown"
+            root: "markdown"
           }
         }
       }, {
