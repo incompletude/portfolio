@@ -224,17 +224,19 @@ export default {
   .flex;
 }
 
-.pagination-index {
-  .color-gray-77;
-  .maison-neue-300-20\/32;
-  .margin-right-1;
-  .underline;
-}
-
+.pagination-index,
 .pagination-anchor {
   .color-gray-77;
   .maison-neue-300-20\/32;
   .margin-right-1;
+}
+
+.pagination-index {
+  .underline;
+  .font-weight-medium;
+}
+
+.pagination-anchor {
   .no-underline;
 
   &:hover {
