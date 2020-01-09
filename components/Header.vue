@@ -30,13 +30,6 @@
                 <nuxt-link class="nav-anchor" to="/projects/" @click.native="onAnchorClick">Projects</nuxt-link>
               </li>
               <li class="nav-item">
-                <nuxt-link
-                  class="nav-anchor"
-                  to="/knowledge/"
-                  @click.native="onAnchorClick"
-                >Knowledge</nuxt-link>
-              </li>
-              <li class="nav-item">
                 <a
                   class="nav-mail"
                   href="mailto:contato@andrefreitas.dev"
