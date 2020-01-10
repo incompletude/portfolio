@@ -2,7 +2,7 @@ const path = require("path")
 const Mode = require("frontmatter-markdown-loader/mode")
 
 const baseUrl = "https://andrefreitas.dev"
-const title = "André Freitas | Product owner, full stack developer & UI/UX designer"
+const title = "André Freitas | Product manager, full stack developer & UI/UX designer"
 const description = "Hey, I’m a creative technologist from São Paulo, Brazil. I can help you build and grow your next product."
 const builtAt = new Date().toISOString()
 

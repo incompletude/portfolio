@@ -13,7 +13,7 @@
                 rel="noopener noreferrer nofollow"
               >contato@andrefreitas.dev</a>
               <p class="brand-description">
-                I’m a brazilian product owner, full stack developer & UI/UX
+                I’m a brazilian product manager, full stack developer & UI/UX
                 designer. I can help you build and grow your next product.
               </p>
             </div>
